@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.kodluyoruz.hungryapp.ui.splash.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashFragment_to_mainOnBoardingFragment"
+            app:destination="@id/mainOnBoardingFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.kodluyoruz.hungryapp.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_restaurantDetailFragment"
+            app:destination="@id/restaurantDetailFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment2"
+            app:destination="@id/profileFragment2" />
+        <argument
+            android:name="token"
+            app:argType="integer"
+            android:defaultValue="-1" />
+        <action
+            android:id="@+id/action_homeFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+
+        <action
+            android:id="@+id/action_homeFragment_to_addRestaurantFragment"
+            app:destination="@id/addRestaurantFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/addRestaurantFragment"
+        android:name="com.kodluyoruz.hungryapp.ui.add_restaurant.AddRestaurantFragment"
+        android:label="fragment_add_restaurant"
+        tools:layout="@layout/add_restaurant_fragment">
+
+    </fragment>    <fragment
+        android:id="@+id/restaurantDetailFragment"
+        android:name="com.kodluyoruz.hungryapp.ui.restaurant_detail.RestaurantDetailFragment"
+        android:label="fragment_restaurant_detail"
+        tools:layout="@layout/fragment_restaurant_detail" >
+        <argument
+            android:name="restaurant"
+            app:argType="com.kodluyoruz.hungryapp.data.entity.RestaurantsItem" />
+        <action
+            android:id="@+id/action_restaurantDetailFragment_to_mealDetailFragment"
+            app:destination="@id/mealDetailFragment" />
+    <action
+        android:id="@+id/action_restaurantDetailFragment_to_mealAddingFragment"
+        app:destination="@id/mealAddingFragment" />
+</fragment>
+    <fragment
+        android:id="@+id/mealDetailFragment"
+        android:name="com.kodluyoruz.hungryapp.ui.meal_detail.MealDetailFragment"
+        android:label="MealDetailFragment"
+        tools:layout="@layout/fragment_food_detail">
+        <argument
+            android:name="clickedFood"
+            app:argType="com.kodluyoruz.hungryapp.data.entity.Menu" />
+        <action
+            android:id="@+id/action_mealDetailFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/mealDetailFragment" />
+        <argument
+            android:name="restaurantId"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainOnBoardingFragment"
+        android:name="com.kodluyoruz.hungryapp.ui.onboarding.MainOnBoardingFragment"
+        android:label="fragment_main_on_boarding"
+        tools:layout="@layout/fragment_main_on_boarding" >
+        <action
+            android:id="@+id/action_mainOnBoardingFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/mainOnBoardingFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment2"
+        android:name="com.kodluyoruz.hungryapp.ui.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment2_to_editProfileFragment2"
+            app:destination="@id/editProfileFragment2" />
+        <action
+            android:id="@+id/action_profileFragment_to_addAddressFragment"
+            app:destination="@id/addAddressFragment" />
+        <action
+            android:id="@+id/action_profileFragment2_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editProfileFragment2"
+        android:name="com.kodluyoruz.hungryapp.ui.edit_profile.EditProfileFragment"
+        android:label="fragment_edit_profile"
+        tools:layout="@layout/fragment_edit_profile" >
+        <action
+            android:id="@+id/action_editProfileFragment2_to_changePasswordFragment"
+            app:destination="@id/changePasswordFragment" />
+        <action
+            android:id="@+id/action_editProfileFragment2_to_profileFragment2"
+            app:destination="@id/profileFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/changePasswordFragment"
+        android:name="com.kodluyoruz.hungryapp.ui.change_password.ChangePasswordFragment"
+        android:label="fragment_change_password"
+        tools:layout="@layout/fragment_change_password" >
+        <action
+            android:id="@+id/action_changePasswordFragment_to_editProfileFragment2"
+            app:destination="@id/editProfileFragment2" />
+        <argument
+            android:name="user"
+            app:argType="com.kodluyoruz.hungryapp.data.entity.UsersItem" />
+    </fragment>
+    <fragment
+        android:id="@+id/mealAddingFragment"
+        android:name="com.kodluyoruz.hungryapp.ui.meal_adding.MealAddingFragment"
+        android:label="MealAddingFragment"
+        tools:layout="@layout/fragment_food_adding">
+        <argument
+            android:name="restaurant"
+            app:argType="com.kodluyoruz.hungryapp.data.entity.RestaurantsItem" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.kodluyoruz.hungryapp.ui.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_splashFragment"
+            app:destination="@id/splashFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.kodluyoruz.hungryapp.ui.register.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+    </fragment>
+    <fragment
+        android:id="@+id/addressListFragment"
+        android:name="com.kodluyoruz.hungryapp.ui.address_list.AddressListFragment"
+        android:label="address_list_fragment"
+        tools:layout="@layout/address_list_fragment" >
+        <action
+            android:id="@+id/action_addressListFragment_to_addAddressFragment"
+            app:destination="@id/addAddressFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addAddressFragment"
+        android:name="com.kodluyoruz.hungryapp.ui.add_address.AddAddressFragment"
+        android:label="fragment_add_address"
+        tools:layout="@layout/fragment_add_address" >
+        <action
+            android:id="@+id/action_addAddressFragment_to_profileFragment2"
+            app:destination="@id/profileFragment2" />
+    </fragment>
+
+</navigation>

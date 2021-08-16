@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d8f41408-4f97-4a78-9d3b-753d21c7f46d" name="Default Changelist" comment="update ui and viewmodels">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/entity/OrdersResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/entity/RestaurantsResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/entity/UsersResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/utils/Constants.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/utils/IMealOnClick.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/kodluyoruz/yahnifood/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/kodluyoruz/hungryapp/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/YahniApp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/HungryApp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/ApiRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/ApiRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/entity/Address.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/entity/Address.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/entity/Menu.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/entity/Menu.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/entity/OrderFood.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/entity/OrderFood.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/entity/OrdersItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/entity/OrdersItem.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/entity/OrdersResponse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/entity/Owner.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/entity/Owner.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/entity/RestaurantsItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/entity/RestaurantsItem.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/entity/RestaurantsResponse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/entity/UsersItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/entity/UsersItem.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/entity/UsersResponse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/entity/dtos/OrderDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/entity/dtos/OrderDto.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/entity/dtos/RestaurantDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/entity/dtos/RestaurantDto.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/entity/dtos/UserDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/entity/dtos/UserDto.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/local/LocalDataSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/local/LocalDataSource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/local/SharedPrefManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/local/SharedPrefManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/remote/ApiService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/remote/ApiService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/remote/RemoteDataSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/remote/RemoteDataSource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/di/DatabaseModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/di/DatabaseModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/di/NetworkModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/di/NetworkModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/add_address/AddAddressFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/add_address/AddAddressFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/add_address/AddAddressViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/add_address/AddAddressViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/add_restaurant/AddRestaurantFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/add_restaurant/AddRestaurantFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/add_restaurant/AddRestaurantViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/add_restaurant/AddRestaurantViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/address_list/AddressListAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/address_list/AddressListAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/address_list/AddressListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/address_list/AddressListFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/address_list/AddressListViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/address_list/AddressListViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/base/BaseFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/base/BaseFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/change_password/ChangePasswordFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/change_password/ChangePasswordFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/change_password/ChangePasswordViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/change_password/ChangePasswordViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/edit_profile/EditProfileFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/edit_profile/EditProfileFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/edit_profile/EditProfileViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/edit_profile/EditProfileViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/home/HomeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/home/HomeFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/home/HomeFragmentViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/home/HomeFragmentViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/home/RestaurantRecyclerViewAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/home/RestaurantRecyclerViewAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/home/onDetail.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/home/onDetail.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/login/LoginFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/login/LoginFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/login/LoginViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/login/LoginViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/meal_adding/MealAddingFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/meal_adding/MealAddingFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/meal_adding/MealAddingViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/meal_adding/MealAddingViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/meal_detail/MealDetailFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/meal_detail/MealDetailFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/meal_detail/MealDetailViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/meal_detail/MealDetailViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/onboarding/MainOnBoardingFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/onboarding/MainOnBoardingFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/onboarding/OnBoardingFragment1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/onboarding/OnBoardingFragment1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/onboarding/OnBoardingFragment2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/onboarding/OnBoardingFragment2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/onboarding/OnBoardingFragment3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/onboarding/OnBoardingFragment3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/onboarding/OnBoardingViewPagerAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/onboarding/OnBoardingViewPagerAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/order_details/OrderDetailsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/order_details/OrderDetailsFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/order_history/OrderHistoryFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/order_history/OrderHistoryFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/order_history/OrderHistoryListAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/order_history/OrderHistoryListAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/order_history/OrderHistoryViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/order_history/OrderHistoryViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/profile/ProfileFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/profile/ProfileFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/profile/ProfileViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/profile/ProfileViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/profile/ProfileViewPagerAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/profile/ProfileViewPagerAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/rate/RateFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/rate/RateFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/register/RegisterFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/register/RegisterFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/register/RegisterViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/register/RegisterViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/restaurant_detail/FoodAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/restaurant_detail/FoodAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/restaurant_detail/RestaurantDetailFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/restaurant_detail/RestaurantDetailFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/restaurant_detail/RestaurantDetailViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/restaurant_detail/RestaurantDetailViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/splash/SplashFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/splash/SplashFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/splash/SplashViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/splash/SplashViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/utils/BaseDataSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/utils/BaseDataSource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/utils/Common.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/utils/Common.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/utils/Constants.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/utils/DataAccessStrategy.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/utils/DataAccessStrategy.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/utils/Extension.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/utils/Extension.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/utils/IMealOnClick.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/utils/Resource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/utils/Resource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/utils/SharedPreferencesUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/utils/SharedPreferencesUtil.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_change_password.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_change_password.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_edit_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_edit_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_splash.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_host.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_host.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/kodluyoruz/yahnifood/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/kodluyoruz/hungryapp/ExampleUnitTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\FURKAN-PC\.android\avd\Pixel_3a_API_29.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="YahniFood" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="YahniFood" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="YahniFood" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="resourceFile" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1vwh5cEqZyqXGRvXhW2dXC5aP1U" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="VirtualDevicePath@C:\Users\FURKAN-PC\.android\avd\Pixel_3a_API_29.avd" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-07-30T08:53:53.553575400Z" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.-2047734353">
+      <recent name="com.kodluyoruz.yahnifood.ui.order_history" />
+      <recent name="com.kodluyoruz.yahnifood.ui.edit_profile" />
+      <recent name="com.kodluyoruz.yahnifood.ui.change_password" />
+      <recent name="com.kodluyoruz.yahnifood.ui.add_address" />
+    </key>
+    <key name="android.template.342034984">
+      <recent name="com.kodluyoruz.yahnifood.ui.profile" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Hungry_App.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8f41408-4f97-4a78-9d3b-753d21c7f46d" name="Default Changelist" comment="" />
+      <created>1627478876639</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627478876639</updated>
+    </task>
+    <task id="LOCAL-00001" summary="New fragments added.">
+      <created>1627718350027</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1627718350027</updated>
+    </task>
+    <task id="LOCAL-00002" summary="New fragments added &amp; updated.">
+      <created>1627929180322</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627929180322</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update profile fragment.">
+      <created>1628635510375</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1628635510375</updated>
+    </task>
+    <task id="LOCAL-00004" summary="edit profile fetch update">
+      <created>1628683393684</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1628683393684</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update ui and viewmodels">
+      <created>1628693773217</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1628693773217</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New fragments added." />
+    <MESSAGE value="New fragments added &amp; updated." />
+    <MESSAGE value="update profile fragment." />
+    <MESSAGE value="edit profile fetch update" />
+    <MESSAGE value="update ui and viewmodels" />
+    <option name="LAST_COMMIT_MESSAGE" value="update ui and viewmodels" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="751" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1628514195725">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="751" y="236" key="#com.intellij.ide.util.MemberChooser/1920.0.1536.824/0.0.1920.1040@0.0.1920.1040" timestamp="1628514195725" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1629144941840">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.0.1536.824/0.0.1920.1040@0.0.1920.1040" timestamp="1629144941840" />
+    <state x="739" y="311" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1628616118013">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="311" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/1920.0.1536.824/0.0.1920.1040@0.0.1920.1040" timestamp="1628616118013" />
+    <state x="93" y="93" width="1350" height="638" key="AVDManager" timestamp="1628184487943">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="AVDManager/0.0.1536.824@0.0.1536.824" timestamp="1628184487943" />
+    <state x="540" y="275" key="AndroidCreateResourceFileDialog" timestamp="1628510282641">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="275" key="AndroidCreateResourceFileDialog/1920.0.1536.824/0.0.1920.1040@0.0.1920.1040" timestamp="1628510282641" />
+    <state x="752" y="266" key="AndroidProcessChooserDialog" timestamp="1627979999240">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="752" y="266" key="AndroidProcessChooserDialog/1920.0.1536.824/0.0.1920.1040@0.0.1920.1040" timestamp="1627979999240" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1628462856241">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/1920.0.1536.824/0.0.1920.1040@0.0.1920.1040" timestamp="1628462856241" />
+    <state x="686" y="211" key="FileChooserDialogImpl" timestamp="1629147131319">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1628185965666" />
+    <state x="686" y="211" key="FileChooserDialogImpl/1920.0.1536.824/0.0.1920.1040@0.0.1920.1040" timestamp="1629147131319" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1628785007713">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1627637909613" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/1920.0.1536.824/0.0.1920.1040@0.0.1920.1040" timestamp="1628785007713" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/2400.0.1536.824/0.0.1920.1040@0.0.1920.1040" timestamp="1627658538746" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1628785007712">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1627637909613" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center/1920.0.1536.824/0.0.1920.1040@0.0.1920.1040" timestamp="1628785007712" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/2400.0.1536.824/0.0.1920.1040@0.0.1920.1040" timestamp="1627658538746" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1628785007712">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1627637909613" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left/1920.0.1536.824/0.0.1920.1040@0.0.1920.1040" timestamp="1628785007712" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/2400.0.1536.824/0.0.1920.1040@0.0.1920.1040" timestamp="1627658538746" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1628785007712">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1627637909613" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/1920.0.1536.824/0.0.1920.1040@0.0.1920.1040" timestamp="1628785007712" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/2400.0.1536.824/0.0.1920.1040@0.0.1920.1040" timestamp="1627658538746" />
+    <state x="540" y="263" key="IDE.errors.dialog" timestamp="1627907117909">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="263" key="IDE.errors.dialog/1920.0.1536.824/0.0.1920.1040@0.0.1920.1040" timestamp="1627907117909" />
+    <state x="250" y="55" key="MergeDialog" timestamp="1628674866445">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="250" y="55" key="MergeDialog/1920.0.1536.824/0.0.1920.1040@0.0.1920.1040" timestamp="1628674866445" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1629147348798">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/1920.0.1536.824/0.0.1920.1040@0.0.1920.1040" timestamp="1629147348798" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1628693870628">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1536.824/0.0.1920.1040@0.0.1920.1040" timestamp="1628693870628" />
+    <state x="748" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1628791263397">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="598" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1628185461400" />
+    <state x="748" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1536.824/0.0.1920.1040@0.0.1920.1040" timestamp="1628791263397" />
+    <state x="667" y="76" width="907" height="888" key="find.popup" timestamp="1629147282101">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="76" width="907" height="888" key="find.popup/1920.0.1536.824/0.0.1920.1040@0.0.1920.1040" timestamp="1629147282101" />
+    <state x="531" y="236" key="run.anything.popup" timestamp="1628678439622">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1627642327413" />
+    <state x="531" y="236" key="run.anything.popup/1920.0.1536.824/0.0.1920.1040@0.0.1920.1040" timestamp="1628678439622" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1629147915628">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1536.824/0.0.1920.1040@0.0.1920.1040" timestamp="1629147915628" />
+  </component>
+</project>

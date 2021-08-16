@@ -1,0 +1,280 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:2:1-26:12
+MERGED from [com.github.skydoves:expandablelayout:1.0.7] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\56fe90ad0d21bcecf7ab172efaab8313\expandablelayout-1.0.7\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.databinding:viewbinding:4.2.2] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\d09aedab558531ee7c1ade19f9026be7\viewbinding-4.2.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\df0aacba73312c078d56525f8eb3e17f\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\929471e7db050a1c85e2af45c8b9965d\fragment-ktx-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\d9516153710552df70915aaf18011293\navigation-ui-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\27ede764fa78043a404d4993ff6dfe34\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\3488307f76111125a70e9e0cfc8c1bf3\navigation-common-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\4d6de9327679f1057ca587b582ee6f6e\activity-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\ed17b5af4a52958eedd895de8c542312\core-ktx-1.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\2b7852dfbb0870ac03d359643aca7d7a\lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\668a1b6c8af5d0c8b8483a0c91487e94\lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\a331ad48f63c980150ada635122b4496\lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\6e343b029d06ff810dc3b42586edd4bc\lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\cf4960af9ee5c17a9e1f3414bfb323e3\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\eb4b9ecf47bc11df5888b57447963e49\material-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\d849ddb923595e6a285bde1366d1a05e\constraintlayout-2.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\f4ec03961ea97283d48d02823eb379ad\appcompat-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\ac171adad3352defb6901589348a4c34\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\b19289441b1b08c2be6c07e262b1e279\glide-4.12.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.dagger:hilt-android:2.35] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\ebf4d20a0896f30e87a062f1a44e0034\hilt-android-2.35\AndroidManifest.xml:16:1-19:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\00b825eb88eaf8cff45e75009a4532ac\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\9fdf1bbccdcd3388290b0eebcc3d6b2f\navigation-fragment-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\849bc75b16e4ee6b8f12e74090d7fec1\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\4708fd3d43c455ef8a98d85b3b52fb7d\navigation-runtime-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\27ee37988be257af3a2abdcb306d628d\activity-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\b065d9deb302fc26a5bb93040381044c\appcompat-resources-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\88c010cd5c8e4965a3ebeea33ea8fd32\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\1f33037bb7e90410058d0bbddf69486f\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\6ee04153dc5df9b68a5e246d577ec1c1\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\42a3f4b08e9decd7b8287e5148072a0f\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\07662f7691ff8e469a1fe2f3f0a27610\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\dc53d3dbf754ef712fd5b42f71419573\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\2bc7321dd083532a9af12d582165270a\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\e75869a783c4e74e3d831af9d0a49386\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\31f3e7a664de079d552a211a3f8ade7e\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\d1d1130c897661fd512268e2a52a2dd2\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\aa5d70071553d95f6bd76c686799b011\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\8bd1a549fa9d688533f5cdfc7748abc7\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\ec35045fa1ebfd010ad4f5fa78d6eeb2\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\dea5134419da0e44d360b9ad216f3aea\transition-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\b313c5c763ee355479f5b178c14d502c\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\b764b2e18c50310a9682df6913331639\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\c7d78d39462b334c0629d90b50f9ca32\navigation-common-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.6.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\74e118e981cd1af077c1c98aef344779\core-1.6.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\b18a08522a6e901bd2ed7789e8d45904\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\3c4c14ba7be1c83a4e16c11c2a6ce945\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\21640a6b19ebace361557b3d22aef9df\savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\758dd2549b6396efd6031ae3e1f7a7d9\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\8db2bbfb0618a6f0b310d36f18e26321\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\81b137c3a48838313bfab1b908507203\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\e6fd5ae0d892d35bc54cb78b5134314f\gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\adb0c5f1f7b5c032ce3f2a061f1a233f\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\13238d105602ca41649447f416a88bc1\lifecycle-livedata-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\a1d1aaf9b1f203e7e0d3b9701ebcd668\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\41060a91897490b63f8539c7295db112\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\51dc471949573086ebfd6f05950e60e7\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\e1cb153ccac1fd645c86ccf55df782ad\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\2c569b608843763422a0ef86873acd1d\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\ea5042b612e980ee6cb5a64966f193d1\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\c17cecc3b6a27fc92f5c2dbd6acc66a1\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\5035bd08a09b0fcb9efd82c4305d3ac5\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\577ef5654a4164e48006e79f578b3c2e\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.35] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\9fdc77300690cadc7faa5d66b5d0dbf4\dagger-lint-aar-2.35\AndroidManifest.xml:16:1-19:12
+INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml
+		ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml
+		ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:6:22-77
+application
+ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\eb4b9ecf47bc11df5888b57447963e49\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\eb4b9ecf47bc11df5888b57447963e49\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\d849ddb923595e6a285bde1366d1a05e\constraintlayout-2.1.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\d849ddb923595e6a285bde1366d1a05e\constraintlayout-2.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\b19289441b1b08c2be6c07e262b1e279\glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\b19289441b1b08c2be6c07e262b1e279\glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.6.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\74e118e981cd1af077c1c98aef344779\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\74e118e981cd1af077c1c98aef344779\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\e6fd5ae0d892d35bc54cb78b5134314f\gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\e6fd5ae0d892d35bc54cb78b5134314f\gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\41060a91897490b63f8539c7295db112\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\41060a91897490b63f8539c7295db112\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\74e118e981cd1af077c1c98aef344779\core-1.6.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:12:9-41
+	android:roundIcon
+		ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:13:9-54
+	android:icon
+		ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:16:9-47
+	android:usesCleartextTraffic
+		ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:15:9-44
+	android:name
+		ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:9:9-58
+activity#com.kodluyoruz.hungryapp.ui.MainActivity
+ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:17:9-23:20
+	android:name
+		ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:17:19-74
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:21:27-74
+uses-sdk
+INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml
+INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml
+MERGED from [com.github.skydoves:expandablelayout:1.0.7] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\56fe90ad0d21bcecf7ab172efaab8313\expandablelayout-1.0.7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.skydoves:expandablelayout:1.0.7] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\56fe90ad0d21bcecf7ab172efaab8313\expandablelayout-1.0.7\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.databinding:viewbinding:4.2.2] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\d09aedab558531ee7c1ade19f9026be7\viewbinding-4.2.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.2.2] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\d09aedab558531ee7c1ade19f9026be7\viewbinding-4.2.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\df0aacba73312c078d56525f8eb3e17f\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\df0aacba73312c078d56525f8eb3e17f\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\929471e7db050a1c85e2af45c8b9965d\fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\929471e7db050a1c85e2af45c8b9965d\fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\d9516153710552df70915aaf18011293\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\d9516153710552df70915aaf18011293\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\27ede764fa78043a404d4993ff6dfe34\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\27ede764fa78043a404d4993ff6dfe34\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\3488307f76111125a70e9e0cfc8c1bf3\navigation-common-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\3488307f76111125a70e9e0cfc8c1bf3\navigation-common-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\4d6de9327679f1057ca587b582ee6f6e\activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\4d6de9327679f1057ca587b582ee6f6e\activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\ed17b5af4a52958eedd895de8c542312\core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\ed17b5af4a52958eedd895de8c542312\core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\2b7852dfbb0870ac03d359643aca7d7a\lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\2b7852dfbb0870ac03d359643aca7d7a\lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\668a1b6c8af5d0c8b8483a0c91487e94\lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\668a1b6c8af5d0c8b8483a0c91487e94\lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\a331ad48f63c980150ada635122b4496\lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\a331ad48f63c980150ada635122b4496\lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\6e343b029d06ff810dc3b42586edd4bc\lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\6e343b029d06ff810dc3b42586edd4bc\lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\cf4960af9ee5c17a9e1f3414bfb323e3\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\cf4960af9ee5c17a9e1f3414bfb323e3\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\eb4b9ecf47bc11df5888b57447963e49\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\eb4b9ecf47bc11df5888b57447963e49\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\d849ddb923595e6a285bde1366d1a05e\constraintlayout-2.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\d849ddb923595e6a285bde1366d1a05e\constraintlayout-2.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\f4ec03961ea97283d48d02823eb379ad\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\f4ec03961ea97283d48d02823eb379ad\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\ac171adad3352defb6901589348a4c34\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\ac171adad3352defb6901589348a4c34\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\b19289441b1b08c2be6c07e262b1e279\glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\b19289441b1b08c2be6c07e262b1e279\glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.dagger:hilt-android:2.35] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\ebf4d20a0896f30e87a062f1a44e0034\hilt-android-2.35\AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.35] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\ebf4d20a0896f30e87a062f1a44e0034\hilt-android-2.35\AndroidManifest.xml:18:3-42
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\00b825eb88eaf8cff45e75009a4532ac\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\00b825eb88eaf8cff45e75009a4532ac\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\9fdf1bbccdcd3388290b0eebcc3d6b2f\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\9fdf1bbccdcd3388290b0eebcc3d6b2f\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\849bc75b16e4ee6b8f12e74090d7fec1\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\849bc75b16e4ee6b8f12e74090d7fec1\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\4708fd3d43c455ef8a98d85b3b52fb7d\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\4708fd3d43c455ef8a98d85b3b52fb7d\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\27ee37988be257af3a2abdcb306d628d\activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\27ee37988be257af3a2abdcb306d628d\activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\b065d9deb302fc26a5bb93040381044c\appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\b065d9deb302fc26a5bb93040381044c\appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\88c010cd5c8e4965a3ebeea33ea8fd32\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\88c010cd5c8e4965a3ebeea33ea8fd32\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\1f33037bb7e90410058d0bbddf69486f\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\1f33037bb7e90410058d0bbddf69486f\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\6ee04153dc5df9b68a5e246d577ec1c1\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\6ee04153dc5df9b68a5e246d577ec1c1\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\42a3f4b08e9decd7b8287e5148072a0f\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\42a3f4b08e9decd7b8287e5148072a0f\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\07662f7691ff8e469a1fe2f3f0a27610\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\07662f7691ff8e469a1fe2f3f0a27610\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\dc53d3dbf754ef712fd5b42f71419573\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\dc53d3dbf754ef712fd5b42f71419573\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\2bc7321dd083532a9af12d582165270a\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\2bc7321dd083532a9af12d582165270a\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\e75869a783c4e74e3d831af9d0a49386\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\e75869a783c4e74e3d831af9d0a49386\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\31f3e7a664de079d552a211a3f8ade7e\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\31f3e7a664de079d552a211a3f8ade7e\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\d1d1130c897661fd512268e2a52a2dd2\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\d1d1130c897661fd512268e2a52a2dd2\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\aa5d70071553d95f6bd76c686799b011\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\aa5d70071553d95f6bd76c686799b011\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\8bd1a549fa9d688533f5cdfc7748abc7\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\8bd1a549fa9d688533f5cdfc7748abc7\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\ec35045fa1ebfd010ad4f5fa78d6eeb2\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\ec35045fa1ebfd010ad4f5fa78d6eeb2\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\dea5134419da0e44d360b9ad216f3aea\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\dea5134419da0e44d360b9ad216f3aea\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\b313c5c763ee355479f5b178c14d502c\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\b313c5c763ee355479f5b178c14d502c\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\b764b2e18c50310a9682df6913331639\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\b764b2e18c50310a9682df6913331639\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\c7d78d39462b334c0629d90b50f9ca32\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\c7d78d39462b334c0629d90b50f9ca32\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\74e118e981cd1af077c1c98aef344779\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\74e118e981cd1af077c1c98aef344779\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\b18a08522a6e901bd2ed7789e8d45904\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\b18a08522a6e901bd2ed7789e8d45904\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\3c4c14ba7be1c83a4e16c11c2a6ce945\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\3c4c14ba7be1c83a4e16c11c2a6ce945\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\21640a6b19ebace361557b3d22aef9df\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\21640a6b19ebace361557b3d22aef9df\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\758dd2549b6396efd6031ae3e1f7a7d9\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\758dd2549b6396efd6031ae3e1f7a7d9\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\8db2bbfb0618a6f0b310d36f18e26321\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\8db2bbfb0618a6f0b310d36f18e26321\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\81b137c3a48838313bfab1b908507203\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\81b137c3a48838313bfab1b908507203\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\e6fd5ae0d892d35bc54cb78b5134314f\gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\e6fd5ae0d892d35bc54cb78b5134314f\gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\adb0c5f1f7b5c032ce3f2a061f1a233f\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\adb0c5f1f7b5c032ce3f2a061f1a233f\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\13238d105602ca41649447f416a88bc1\lifecycle-livedata-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\13238d105602ca41649447f416a88bc1\lifecycle-livedata-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\a1d1aaf9b1f203e7e0d3b9701ebcd668\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\a1d1aaf9b1f203e7e0d3b9701ebcd668\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\41060a91897490b63f8539c7295db112\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\41060a91897490b63f8539c7295db112\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\51dc471949573086ebfd6f05950e60e7\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\51dc471949573086ebfd6f05950e60e7\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\e1cb153ccac1fd645c86ccf55df782ad\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\e1cb153ccac1fd645c86ccf55df782ad\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\2c569b608843763422a0ef86873acd1d\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\2c569b608843763422a0ef86873acd1d\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\ea5042b612e980ee6cb5a64966f193d1\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\ea5042b612e980ee6cb5a64966f193d1\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\c17cecc3b6a27fc92f5c2dbd6acc66a1\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\c17cecc3b6a27fc92f5c2dbd6acc66a1\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\5035bd08a09b0fcb9efd82c4305d3ac5\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\5035bd08a09b0fcb9efd82c4305d3ac5\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\577ef5654a4164e48006e79f578b3c2e\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\577ef5654a4164e48006e79f578b3c2e\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:dagger-lint-aar:2.35] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\9fdc77300690cadc7faa5d66b5d0dbf4\dagger-lint-aar-2.35\AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.35] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\9fdc77300690cadc7faa5d66b5d0dbf4\dagger-lint-aar-2.35\AndroidManifest.xml:18:3-42
+INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml
+INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml
+		ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml
+		ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml

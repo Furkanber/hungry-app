@@ -1,0 +1,729 @@
+Index: app/src/main/java/com/kodluyoruz/yahnifood/ui/edit_profile/EditProfileFragment.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.kodluyoruz.yahnifood.ui.edit_profile\r\n\r\nimport android.os.Bundle\r\nimport android.view.LayoutInflater\r\nimport android.view.View\r\nimport android.view.ViewGroup\r\nimport androidx.navigation.fragment.findNavController\r\nimport com.kodluyoruz.yahnifood.databinding.FragmentEditProfileBinding\r\nimport com.kodluyoruz.yahnifood.ui.base.BaseFragment\r\n\r\nclass EditProfileFragment : BaseFragment() {\r\n\r\n    private lateinit var binding: FragmentEditProfileBinding\r\n\r\n    override fun onCreateView(\r\n        inflater: LayoutInflater,\r\n        container: ViewGroup?,\r\n        savedInstanceState: Bundle?\r\n    ): View? {\r\n        binding = FragmentEditProfileBinding.inflate(inflater, container, false)\r\n        return binding.root\r\n    }\r\n\r\n    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {\r\n        super.onViewCreated(view, savedInstanceState)\r\n\r\n        initViews()\r\n    }\r\n    private fun initViews() {\r\n\r\n        binding.buttonChangePasswordNavigation.setOnClickListener {\r\n            findNavController().navigate(EditProfileFragmentDirections.actionEditProfileFragment2ToChangePasswordFragment())\r\n        }\r\n        binding.buttonUpdateProfile.setOnClickListener {\r\n            findNavController().navigate(EditProfileFragmentDirections.actionEditProfileFragment2ToProfileFragment2())\r\n        }\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/kodluyoruz/yahnifood/ui/edit_profile/EditProfileFragment.kt	(revision 08fc1e513425963d6e1c29531cb9868ac3afb692)
++++ app/src/main/java/com/kodluyoruz/yahnifood/ui/edit_profile/EditProfileFragment.kt	(date 1628593330840)
+@@ -4,13 +4,20 @@
+ import android.view.LayoutInflater
+ import android.view.View
+ import android.view.ViewGroup
++import androidx.fragment.app.viewModels
++import androidx.lifecycle.Observer
+ import androidx.navigation.fragment.findNavController
++import com.kodluyoruz.yahnifood.data.entity.UsersItem
+ import com.kodluyoruz.yahnifood.databinding.FragmentEditProfileBinding
+ import com.kodluyoruz.yahnifood.ui.base.BaseFragment
++import dagger.hilt.android.AndroidEntryPoint
+ 
++@AndroidEntryPoint
+ class EditProfileFragment : BaseFragment() {
+ 
+     private lateinit var binding: FragmentEditProfileBinding
++    private val viewModel: EditProfileViewModel by viewModels()
++    private lateinit var user: UsersItem
+ 
+     override fun onCreateView(
+         inflater: LayoutInflater,
+@@ -27,6 +34,16 @@
+         initViews()
+     }
+     private fun initViews() {
++        /*val name = binding.editTextName.text.toString()
++        val surname = binding.editTextSurname.text.toString()
++        val email = binding.editTextEmail.text.toString()
++        val phone = binding.editTextPhoneNumber.text.toString()
++        val ppURL = binding.editTextPPUrl.text.toString()
++
++        viewModel.getUser(user_id = 1).observe(viewLifecycleOwner, Observer {
++            user.name = name
++            user.surname = surname
++        })*/
+ 
+         binding.buttonChangePasswordNavigation.setOnClickListener {
+             findNavController().navigate(EditProfileFragmentDirections.actionEditProfileFragment2ToChangePasswordFragment())
+Index: app/src/main/res/layout/fragment_profile.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    tools:context=\".ui.profile.ProfileFragment\">\r\n\r\n    <androidx.cardview.widget.CardView\r\n        android:backgroundTint=\"@color/card_grey\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"160dp\"\r\n        android:layout_marginTop=\"40dp\"\r\n        android:layout_marginStart=\"8dp\"\r\n        android:layout_marginEnd=\"8dp\"\r\n        app:cardCornerRadius=\"16dp\"\r\n        app:cardElevation=\"16dp\">\r\n\r\n        <androidx.cardview.widget.CardView\r\n            android:layout_width=\"120dp\"\r\n            android:layout_height=\"120dp\"\r\n            android:layout_marginStart=\"24dp\"\r\n            android:layout_marginTop=\"24dp\"\r\n            android:layout_marginEnd=\"8dp\"\r\n            android:backgroundTint=\"@color/white\"\r\n            app:cardCornerRadius=\"16dp\"\r\n            app:cardElevation=\"16dp\">\r\n\r\n            <ImageView\r\n                android:id=\"@+id/profileImageView\"\r\n                android:src=\"@drawable/pizza_imageholder\"\r\n                android:layout_width=\"116dp\"\r\n                android:layout_height=\"116dp\"\r\n                android:layout_gravity=\"center\"/>\r\n\r\n        </androidx.cardview.widget.CardView>\r\n\r\n        <TextView\r\n            android:id=\"@+id/NameTextView\"\r\n            android:layout_marginStart=\"200dp\"\r\n            android:layout_marginTop=\"45dp\"\r\n            android:layout_width=\"110dp\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:text=\"Name Surname\"\r\n            android:textStyle=\"bold\" />\r\n\r\n        <TextView\r\n            android:id=\"@+id/EmailTextView\"\r\n            android:layout_marginStart=\"200dp\"\r\n            android:layout_marginTop=\"85dp\"\r\n            android:layout_width=\"110dp\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:text=\"Email Address\"\r\n            android:textStyle=\"bold\" />\r\n\r\n        <ImageButton\r\n            android:id=\"@+id/buttonEditProfile\"\r\n            android:backgroundTint=\"@color/card_grey\"\r\n            android:layout_marginTop=\"10dp\"\r\n            android:layout_marginStart=\"350dp\"\r\n            android:layout_width=\"30dp\"\r\n            android:layout_height=\"30dp\"\r\n            android:src=\"@drawable/ic_edit\" />\r\n\r\n    </androidx.cardview.widget.CardView>\r\n\r\n    <androidx.viewpager.widget.ViewPager\r\n        android:id=\"@+id/viewPagerProfile\"\r\n        android:layout_marginTop=\"220dp\"\r\n        android:layout_marginStart=\"8dp\"\r\n        android:layout_marginEnd=\"8dp\"\r\n        android:layout_marginBottom=\"8dp\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"match_parent\">\r\n\r\n        <com.google.android.material.tabs.TabLayout\r\n            android:id=\"@+id/tabLayoutProfile\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            app:tabTextColor=\"@color/tab_text_grey\"\r\n            app:tabIndicatorColor=\"@color/tab_text_grey\"\r\n            app:tabSelectedTextColor=\"@color/tab_selected_grey\"\r\n            android:layout_gravity=\"top\">\r\n\r\n            <com.google.android.material.tabs.TabItem\r\n                android:layout_width=\"match_parent\"\r\n                android:layout_height=\"wrap_content\"\r\n\r\n                android:text=\"ORDER HISTORY\"/>\r\n\r\n            <com.google.android.material.tabs.TabItem\r\n                android:layout_width=\"match_parent\"\r\n                android:layout_height=\"wrap_content\"\r\n                android:text=\"MY ADDRESSES\"/>\r\n\r\n        </com.google.android.material.tabs.TabLayout>\r\n\r\n    </androidx.viewpager.widget.ViewPager>\r\n\r\n\r\n</RelativeLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/fragment_profile.xml	(revision 08fc1e513425963d6e1c29531cb9868ac3afb692)
++++ app/src/main/res/layout/fragment_profile.xml	(date 1628538177391)
+@@ -1,101 +1,156 @@
+ <?xml version="1.0" encoding="utf-8"?>
+-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
++<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     tools:context=".ui.profile.ProfileFragment">
+ 
++    <Button
++        android:id="@+id/buttonLogout"
++        android:layout_width="80dp"
++        android:layout_height="40dp"
++        android:background="@drawable/round_button"
++        android:backgroundTint="@color/light_red"
++        android:text="Logout"
++        android:textStyle="bold"
++        android:textAllCaps="false"
++        android:textColor="@color/white"
++        android:textSize="10sp"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintHorizontal_bias="0.953"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent"
++        app:layout_constraintVertical_bias="0.01"
++        tools:backgroundTint="@color/light_red" />
++
+     <androidx.cardview.widget.CardView
+-        android:backgroundTint="@color/card_grey"
++        android:id="@+id/cardView3"
+         android:layout_width="match_parent"
+         android:layout_height="160dp"
+-        android:layout_marginTop="40dp"
+-        android:layout_marginStart="8dp"
+-        android:layout_marginEnd="8dp"
++        android:backgroundTint="@color/card_grey"
+         app:cardCornerRadius="16dp"
+-        app:cardElevation="16dp">
++        app:cardElevation="16dp"
++        android:layout_margin="16dp"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintHorizontal_bias="0.0"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toTopOf="parent"
++        app:layout_constraintVertical_bias="0.078">
++
++        <androidx.constraintlayout.widget.ConstraintLayout
++            android:layout_width="match_parent"
++            android:layout_height="match_parent">
+ 
+-        <androidx.cardview.widget.CardView
+-            android:layout_width="120dp"
+-            android:layout_height="120dp"
+-            android:layout_marginStart="24dp"
+-            android:layout_marginTop="24dp"
+-            android:layout_marginEnd="8dp"
+-            android:backgroundTint="@color/white"
+-            app:cardCornerRadius="16dp"
+-            app:cardElevation="16dp">
++            <androidx.cardview.widget.CardView
++                android:id="@+id/cardView4"
++                android:layout_width="120dp"
++                android:layout_height="120dp"
++                android:backgroundTint="@color/white"
++                app:cardCornerRadius="16dp"
++                app:cardElevation="16dp"
++                app:layout_constraintBottom_toBottomOf="parent"
++                app:layout_constraintEnd_toEndOf="parent"
++                app:layout_constraintHorizontal_bias="0.061"
++                app:layout_constraintStart_toStartOf="parent"
++                app:layout_constraintTop_toTopOf="parent">
+ 
+-            <ImageView
+-                android:id="@+id/profileImageView"
+-                android:src="@drawable/pizza_imageholder"
+-                android:layout_width="116dp"
+-                android:layout_height="116dp"
+-                android:layout_gravity="center"/>
+-
+-        </androidx.cardview.widget.CardView>
++                <ImageView
++                    android:id="@+id/profileImageView"
++                    android:layout_width="116dp"
++                    android:layout_height="116dp"
++                    android:layout_gravity="center"
++                    android:src="@drawable/pizza_imageholder" />
++            </androidx.cardview.widget.CardView>
+ 
+-        <TextView
+-            android:id="@+id/NameTextView"
+-            android:layout_marginStart="200dp"
+-            android:layout_marginTop="45dp"
+-            android:layout_width="110dp"
+-            android:layout_height="wrap_content"
+-            android:text="Name Surname"
+-            android:textStyle="bold" />
++            <TextView
++                android:id="@+id/NameTextView"
++                android:layout_width="wrap_content"
++                android:layout_height="wrap_content"
++                android:layout_marginTop="44dp"
++                tools:text="Name "
++                android:textStyle="bold"
++                app:layout_constraintEnd_toEndOf="parent"
++                app:layout_constraintHorizontal_bias="0.517"
++                app:layout_constraintStart_toStartOf="parent"
++                app:layout_constraintTop_toTopOf="parent" />
+ 
+-        <TextView
+-            android:id="@+id/EmailTextView"
+-            android:layout_marginStart="200dp"
+-            android:layout_marginTop="85dp"
+-            android:layout_width="110dp"
+-            android:layout_height="wrap_content"
+-            android:text="Email Address"
+-            android:textStyle="bold" />
++            <TextView
++                android:id="@+id/SurnameTextView"
++                android:layout_width="wrap_content"
++                android:layout_height="wrap_content"
++                android:layout_marginTop="44dp"
++                tools:text="Surname "
++                android:textStyle="bold"
++                app:layout_constraintEnd_toEndOf="parent"
++                app:layout_constraintHorizontal_bias="0.0"
++                app:layout_constraintStart_toEndOf="@+id/NameTextView"
++                app:layout_constraintTop_toTopOf="parent" />
++
++            <TextView
++                android:id="@+id/EmailTextView"
++                android:layout_width="113dp"
++                android:layout_height="16dp"
++                tools:text="Email Address"
++                android:textStyle="bold"
++                app:layout_constraintBottom_toBottomOf="parent"
++                app:layout_constraintEnd_toEndOf="parent"
++                app:layout_constraintHorizontal_bias="0.657"
++                app:layout_constraintStart_toStartOf="parent"
++                app:layout_constraintTop_toBottomOf="@+id/NameTextView"
++                app:layout_constraintVertical_bias="0.234" />
+ 
+-        <ImageButton
+-            android:id="@+id/buttonEditProfile"
+-            android:backgroundTint="@color/card_grey"
+-            android:layout_marginTop="10dp"
+-            android:layout_marginStart="350dp"
+-            android:layout_width="30dp"
+-            android:layout_height="30dp"
+-            android:src="@drawable/ic_edit" />
++            <ImageButton
++                android:id="@+id/buttonEditProfile"
++                android:layout_width="30dp"
++                android:layout_height="30dp"
++                android:backgroundTint="@color/card_grey"
++                android:src="@drawable/ic_edit"
++                app:layout_constraintBottom_toBottomOf="parent"
++                app:layout_constraintEnd_toEndOf="parent"
++                app:layout_constraintHorizontal_bias="0.954"
++                app:layout_constraintStart_toStartOf="parent"
++                app:layout_constraintTop_toTopOf="parent"
++                app:layout_constraintVertical_bias="0.123" />
+ 
++        </androidx.constraintlayout.widget.ConstraintLayout>
+     </androidx.cardview.widget.CardView>
+ 
+-    <androidx.viewpager.widget.ViewPager
+-        android:id="@+id/viewPagerProfile"
+-        android:layout_marginTop="220dp"
+-        android:layout_marginStart="8dp"
+-        android:layout_marginEnd="8dp"
+-        android:layout_marginBottom="8dp"
+-        android:layout_width="match_parent"
+-        android:layout_height="match_parent">
+ 
+-        <com.google.android.material.tabs.TabLayout
+-            android:id="@+id/tabLayoutProfile"
+-            android:layout_width="match_parent"
+-            android:layout_height="wrap_content"
+-            app:tabTextColor="@color/tab_text_grey"
+-            app:tabIndicatorColor="@color/tab_text_grey"
+-            app:tabSelectedTextColor="@color/tab_selected_grey"
+-            android:layout_gravity="top">
++    <com.google.android.material.tabs.TabLayout
++        android:id="@+id/tabLayoutProfile"
++        android:background="@drawable/rectangle_border"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_gravity="top"
++        android:layout_margin="16dp"
++        android:layout_marginTop="12dp"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toBottomOf="@+id/cardView3"
++        app:tabIndicatorColor="@color/tab_text_grey"
++        app:tabSelectedTextColor="@color/tab_selected_grey"
++        app:tabTextColor="@color/tab_text_grey">
+ 
+-            <com.google.android.material.tabs.TabItem
+-                android:layout_width="match_parent"
+-                android:layout_height="wrap_content"
+-
+-                android:text="ORDER HISTORY"/>
++    </com.google.android.material.tabs.TabLayout>
++
++    <androidx.viewpager2.widget.ViewPager2
++        android:id="@+id/viewPagerProfile"
++        android:background="@drawable/rectangle_border"
++        android:layout_width="match_parent"
++        android:layout_height="0dp"
++        android:layout_marginStart="16dp"
++        android:layout_marginEnd="16dp"
++        android:layout_marginTop="1dp"
++        android:layout_marginBottom="16dp"
++        app:layout_constraintBottom_toBottomOf="parent"
++        app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintStart_toStartOf="parent"
++        app:layout_constraintTop_toBottomOf="@+id/tabLayoutProfile">
+ 
+-            <com.google.android.material.tabs.TabItem
+-                android:layout_width="match_parent"
+-                android:layout_height="wrap_content"
+-                android:text="MY ADDRESSES"/>
+-
+-        </com.google.android.material.tabs.TabLayout>
+-
+-    </androidx.viewpager.widget.ViewPager>
++    </androidx.viewpager2.widget.ViewPager2>
+ 
+ 
+-</RelativeLayout>
+\ No newline at end of file
++</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: .idea/runConfigurations.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/runConfigurations.xml	(date 1628462333134)
++++ .idea/runConfigurations.xml	(date 1628462333134)
+@@ -0,0 +1,10 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="RunConfigurationProducerService">
++    <option name="ignoredProducers">
++      <set>
++        <option value="com.android.tools.idea.compose.preview.runconfiguration.ComposePreviewRunConfigurationProducer" />
++      </set>
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+Index: app/src/main/res/layout/fragment_change_password.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    tools:context=\".ui.change_password.ChangePasswordFragment\">\r\n\r\n    <TextView\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_alignParentStart=\"true\"\r\n        android:layout_alignParentTop=\"true\"\r\n        android:layout_marginStart=\"8dp\"\r\n        android:layout_marginTop=\"115dp\"\r\n        android:layout_marginEnd=\"16dp\"\r\n        android:text=\"Current Password:\"\r\n        android:textStyle=\"bold\" />\r\n\r\n    <androidx.cardview.widget.CardView\r\n        android:backgroundTint=\"@color/card_light_grey\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"50dp\"\r\n        android:layout_marginTop=\"145dp\"\r\n        android:layout_marginStart=\"8dp\"\r\n        android:layout_marginEnd=\"8dp\"\r\n        app:cardCornerRadius=\"16dp\"\r\n        app:cardElevation=\"16dp\">\r\n\r\n        <EditText\r\n            android:inputType=\"textPassword\"\r\n            android:id=\"@+id/editTextCurrentPassword\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_marginStart=\"8dp\"\r\n            android:layout_marginEnd=\"8dp\"/>\r\n\r\n    </androidx.cardview.widget.CardView>\r\n\r\n    <TextView\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_alignParentStart=\"true\"\r\n        android:layout_alignParentTop=\"true\"\r\n        android:layout_marginStart=\"8dp\"\r\n        android:layout_marginTop=\"200dp\"\r\n        android:layout_marginEnd=\"16dp\"\r\n        android:text=\"New Password:\"\r\n        android:textStyle=\"bold\" />\r\n\r\n    <androidx.cardview.widget.CardView\r\n        android:backgroundTint=\"@color/card_light_grey\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"50dp\"\r\n        android:layout_marginTop=\"240dp\"\r\n        android:layout_marginStart=\"8dp\"\r\n        android:layout_marginEnd=\"8dp\"\r\n        app:cardCornerRadius=\"16dp\"\r\n        app:cardElevation=\"16dp\">\r\n\r\n        <EditText\r\n            android:inputType=\"textPassword\"\r\n            android:id=\"@+id/editTextNewPassword\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_marginStart=\"8dp\"\r\n            android:layout_marginEnd=\"8dp\"/>\r\n\r\n    </androidx.cardview.widget.CardView>\r\n\r\n    <TextView\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_alignParentStart=\"true\"\r\n        android:layout_alignParentTop=\"true\"\r\n        android:layout_marginStart=\"8dp\"\r\n        android:layout_marginTop=\"310dp\"\r\n        android:layout_marginEnd=\"16dp\"\r\n        android:text=\"Again New Password:\"\r\n        android:textStyle=\"bold\" />\r\n\r\n    <androidx.cardview.widget.CardView\r\n        android:backgroundTint=\"@color/card_light_grey\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"50dp\"\r\n        android:layout_marginTop=\"340dp\"\r\n        android:layout_marginStart=\"8dp\"\r\n        android:layout_marginEnd=\"8dp\"\r\n        app:cardCornerRadius=\"16dp\"\r\n        app:cardElevation=\"16dp\">\r\n\r\n        <EditText\r\n            android:inputType=\"textPassword\"\r\n            android:id=\"@+id/editTextAgainPassword\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_marginStart=\"8dp\"\r\n            android:layout_marginEnd=\"8dp\"/>\r\n\r\n    </androidx.cardview.widget.CardView>\r\n\r\n    <Button\r\n        android:id=\"@+id/buttonChangePassword\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_alignParentStart=\"true\"\r\n        android:layout_alignParentTop=\"true\"\r\n        android:layout_marginStart=\"8dp\"\r\n        android:backgroundTint=\"@color/button_grey\"\r\n        android:text=\"Change Password\"\r\n        android:textColor=\"@color/black\"\r\n        android:layout_marginEnd=\"8dp\"\r\n        android:layout_marginTop=\"500dp\" />\r\n\r\n</RelativeLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/fragment_change_password.xml	(revision 08fc1e513425963d6e1c29531cb9868ac3afb692)
++++ app/src/main/res/layout/fragment_change_password.xml	(date 1628537933066)
+@@ -29,6 +29,7 @@
+ 
+         <EditText
+             android:inputType="textPassword"
++            tools:text=""
+             android:id="@+id/editTextCurrentPassword"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+@@ -60,6 +61,7 @@
+ 
+         <EditText
+             android:inputType="textPassword"
++            tools:text=""
+             android:id="@+id/editTextNewPassword"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+@@ -91,6 +93,7 @@
+ 
+         <EditText
+             android:inputType="textPassword"
++            tools:text=""
+             android:id="@+id/editTextAgainPassword"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+Index: app/src/main/res/layout/fragment_rate.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<androidx.constraintlayout.widget.ConstraintLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    tools:context=\".ui.rate.RateFragment\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\">\r\n\r\n    <TextView\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_margin=\"24dp\"\r\n        android:gravity=\"center\"\r\n        android:text=\"Rate this order!\"\r\n        android:textSize=\"20dp\"\r\n        android:textStyle=\"bold\"\r\n        app:layout_constraintBottom_toTopOf=\"@+id/oderRatingBar\"\r\n        app:layout_constraintEnd_toEndOf=\"parent\"\r\n        app:layout_constraintHorizontal_bias=\"0.666\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintTop_toTopOf=\"parent\"\r\n        app:layout_constraintVertical_bias=\"0.91\" />\r\n\r\n    <RatingBar\r\n        android:id=\"@+id/oderRatingBar\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_margin=\"24dp\"\r\n        android:isIndicator=\"true\"\r\n        android:numStars=\"5\"\r\n        app:layout_constraintBottom_toBottomOf=\"parent\"\r\n        app:layout_constraintEnd_toEndOf=\"parent\"\r\n        app:layout_constraintHorizontal_bias=\"0.333\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintTop_toTopOf=\"parent\"\r\n        app:layout_constraintVertical_bias=\"0.332\" />\r\n\r\n    <TextView\r\n        android:id=\"@+id/textView4\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_margin=\"24dp\"\r\n        android:gravity=\"center\"\r\n        android:text=\"Write your comments:\"\r\n        android:textSize=\"20dp\"\r\n        android:textStyle=\"bold\"\r\n        app:layout_constraintBottom_toBottomOf=\"parent\"\r\n        app:layout_constraintEnd_toEndOf=\"parent\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintTop_toBottomOf=\"@+id/oderRatingBar\"\r\n        app:layout_constraintVertical_bias=\"0.077\" />\r\n\r\n    <EditText\r\n        android:id=\"@+id/editTextRating\"\r\n        android:layout_margin=\"16dp\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        app:layout_constraintBottom_toBottomOf=\"parent\"\r\n        app:layout_constraintEnd_toEndOf=\"parent\"\r\n        app:layout_constraintHorizontal_bias=\"0.0\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintTop_toBottomOf=\"@+id/textView4\"\r\n        app:layout_constraintVertical_bias=\"0.081\" />\r\n\r\n    <Button\r\n        android:id=\"@+id/buttonSubmitRating\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_margin=\"26dp\"\r\n        android:background=\"@drawable/round_button\"\r\n        android:text=\"Submit Rating\"\r\n        android:textAllCaps=\"false\"\r\n        android:textColor=\"@color/black\"\r\n        app:layout_constraintBottom_toBottomOf=\"parent\"\r\n        app:layout_constraintEnd_toEndOf=\"parent\"\r\n        app:layout_constraintHorizontal_bias=\"0.686\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintTop_toBottomOf=\"@+id/editTextRating\"\r\n        app:layout_constraintVertical_bias=\"0.326\"\r\n        tools:backgroundTint=\"@color/button_grey\" />\r\n\r\n</androidx.constraintlayout.widget.ConstraintLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/fragment_rate.xml	(revision 08fc1e513425963d6e1c29531cb9868ac3afb692)
++++ app/src/main/res/layout/fragment_rate.xml	(date 1628171612108)
+@@ -14,7 +14,7 @@
+         android:text="Rate this order!"
+         android:textSize="20dp"
+         android:textStyle="bold"
+-        app:layout_constraintBottom_toTopOf="@+id/oderRatingBar"
++        app:layout_constraintBottom_toTopOf="@+id/orderRatingBar"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.666"
+         app:layout_constraintStart_toStartOf="parent"
+@@ -22,18 +22,18 @@
+         app:layout_constraintVertical_bias="0.91" />
+ 
+     <RatingBar
+-        android:id="@+id/oderRatingBar"
+-        android:layout_width="match_parent"
+-        android:layout_height="wrap_content"
++        android:id="@+id/orderRatingBar"
++        android:layout_width="241dp"
++        android:layout_height="63dp"
+         android:layout_margin="24dp"
+         android:isIndicator="true"
+         android:numStars="5"
++        android:rating="4"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+-        app:layout_constraintHorizontal_bias="0.333"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+-        app:layout_constraintVertical_bias="0.332" />
++        app:layout_constraintVertical_bias="0.344" />
+ 
+     <TextView
+         android:id="@+id/textView4"
+@@ -47,7 +47,7 @@
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toBottomOf="@+id/oderRatingBar"
++        app:layout_constraintTop_toBottomOf="@+id/orderRatingBar"
+         app:layout_constraintVertical_bias="0.077" />
+ 
+     <EditText
+Index: app/src/main/res/layout/fragment_edit_profile.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    tools:context=\".ui.edit_profile.EditProfileFragment\">\r\n\r\n    <TextView\r\n        android:layout_width=\"103dp\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_alignParentStart=\"true\"\r\n        android:layout_alignParentTop=\"true\"\r\n        android:layout_marginStart=\"154dp\"\r\n        android:layout_marginTop=\"30dp\"\r\n        android:layout_marginEnd=\"16dp\"\r\n        android:text=\"Profile Picture\"\r\n        android:textStyle=\"bold\" />\r\n\r\n    <androidx.cardview.widget.CardView\r\n        android:layout_width=\"125dp\"\r\n        android:layout_height=\"125dp\"\r\n        android:layout_centerHorizontal=\"true\"\r\n        android:layout_marginStart=\"8dp\"\r\n        android:layout_marginTop=\"60dp\"\r\n        android:layout_marginEnd=\"8dp\"\r\n        android:backgroundTint=\"@color/card_light_grey\"\r\n        app:cardCornerRadius=\"16dp\"\r\n        app:cardElevation=\"16dp\">\r\n\r\n        <ImageView\r\n            android:id=\"@+id/EditProfileImageView\"\r\n            android:layout_gravity=\"center\"\r\n            android:layout_width=\"120dp\"\r\n            android:layout_height=\"120dp\"\r\n            android:src=\"@drawable/pizza_imageholder\"/>\r\n\r\n    </androidx.cardview.widget.CardView>\r\n\r\n    <TextView\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_alignParentStart=\"true\"\r\n        android:layout_alignParentTop=\"true\"\r\n        android:layout_marginStart=\"8dp\"\r\n        android:layout_marginTop=\"200dp\"\r\n        android:layout_marginEnd=\"16dp\"\r\n        android:text=\"Name:\"\r\n        android:textStyle=\"bold\" />\r\n\r\n    <androidx.cardview.widget.CardView\r\n        android:backgroundTint=\"@color/card_light_grey\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"40dp\"\r\n        android:layout_marginTop=\"220dp\"\r\n        android:layout_marginStart=\"8dp\"\r\n        android:layout_marginEnd=\"8dp\"\r\n        app:cardCornerRadius=\"16dp\"\r\n        app:cardElevation=\"16dp\">\r\n\r\n        <EditText\r\n            android:inputType=\"text\"\r\n            android:id=\"@+id/editTextName\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_marginStart=\"8dp\"\r\n            android:layout_marginEnd=\"8dp\"/>\r\n\r\n    </androidx.cardview.widget.CardView>\r\n\r\n    <TextView\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_alignParentStart=\"true\"\r\n        android:layout_alignParentTop=\"true\"\r\n        android:layout_marginStart=\"8dp\"\r\n        android:layout_marginTop=\"270dp\"\r\n        android:layout_marginEnd=\"16dp\"\r\n        android:text=\"Surname:\"\r\n        android:textStyle=\"bold\" />\r\n\r\n    <androidx.cardview.widget.CardView\r\n        android:backgroundTint=\"@color/card_light_grey\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"40dp\"\r\n        android:layout_marginTop=\"290dp\"\r\n        android:layout_marginStart=\"8dp\"\r\n        android:layout_marginEnd=\"8dp\"\r\n        app:cardCornerRadius=\"16dp\"\r\n        app:cardElevation=\"16dp\">\r\n\r\n        <EditText\r\n            android:inputType=\"text\"\r\n            android:id=\"@+id/editTextSurname\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_marginStart=\"8dp\"\r\n            android:layout_marginEnd=\"8dp\"/>\r\n\r\n    </androidx.cardview.widget.CardView>\r\n\r\n    <TextView\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_alignParentStart=\"true\"\r\n        android:layout_alignParentTop=\"true\"\r\n        android:layout_marginStart=\"8dp\"\r\n        android:layout_marginTop=\"340dp\"\r\n        android:layout_marginEnd=\"16dp\"\r\n        android:text=\"Email:\"\r\n        android:textStyle=\"bold\" />\r\n\r\n    <androidx.cardview.widget.CardView\r\n        android:backgroundTint=\"@color/card_light_grey\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"40dp\"\r\n        android:layout_marginTop=\"370dp\"\r\n        android:layout_marginStart=\"8dp\"\r\n        android:layout_marginEnd=\"8dp\"\r\n        app:cardCornerRadius=\"16dp\"\r\n        app:cardElevation=\"16dp\">\r\n\r\n        <EditText\r\n            android:inputType=\"textEmailAddress\"\r\n            android:id=\"@+id/editTextEmail\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_marginStart=\"8dp\"\r\n            android:layout_marginEnd=\"8dp\"/>\r\n\r\n    </androidx.cardview.widget.CardView>\r\n\r\n    <TextView\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_alignParentStart=\"true\"\r\n        android:layout_alignParentTop=\"true\"\r\n        android:layout_marginStart=\"8dp\"\r\n        android:layout_marginTop=\"420dp\"\r\n        android:layout_marginEnd=\"16dp\"\r\n        android:text=\"Phone Number:\"\r\n        android:textStyle=\"bold\" />\r\n\r\n    <androidx.cardview.widget.CardView\r\n        android:backgroundTint=\"@color/card_light_grey\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"40dp\"\r\n        android:layout_marginTop=\"440dp\"\r\n        android:layout_marginStart=\"8dp\"\r\n        android:layout_marginEnd=\"8dp\"\r\n        app:cardCornerRadius=\"16dp\"\r\n        app:cardElevation=\"16dp\">\r\n\r\n        <EditText\r\n            android:inputType=\"phone\"\r\n            android:id=\"@+id/editTextPhoneNumber\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_marginStart=\"8dp\"\r\n            android:layout_marginEnd=\"8dp\"/>\r\n\r\n    </androidx.cardview.widget.CardView>\r\n\r\n    <TextView\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_alignParentStart=\"true\"\r\n        android:layout_alignParentTop=\"true\"\r\n        android:layout_marginStart=\"8dp\"\r\n        android:layout_marginTop=\"490dp\"\r\n        android:layout_marginEnd=\"16dp\"\r\n        android:text=\"Profile Picture URL:\"\r\n        android:textStyle=\"bold\" />\r\n\r\n    <androidx.cardview.widget.CardView\r\n        android:backgroundTint=\"@color/card_light_grey\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"40dp\"\r\n        android:layout_marginTop=\"510dp\"\r\n        android:layout_marginStart=\"8dp\"\r\n        android:layout_marginEnd=\"8dp\"\r\n        app:cardCornerRadius=\"16dp\"\r\n        app:cardElevation=\"16dp\">\r\n\r\n        <EditText\r\n            android:id=\"@+id/editTextPPUrl\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_marginStart=\"8dp\"\r\n            android:layout_marginEnd=\"8dp\"/>\r\n\r\n    </androidx.cardview.widget.CardView>\r\n\r\n    <Button\r\n        android:id=\"@+id/buttonChangePasswordNavigation\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_alignParentStart=\"true\"\r\n        android:layout_alignParentTop=\"true\"\r\n        android:layout_marginStart=\"8dp\"\r\n        android:backgroundTint=\"@color/button_grey\"\r\n        android:text=\"Change Password\"\r\n        android:textAllCaps=\"false\"\r\n        android:textColor=\"@color/black\"\r\n        android:layout_marginEnd=\"8dp\"\r\n        android:layout_marginTop=\"580dp\" />\r\n\r\n    <Button\r\n        android:id=\"@+id/buttonUpdateProfile\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_alignParentStart=\"true\"\r\n        android:layout_alignParentTop=\"true\"\r\n        android:layout_marginStart=\"8dp\"\r\n        android:backgroundTint=\"@color/button_grey\"\r\n        android:textAllCaps=\"false\"\r\n        android:text=\"Update Profile\"\r\n        android:textColor=\"@color/black\"\r\n        android:layout_marginEnd=\"8dp\"\r\n        android:layout_marginTop=\"650dp\" />\r\n\r\n</RelativeLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/fragment_edit_profile.xml	(revision 08fc1e513425963d6e1c29531cb9868ac3afb692)
++++ app/src/main/res/layout/fragment_edit_profile.xml	(date 1628537933037)
+@@ -61,6 +61,7 @@
+         <EditText
+             android:inputType="text"
+             android:id="@+id/editTextName"
++            tools:text="Name"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="8dp"
+@@ -92,6 +93,7 @@
+         <EditText
+             android:inputType="text"
+             android:id="@+id/editTextSurname"
++            tools:text="Surname"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="8dp"
+@@ -123,6 +125,7 @@
+         <EditText
+             android:inputType="textEmailAddress"
+             android:id="@+id/editTextEmail"
++            tools:text="mail@mail.com"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="8dp"
+@@ -154,6 +157,7 @@
+         <EditText
+             android:inputType="phone"
+             android:id="@+id/editTextPhoneNumber"
++            tools:text="01234567890"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="8dp"
+@@ -184,6 +188,7 @@
+ 
+         <EditText
+             android:id="@+id/editTextPPUrl"
++            tools:text="https://www.picurl.com"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="8dp"
+Index: app/src/main/java/com/kodluyoruz/yahnifood/ui/change_password/ChangePasswordFragment.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.kodluyoruz.yahnifood.ui.change_password\r\n\r\nimport android.os.Bundle\r\nimport android.view.LayoutInflater\r\nimport android.view.View\r\nimport android.view.ViewGroup\r\nimport androidx.navigation.fragment.findNavController\r\nimport com.kodluyoruz.yahnifood.databinding.FragmentChangePasswordBinding\r\nimport com.kodluyoruz.yahnifood.ui.base.BaseFragment\r\n\r\n\r\nclass ChangePasswordFragment : BaseFragment() {\r\n\r\n    private lateinit var binding: FragmentChangePasswordBinding\r\n\r\n    override fun onCreateView(\r\n        inflater: LayoutInflater,\r\n        container: ViewGroup?,\r\n        savedInstanceState: Bundle?\r\n    ): View? {\r\n        binding = FragmentChangePasswordBinding.inflate(inflater, container, false)\r\n        return binding.root\r\n    }\r\n\r\n    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {\r\n        super.onViewCreated(view, savedInstanceState)\r\n\r\n        initViews()\r\n    }\r\n    private fun initViews() {\r\n\r\n        binding.buttonChangePassword.setOnClickListener {\r\n            findNavController().navigate(ChangePasswordFragmentDirections.actionChangePasswordFragmentToEditProfileFragment2())\r\n        }\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/kodluyoruz/yahnifood/ui/change_password/ChangePasswordFragment.kt	(revision 08fc1e513425963d6e1c29531cb9868ac3afb692)
++++ app/src/main/java/com/kodluyoruz/yahnifood/ui/change_password/ChangePasswordFragment.kt	(date 1628545739944)
+@@ -4,14 +4,17 @@
+ import android.view.LayoutInflater
+ import android.view.View
+ import android.view.ViewGroup
++import androidx.fragment.app.viewModels
+ import androidx.navigation.fragment.findNavController
+ import com.kodluyoruz.yahnifood.databinding.FragmentChangePasswordBinding
+ import com.kodluyoruz.yahnifood.ui.base.BaseFragment
++import dagger.hilt.android.AndroidEntryPoint
+ 
+-
++@AndroidEntryPoint
+ class ChangePasswordFragment : BaseFragment() {
+ 
+     private lateinit var binding: FragmentChangePasswordBinding
++    private val viewModel: ChangePasswordViewModel by viewModels()
+ 
+     override fun onCreateView(
+         inflater: LayoutInflater,
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"GradleMigrationSettings\" migrationVersion=\"1\" />\r\n  <component name=\"GradleSettings\">\r\n    <option name=\"linkedExternalProjectsSettings\">\r\n      <GradleProjectSettings>\r\n        <option name=\"testRunner\" value=\"GRADLE\" />\r\n        <option name=\"distributionType\" value=\"DEFAULT_WRAPPED\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"modules\">\r\n          <set>\r\n            <option value=\"$PROJECT_DIR$\" />\r\n            <option value=\"$PROJECT_DIR$/app\" />\r\n          </set>\r\n        </option>\r\n        <option name=\"resolveModulePerSourceSet\" value=\"false\" />\r\n      </GradleProjectSettings>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/gradle.xml	(revision 08fc1e513425963d6e1c29531cb9868ac3afb692)
++++ .idea/gradle.xml	(date 1628462333088)
+@@ -4,7 +4,7 @@
+   <component name="GradleSettings">
+     <option name="linkedExternalProjectsSettings">
+       <GradleProjectSettings>
+-        <option name="testRunner" value="GRADLE" />
++        <option name="testRunner" value="PLATFORM" />
+         <option name="distributionType" value="DEFAULT_WRAPPED" />
+         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+         <option name="modules">
+Index: app/src/main/res/layout/order_history_item.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<androidx.cardview.widget.CardView xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"wrap_content\"\r\n    android:layout_margin=\"8dp\"\r\n    app:cardCornerRadius=\"16dp\"\r\n    android:backgroundTint=\"@color/card_grey\"\r\n    app:cardElevation=\"16dp\">\r\n\r\n    <androidx.constraintlayout.widget.ConstraintLayout\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"100dp\">\r\n\r\n        <ImageView\r\n            android:id=\"@+id/starIconIV\"\r\n            android:layout_width=\"40dp\"\r\n            android:layout_height=\"40dp\"\r\n            android:background=\"@drawable/ic_star\"\r\n            app:layout_constraintBottom_toBottomOf=\"parent\"\r\n            app:layout_constraintEnd_toEndOf=\"parent\"\r\n            app:layout_constraintHorizontal_bias=\"0.157\"\r\n            app:layout_constraintStart_toStartOf=\"parent\"\r\n            app:layout_constraintTop_toTopOf=\"parent\"\r\n            app:layout_constraintVertical_bias=\"0.491\" />\r\n\r\n        <TextView\r\n            android:id=\"@+id/restaurantNameTV\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_marginStart=\"16dp\"\r\n            android:layout_marginTop=\"8dp\"\r\n            android:textColor=\"@color/black\"\r\n            android:textStyle=\"bold\"\r\n            app:layout_constraintBottom_toTopOf=\"@+id/starIconIV\"\r\n            app:layout_constraintStart_toEndOf=\"@+id/starIconIV\"\r\n            app:layout_constraintTop_toTopOf=\"parent\"\r\n            app:layout_constraintVertical_bias=\"0.0\"\r\n            tools:text=\"Burger King\" />\r\n\r\n        <TextView\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:text=\"4\"\r\n            android:textColor=\"@color/black\"\r\n            android:textSize=\"30dp\"\r\n            android:textStyle=\"bold\"\r\n            app:layout_constraintBottom_toBottomOf=\"parent\"\r\n            app:layout_constraintEnd_toStartOf=\"@+id/textView2\"\r\n            app:layout_constraintHorizontal_bias=\"1.0\"\r\n            app:layout_constraintStart_toStartOf=\"parent\"\r\n            app:layout_constraintTop_toTopOf=\"parent\" />\r\n\r\n        <TextView\r\n            android:id=\"@+id/textView2\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:text=\"/5\"\r\n            android:textColor=\"@color/black\"\r\n            android:textSize=\"30dp\"\r\n            android:textStyle=\"bold\"\r\n            app:layout_constraintBottom_toBottomOf=\"parent\"\r\n            app:layout_constraintEnd_toStartOf=\"@+id/starIconIV\"\r\n            app:layout_constraintTop_toTopOf=\"parent\" />\r\n\r\n        <TextView\r\n            android:id=\"@+id/addressDistrictTV\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_marginStart=\"8dp\"\r\n            android:textColor=\"@color/black\"\r\n            android:textStyle=\"bold\"\r\n            app:layout_constraintBottom_toBottomOf=\"parent\"\r\n            app:layout_constraintEnd_toEndOf=\"parent\"\r\n            app:layout_constraintHorizontal_bias=\"0.0\"\r\n            app:layout_constraintStart_toEndOf=\"@+id/restaurantNameTV\"\r\n            app:layout_constraintTop_toTopOf=\"parent\"\r\n            app:layout_constraintVertical_bias=\"0.102\"\r\n            tools:text=\"(Kadıköy, Caferağa)\" />\r\n\r\n        <TextView\r\n            android:id=\"@+id/price_textView\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_marginStart=\"16dp\"\r\n            android:layout_marginTop=\"8dp\"\r\n            android:layout_marginEnd=\"16dp\"\r\n            android:layout_marginBottom=\"8dp\"\r\n            android:textColor=\"@color/black\"\r\n            app:layout_constraintBottom_toBottomOf=\"parent\"\r\n            app:layout_constraintEnd_toEndOf=\"parent\"\r\n            app:layout_constraintHorizontal_bias=\"0.0\"\r\n            app:layout_constraintStart_toEndOf=\"@+id/starIconIV\"\r\n            app:layout_constraintTop_toBottomOf=\"@+id/addressDistrictTV\"\r\n            app:layout_constraintVertical_bias=\"0.114\"\r\n            tools:text=\"45,20TL\" />\r\n\r\n        <TextView\r\n            android:id=\"@+id/dateTV\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_marginEnd=\"16dp\"\r\n            android:text=\"27-07-2021\"\r\n            android:textSize=\"10dp\"\r\n            app:layout_constraintBottom_toBottomOf=\"parent\"\r\n            app:layout_constraintEnd_toEndOf=\"parent\"\r\n            app:layout_constraintTop_toTopOf=\"parent\"\r\n            app:layout_constraintVertical_bias=\"0.096\" />\r\n\r\n        <TextView\r\n            android:id=\"@+id/timeTV\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:text=\"19:35\"\r\n            android:textSize=\"10dp\"\r\n            app:layout_constraintBottom_toBottomOf=\"parent\"\r\n            app:layout_constraintEnd_toEndOf=\"parent\"\r\n            app:layout_constraintHorizontal_bias=\"0.927\"\r\n            app:layout_constraintStart_toStartOf=\"parent\"\r\n            app:layout_constraintTop_toBottomOf=\"@+id/dateTV\"\r\n            app:layout_constraintVertical_bias=\"0.081\" />\r\n\r\n        <com.google.android.material.button.MaterialButton\r\n            android:id=\"@+id/buttonDetails\"\r\n            android:layout_width=\"80dp\"\r\n            android:layout_height=\"30dp\"\r\n            android:background=\"@drawable/round_button\"\r\n            android:text=\"Details\"\r\n            android:textAllCaps=\"false\"\r\n            android:textColor=\"@color/black\"\r\n            android:textSize=\"10dp\"\r\n            android:textStyle=\"bold\"\r\n            app:layout_constraintBottom_toBottomOf=\"parent\"\r\n            app:layout_constraintEnd_toEndOf=\"parent\"\r\n            app:layout_constraintHorizontal_bias=\"0.949\"\r\n            app:layout_constraintStart_toStartOf=\"parent\"\r\n            app:layout_constraintTop_toTopOf=\"parent\"\r\n            app:layout_constraintVertical_bias=\"0.901\"\r\n            tools:backgroundTint=\"@color/white\" />\r\n\r\n        <com.google.android.material.button.MaterialButton\r\n            android:id=\"@+id/buttonRate\"\r\n            android:layout_width=\"80dp\"\r\n            android:layout_height=\"30dp\"\r\n            android:layout_alignParentEnd=\"true\"\r\n            android:layout_alignParentBottom=\"true\"\r\n            android:background=\"@drawable/round_button\"\r\n            android:textAllCaps=\"false\"\r\n            android:textColor=\"@color/black\"\r\n            android:textSize=\"10sp\"\r\n            android:text=\"Rate\"\r\n            android:textStyle=\"bold\"\r\n            app:backgroundTint=\"@color/white\"\r\n            app:layout_constraintBottom_toBottomOf=\"parent\"\r\n            app:layout_constraintEnd_toStartOf=\"@+id/buttonDetails\"\r\n            app:layout_constraintHorizontal_bias=\"0.94\"\r\n            app:layout_constraintVertical_bias=\"0.91\"\r\n            app:layout_constraintStart_toStartOf=\"parent\"\r\n            app:layout_constraintTop_toTopOf=\"parent\" />\r\n\r\n    </androidx.constraintlayout.widget.ConstraintLayout>\r\n</androidx.cardview.widget.CardView>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/order_history_item.xml	(revision 08fc1e513425963d6e1c29531cb9868ac3afb692)
++++ app/src/main/res/layout/order_history_item.xml	(date 1628511799917)
+@@ -40,6 +40,7 @@
+             tools:text="Burger King" />
+ 
+         <TextView
++            android:id="@+id/orderRate_tv"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="4"
+Index: app/src/main/res/layout/fragment_order_details.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<androidx.cardview.widget.CardView xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:backgroundTint=\"@color/card_light_grey\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"500dp\"\r\n    android:layout_marginTop=\"10dp\"\r\n    android:layout_marginStart=\"8dp\"\r\n    android:layout_marginEnd=\"8dp\"\r\n    app:cardCornerRadius=\"16dp\"\r\n    app:cardElevation=\"16dp\"\r\n    tools:context=\".ui.order_details.OrderDetailsFragment\">\r\n\r\n    <TextView\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_margin=\"16dp\"\r\n        android:text=\"Order ID:\"\r\n        android:textStyle=\"bold\" />\r\n\r\n    <TextView\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginTop=\"40dp\"\r\n        android:layout_marginStart=\"16dp\"\r\n        android:text=\"00001\"\r\n        android:textStyle=\"normal\" />\r\n\r\n    <LinearLayout\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginTop=\"44dp\"\r\n        android:layout_marginStart=\"8dp\"\r\n        android:layout_marginEnd=\"8dp\"\r\n        android:background=\"@drawable/line\"/>\r\n\r\n    <TextView\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginTop=\"80dp\"\r\n        android:layout_marginStart=\"16dp\"\r\n        android:text=\"Order Date:\"\r\n        android:textStyle=\"bold\" />\r\n\r\n    <TextView\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginTop=\"104dp\"\r\n        android:layout_marginStart=\"16dp\"\r\n        android:text=\"12-06-2021\"\r\n        android:textStyle=\"normal\" />\r\n\r\n    <LinearLayout\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginTop=\"110dp\"\r\n        android:layout_marginStart=\"8dp\"\r\n        android:layout_marginEnd=\"8dp\"\r\n        android:background=\"@drawable/line\"/>\r\n\r\n    <TextView\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginTop=\"140dp\"\r\n        android:layout_marginStart=\"16dp\"\r\n        android:text=\"Delivery Address:\"\r\n        android:textStyle=\"bold\" />\r\n\r\n    <TextView\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginTop=\"170dp\"\r\n        android:layout_marginStart=\"16dp\"\r\n        android:text=\"Hasanpaşa Mah. Çınar Sokak. Nergis Apt. No:1 Daire:5\"\r\n        android:textStyle=\"normal\" />\r\n\r\n    <LinearLayout\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginTop=\"180dp\"\r\n        android:layout_marginStart=\"8dp\"\r\n        android:layout_marginEnd=\"8dp\"\r\n        android:background=\"@drawable/thick_line\"/>\r\n\r\n    <LinearLayout\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginTop=\"390dp\"\r\n        android:layout_marginStart=\"8dp\"\r\n        android:layout_marginEnd=\"8dp\"\r\n        android:background=\"@drawable/thick_line\"/>\r\n\r\n    <TextView\r\n        android:layout_width=\"56dp\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginStart=\"16dp\"\r\n        android:layout_marginTop=\"420dp\"\r\n        android:text=\"Rating:\"\r\n        android:textStyle=\"bold\" />\r\n\r\n    <TextView\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginStart=\"80dp\"\r\n        android:layout_marginTop=\"420dp\"\r\n        android:text=\"4\"\r\n        android:textStyle=\"bold\" />\r\n\r\n    <ImageView\r\n        android:src=\"@drawable/ic_star\"\r\n        android:layout_marginStart=\"90dp\"\r\n        android:layout_marginTop=\"422dp\"\r\n        android:layout_width=\"16dp\"\r\n        android:layout_height=\"16dp\" />\r\n\r\n    <TextView\r\n        android:layout_width=\"56dp\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginStart=\"16dp\"\r\n        android:layout_marginTop=\"450dp\"\r\n        android:text=\"Review:\"\r\n        android:textStyle=\"bold\" />\r\n\r\n    <TextView\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginStart=\"80dp\"\r\n        android:layout_marginTop=\"450dp\"\r\n        android:text=\"Güzeldi, hızlı ve sıcak geldi.\"\r\n        android:textStyle=\"normal\" />\r\n\r\n</androidx.cardview.widget.CardView>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/fragment_order_details.xml	(revision 08fc1e513425963d6e1c29531cb9868ac3afb692)
++++ app/src/main/res/layout/fragment_order_details.xml	(date 1628511799929)
+@@ -20,6 +20,7 @@
+         android:textStyle="bold" />
+ 
+     <TextView
++        android:id="@+id/orderID_tv"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="40dp"
+@@ -36,6 +37,7 @@
+         android:background="@drawable/line"/>
+ 
+     <TextView
++        android:id="@+id/orderDate_tv"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="80dp"
+@@ -68,6 +70,7 @@
+         android:textStyle="bold" />
+ 
+     <TextView
++        android:id="@+id/orderAddress_tv"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="170dp"
+@@ -100,6 +103,7 @@
+         android:textStyle="bold" />
+ 
+     <TextView
++        android:id="@+id/orderRate_tv"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginStart="80dp"
+@@ -123,6 +127,7 @@
+         android:textStyle="bold" />
+ 
+     <TextView
++        android:id="@+id/orderReview_tv"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginStart="80dp"
+Index: app/src/main/res/layout/fragment_order_history.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<androidx.constraintlayout.widget.ConstraintLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    tools:context=\".ui.order_history.OrderHistoryFragment\" >\r\n\r\n    <androidx.recyclerview.widget.RecyclerView\r\n        android:id=\"@+id/addressListRV\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        app:layout_constraintEnd_toEndOf=\"parent\"\r\n        app:layout_constraintStart_toStartOf=\"parent\"\r\n        app:layout_constraintTop_toTopOf=\"parent\" />\r\n\r\n</androidx.constraintlayout.widget.ConstraintLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/fragment_order_history.xml	(revision 08fc1e513425963d6e1c29531cb9868ac3afb692)
++++ app/src/main/res/layout/fragment_order_history.xml	(date 1628512067002)
+@@ -7,7 +7,7 @@
+     tools:context=".ui.order_history.OrderHistoryFragment" >
+ 
+     <androidx.recyclerview.widget.RecyclerView
+-        android:id="@+id/addressListRV"
++        android:id="@+id/orderList_RV"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         app:layout_constraintEnd_toEndOf="parent"
+Index: app/src/main/java/com/kodluyoruz/yahnifood/ui/profile/ProfileViewPagerAdapter.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.kodluyoruz.yahnifood.ui.profile\r\n\r\nimport androidx.fragment.app.Fragment\r\nimport androidx.fragment.app.FragmentActivity\r\nimport androidx.viewpager2.adapter.FragmentStateAdapter\r\nimport com.kodluyoruz.yahnifood.ui.order_history.OrderHistoryFragment\r\nimport com.kodluyoruz.yahnifood.ui.address_list.AddressListFragment\r\n\r\nprivate const val FRAGMENT_COUNT = 2\r\n\r\nclass ProfileViewPagerAdapter(activity: FragmentActivity) : FragmentStateAdapter(activity) {\r\n    override fun getItemCount(): Int = FRAGMENT_COUNT\r\n\r\n    override fun createFragment(position: Int): Fragment {\r\n        return when(position){\r\n            0 -> OrderHistoryFragment()\r\n            1 -> AddressListFragment()\r\n            else -> AddressListFragment()\r\n        }\r\n    }\r\n\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/kodluyoruz/yahnifood/ui/profile/ProfileViewPagerAdapter.kt	(revision 08fc1e513425963d6e1c29531cb9868ac3afb692)
++++ app/src/main/java/com/kodluyoruz/yahnifood/ui/profile/ProfileViewPagerAdapter.kt	(date 1628464945815)
+@@ -18,5 +18,4 @@
+             else -> AddressListFragment()
+         }
+     }
+-
+ }
+\ No newline at end of file
+Index: app/src/main/java/com/kodluyoruz/yahnifood/ui/order_history/OrderHistoryFragment.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.kodluyoruz.yahnifood.ui.order_history\r\n\r\nimport android.os.Bundle\r\nimport android.view.LayoutInflater\r\nimport android.view.View\r\nimport android.view.ViewGroup\r\nimport com.kodluyoruz.yahnifood.ui.base.BaseFragment\r\n\r\nclass OrderHistoryFragment: BaseFragment() {\r\n\r\n    override fun onCreateView(\r\n        inflater: LayoutInflater,\r\n        container: ViewGroup?,\r\n        savedInstanceState: Bundle?\r\n    ): View? {\r\n        return super.onCreateView(inflater, container, savedInstanceState)\r\n    }\r\n\r\n    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {\r\n        super.onViewCreated(view, savedInstanceState)\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/kodluyoruz/yahnifood/ui/order_history/OrderHistoryFragment.kt	(revision 08fc1e513425963d6e1c29531cb9868ac3afb692)
++++ app/src/main/java/com/kodluyoruz/yahnifood/ui/order_history/OrderHistoryFragment.kt	(date 1628546589065)
+@@ -4,10 +4,19 @@
+ import android.view.LayoutInflater
+ import android.view.View
+ import android.view.ViewGroup
++import androidx.fragment.app.viewModels
++import androidx.recyclerview.widget.LinearLayoutManager
++import com.kodluyoruz.yahnifood.databinding.FragmentOrderHistoryBinding
+ import com.kodluyoruz.yahnifood.ui.base.BaseFragment
++import com.kodluyoruz.yahnifood.utils.Resource
+ 
+ class OrderHistoryFragment: BaseFragment() {
+ 
++    private lateinit var binding: FragmentOrderHistoryBinding
++    private val adapter = OrderHistoryListAdapter()
++    private val viewModel: OrderHistoryViewModel by viewModels()
++    private val user_id = 1
++
+     override fun onCreateView(
+         inflater: LayoutInflater,
+         container: ViewGroup?,
+@@ -18,5 +27,29 @@
+ 
+     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+         super.onViewCreated(view, savedInstanceState)
++
++        binding.orderListRV.layoutManager = LinearLayoutManager(context)
++        binding.orderListRV.adapter = adapter
++
++
++        /*viewModel.getUser(user_id).observe(viewLifecycleOwner,{
++
++            when(it.status){
++
++                Resource.Status.LOADING -> {
++
++                }
++                Resource.Status.SUCCESS -> {
++
++                    it.data?.get(0)?.id?.let { it1 -> adapter.setDataset(it1) }
++
++                }
++                Resource.Status.ERROR -> {
++
++                }
++
++            }
++
++        })*/
+     }
+ }
+\ No newline at end of file
+Index: app/src/main/java/com/kodluyoruz/yahnifood/ui/profile/ProfileFragment.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.kodluyoruz.yahnifood.ui.profile\r\n\r\nimport android.os.Bundle\r\nimport android.view.LayoutInflater\r\nimport android.view.View\r\nimport android.view.ViewGroup\r\nimport androidx.navigation.fragment.findNavController\r\nimport com.kodluyoruz.yahnifood.databinding.FragmentProfileBinding\r\nimport com.kodluyoruz.yahnifood.ui.base.BaseFragment\r\n\r\n\r\nclass ProfileFragment : BaseFragment() {\r\n\r\n    private lateinit var binding: FragmentProfileBinding\r\n\r\n\r\n    override fun onCreateView(\r\n        inflater: LayoutInflater,\r\n        container: ViewGroup?,\r\n        savedInstanceState: Bundle?\r\n    ): View? {\r\n        binding = FragmentProfileBinding.inflate(inflater, container, false)\r\n        return binding.root\r\n    }\r\n\r\n    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {\r\n        super.onViewCreated(view, savedInstanceState)\r\n\r\n        initViews()\r\n    }\r\n\r\n    private fun initViews() {\r\n\r\n        binding.buttonEditProfile.setOnClickListener {\r\n            findNavController().navigate(ProfileFragmentDirections.actionProfileFragment2ToEditProfileFragment2())\r\n        }\r\n    }\r\n\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/kodluyoruz/yahnifood/ui/profile/ProfileFragment.kt	(revision 08fc1e513425963d6e1c29531cb9868ac3afb692)
++++ app/src/main/java/com/kodluyoruz/yahnifood/ui/profile/ProfileFragment.kt	(date 1628540261868)
+@@ -4,15 +4,26 @@
+ import android.view.LayoutInflater
+ import android.view.View
+ import android.view.ViewGroup
++import android.widget.TextView
++import androidx.appcompat.app.AppCompatActivity
++import androidx.fragment.app.viewModels
+ import androidx.navigation.fragment.findNavController
++import androidx.viewpager2.widget.ViewPager2
++import com.kodluyoruz.yahnifood.data.entity.UsersItem
+ import com.kodluyoruz.yahnifood.databinding.FragmentProfileBinding
+ import com.kodluyoruz.yahnifood.ui.base.BaseFragment
++import dagger.hilt.android.AndroidEntryPoint
+ 
+-
++@AndroidEntryPoint
+ class ProfileFragment : BaseFragment() {
+ 
++    private val viewModel: ProfileViewModel by viewModels()
+     private lateinit var binding: FragmentProfileBinding
+-
++    private lateinit var viewPagerProfile: ViewPager2
++    private lateinit var user: UsersItem
++    //private lateinit var nameTextView: TextView
++    //private lateinit var surnameTextView: TextView
++    //private lateinit var emailTextView: TextView
+ 
+     override fun onCreateView(
+         inflater: LayoutInflater,
+@@ -27,13 +38,38 @@
+         super.onViewCreated(view, savedInstanceState)
+ 
+         initViews()
++        initViewPager()
++        //initUser()
+     }
+ 
+     private fun initViews() {
+ 
++        //viewpager
++        viewPagerProfile = binding.viewPagerProfile
++        viewPagerProfile.adapter = ProfileViewPagerAdapter(activity as AppCompatActivity)
++
++        //profile button navigation
+         binding.buttonEditProfile.setOnClickListener {
+             findNavController().navigate(ProfileFragmentDirections.actionProfileFragment2ToEditProfileFragment2())
+         }
+     }
+ 
+-}
+\ No newline at end of file
++    /*private fun initUser() {
++        val name = binding.NameTextView.text
++        val surname = binding.SurnameTextView.text
++        val email= binding.EmailTextView.text
++
++        viewModel.getUser(user_id = 1).observe(viewLifecycleOwner,{
++            //user.surname = surname
++            //user.email = email
++            //surnameTextView.text = user.surname
++            //emailTextView.text = user.email
++        })
++    }*/
++
++    private fun initViewPager() {
++        val adapter = ProfileViewPagerAdapter(requireActivity())
++        viewPagerProfile.adapter = adapter
++    }
++
++}

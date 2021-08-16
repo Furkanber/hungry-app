@@ -1,0 +1,276 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "furkan@hungryapp.com",
+      "password": "123456",
+      "name": "Furkan",
+      "surname": "Kanber",
+      "phone_number": "+905123456789",
+      "address_list": [
+        {
+          "title": "Home",
+          "city": "Istanbul",
+          "district": "Kadikoy",
+          "address": "Sogutlucesme No:456",
+          "add_date": "2021-27-07 19:35",
+          "last_update": "2021-27-07 19:35"
+        },
+        {
+          "title": "Work",
+          "city": "Istanbul",
+          "district": "Maslak",
+          "address": "Kolektif House No:14/4",
+          "add_date": "2021-27-07 19:35",
+          "last_update": "2021-27-07 19:35"
+        }
+      ],
+      "photo_url": "user.png"
+    },
+    {
+      "id": 2,
+      "email": "ipek@gmail.com",
+      "password": "ipek1234",
+      "name": "İpek",
+      "surname": "Akkuzu",
+      "phone_number": "+905987652143",
+      "address_list": [
+        {
+          "title": "Home Pendik",
+          "city": "Istanbul",
+          "district": "Pendik",
+          "address": "Elitside No:23",
+          "add_date": "2021-27-07 19:35",
+          "last_update": "2021-27-07 19:35"
+        }
+      ],
+      "photo_url": "user.png"
+    },
+    {
+      "id": 3,
+      "email": "engin@hotmail.com",
+      "name": "Engin",
+      "password": "EnGinGul1996",
+      "phone_number": "+90559998844",
+      "photo_url": "user.png",
+      "surname": "Gul",
+      "address_list": []
+    }
+  ],
+  "restaurants": [
+    {
+      "address": {
+        "add_date": "2021-27-07 19:35",
+        "address": "Moda No:23",
+        "city": "Istanbul",
+        "district": "Kadikoy",
+        "last_update": "2021-27-07 19:35",
+        "title": "Company Address"
+      },
+      "average_delivery_time": 30,
+      "id": 2,
+      "menu": [
+        {
+          "food_id": 1,
+          "ingredients": "Tomato,Lettuce,Ketchup,Mayo,Pickles,Cheddar",
+          "name": "Cheeseburger",
+          "photo_url": "https://cdn.firsatbufirsat.com/files/images/deal-image/image/1200x1200/609/6090094_59a5.jpg?r=2",
+          "price": 40.00
+        },
+        {
+          "food_id": 2,
+          "ingredients": "Pizza Sauce,Mozeralla,Pepperoni,Sausage,Pepper,Mushroom",
+          "name": "Small Size Pizza",
+          "photo_url": "https://www.livashop.com/Uploads/UrunResimleri/buyuk/karisik-pizza-e7f8.jpg",
+          "price": 32.0
+        },
+        {
+          "food_id": 3,
+          "ingredients": "Pizza Sauce,Mozeralla,Pepperoni,Bell Pepper,Mushroom,Sweetcorn",
+          "name": "Middle Size Pizza",
+          "photo_url": "https://www.livashop.com/Uploads/UrunResimleri/buyuk/karisik-pizza-e7f8.jpg",
+          "price": 42.0
+        },
+        {
+          "food_id": 4,
+          "ingredients": "Pizza Sauce,Mozeralla,Pepperoni,Sausage,Pepper,Mushroom",
+          "name": "Large Size Pizza",
+          "photo_url": "https://www.livashop.com/Uploads/UrunResimleri/buyuk/karisik-pizza-e7f8.jpg",
+          "price": 58.0
+        }
+      ],
+      "min_order": 30,
+      "name": "Burger King",
+      "owner": {
+        "email": "ali@burgerking.com",
+        "name": "Ali",
+        "password": "123123",
+        "phone_number": "+905566874523",
+        "surname": "Kaya"
+      },
+      "phone_number": "4441234",
+      "photo_url": "user.png",
+      "point": 4,
+      "review": "Not good."
+    },
+    {
+      "address": {
+        "add_date": "Wed Aug 11 19:32:36 GMT 2021",
+        "address": "Yunus Emre Mh. ",
+        "city": "Izmir",
+        "district": "Karabaglar",
+        "last_update": "Wed Aug 11 19:32:36 GMT 2021",
+        "title": "Company Address"
+      },
+      "average_delivery_time": 10,
+      "menu": [],
+      "min_order": 20,
+      "name": "Doner Kebab",
+      "owner": {
+        "email": "",
+        "name": "",
+        "password": "",
+        "phone_number": "",
+        "surname": ""
+      },
+      "phone_number": "+095341111111",
+      "photo_url": "",
+      "point": 5,
+      "review": "Super!",
+      "id": 12312344
+    },
+    {
+      "address": {
+        "add_date": "Wed Aug 11 19:36:05 GMT 2021",
+        "address": "",
+        "city": "Istanbul",
+        "district": "Kadiköy",
+        "last_update": "Wed Aug 11 19:36:05 GMT 2021",
+        "title": "Company Address"
+      },
+      "average_delivery_time": 10,
+      "menu": [],
+      "min_order": 20,
+      "name": "Donuts World",
+      "owner": {
+        "email": "",
+        "name": "",
+        "password": "",
+        "phone_number": "",
+        "surname": ""
+      },
+      "phone_number": "+902122222222",
+      "photo_url": "",
+      "point": 5,
+      "review": "Great!",
+      "id": 12312345
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "restaurant_id": 1,
+      "user_id": 1,
+      "date": "2021-27-07 19:35",
+      "note": "No pickles",
+      "status": 3,
+      "order_food_list": [
+        {
+          "id": 1,
+          "food_id": 1,
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "date": "",
+      "id": 2,
+      "note": "",
+      "order_food_list": [
+        {
+          "food_id": 1,
+          "id": 2,
+          "quantity": 1
+        }
+      ],
+      "restaurant_id": 1,
+      "status": 3,
+      "user_id": 1
+    },
+    {
+      "date": "",
+      "note": "Extra sweetcorn",
+      "order_food_list": [
+        {
+          "food_id": 4,
+          "id": 2,
+          "quantity": 2
+        }
+      ],
+      "restaurant_id": 1,
+      "status": 3,
+      "user_id": 1,
+      "id": 3
+    },
+    {
+      "date": "2021.08.11 AD at 16:13:26 GMT",
+      "note": "Extra bell pepper",
+      "order_food_list": [
+        {
+          "food_id": 3,
+          "id": 2,
+          "quantity": 1
+        }
+      ],
+      "restaurant_id": 1,
+      "status": 3,
+      "user_id": 1,
+      "id": 4
+    },
+    {
+      "date": "2021.08.11 AD at 16:14:37 GMT",
+      "note": "Fast delivery please",
+      "order_food_list": [
+        {
+          "food_id": 2,
+          "id": 2,
+          "quantity": 1
+        }
+      ],
+      "restaurant_id": 2,
+      "status": 3,
+      "user_id": 1,
+      "id": 5
+    },
+    {
+      "date": "2021.08.11 AD at 19:57:07 GMT",
+      "note": "Be fast!",
+      "order_food_list": [
+        {
+          "food_id": 1,
+          "id": 2,
+          "quantity": 1
+        }
+      ],
+      "restaurant_id": 2,
+      "status": 3,
+      "user_id": 3,
+      "id": 6
+    },
+    {
+      "date": "2021.08.11 AD at 20:08:43 GMT",
+      "note": "No plastic fork & knife!",
+      "order_food_list": [
+        {
+          "food_id": 2,
+          "id": 2,
+          "quantity": 1
+        }
+      ],
+      "restaurant_id": 2,
+      "status": 3,
+      "user_id": 3,
+      "id": 7
+    }
+  ]
+}
