@@ -14,115 +14,16 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8f41408-4f97-4a78-9d3b-753d21c7f46d" name="Default Changelist" comment="update ui and viewmodels">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/entity/OrdersResponse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/entity/RestaurantsResponse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/entity/UsersResponse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/utils/Constants.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/utils/IMealOnClick.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/kodluyoruz/yahnifood/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/kodluyoruz/hungryapp/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/YahniApp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/HungryApp.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/ApiRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/ApiRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/entity/Address.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/entity/Address.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/entity/Menu.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/entity/Menu.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/entity/OrderFood.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/entity/OrderFood.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/entity/OrdersItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/entity/OrdersItem.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/entity/OrdersResponse.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/entity/Owner.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/entity/Owner.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/entity/RestaurantsItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/entity/RestaurantsItem.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/entity/RestaurantsResponse.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/entity/UsersItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/entity/UsersItem.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/entity/UsersResponse.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/entity/dtos/OrderDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/entity/dtos/OrderDto.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/entity/dtos/RestaurantDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/entity/dtos/RestaurantDto.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/entity/dtos/UserDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/entity/dtos/UserDto.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/local/LocalDataSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/local/LocalDataSource.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/local/SharedPrefManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/local/SharedPrefManager.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/remote/ApiService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/remote/ApiService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/data/remote/RemoteDataSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/data/remote/RemoteDataSource.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/di/DatabaseModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/di/DatabaseModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/di/NetworkModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/di/NetworkModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/add_address/AddAddressFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/add_address/AddAddressFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/add_address/AddAddressViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/add_address/AddAddressViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/add_restaurant/AddRestaurantFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/add_restaurant/AddRestaurantFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/add_restaurant/AddRestaurantViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/add_restaurant/AddRestaurantViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/address_list/AddressListAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/address_list/AddressListAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/address_list/AddressListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/address_list/AddressListFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/address_list/AddressListViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/address_list/AddressListViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/base/BaseFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/base/BaseFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/change_password/ChangePasswordFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/change_password/ChangePasswordFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/change_password/ChangePasswordViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/change_password/ChangePasswordViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/edit_profile/EditProfileFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/edit_profile/EditProfileFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/edit_profile/EditProfileViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/edit_profile/EditProfileViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/home/HomeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/home/HomeFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/home/HomeFragmentViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/home/HomeFragmentViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/home/RestaurantRecyclerViewAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/home/RestaurantRecyclerViewAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/home/onDetail.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/home/onDetail.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/login/LoginFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/login/LoginFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/login/LoginViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/login/LoginViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/meal_adding/MealAddingFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/meal_adding/MealAddingFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/meal_adding/MealAddingViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/meal_adding/MealAddingViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/meal_detail/MealDetailFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/meal_detail/MealDetailFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/meal_detail/MealDetailViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/meal_detail/MealDetailViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/onboarding/MainOnBoardingFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/onboarding/MainOnBoardingFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/onboarding/OnBoardingFragment1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/onboarding/OnBoardingFragment1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/onboarding/OnBoardingFragment2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/onboarding/OnBoardingFragment2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/onboarding/OnBoardingFragment3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/onboarding/OnBoardingFragment3.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/onboarding/OnBoardingViewPagerAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/onboarding/OnBoardingViewPagerAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/order_details/OrderDetailsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/order_details/OrderDetailsFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/order_history/OrderHistoryFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/order_history/OrderHistoryFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/order_history/OrderHistoryListAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/order_history/OrderHistoryListAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/order_history/OrderHistoryViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/order_history/OrderHistoryViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/profile/ProfileFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/profile/ProfileFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/profile/ProfileViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/profile/ProfileViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/profile/ProfileViewPagerAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/profile/ProfileViewPagerAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/rate/RateFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/rate/RateFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/register/RegisterFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/register/RegisterFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/register/RegisterViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/register/RegisterViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/restaurant_detail/FoodAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/restaurant_detail/FoodAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/restaurant_detail/RestaurantDetailFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/restaurant_detail/RestaurantDetailFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/restaurant_detail/RestaurantDetailViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/restaurant_detail/RestaurantDetailViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/splash/SplashFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/splash/SplashFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/ui/splash/SplashViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/ui/splash/SplashViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/utils/BaseDataSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/utils/BaseDataSource.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/utils/Common.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/utils/Common.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/utils/Constants.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/utils/DataAccessStrategy.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/utils/DataAccessStrategy.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/utils/Extension.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/utils/Extension.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/utils/IMealOnClick.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/utils/Resource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/utils/Resource.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/yahnifood/utils/SharedPreferencesUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/kodluyoruz/hungryapp/utils/SharedPreferencesUtil.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_change_password.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_change_password.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_edit_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_edit_profile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_splash.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_host.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_host.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/kodluyoruz/yahnifood/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/kodluyoruz/hungryapp/ExampleUnitTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/database.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/Splash-OnBoarding-Login.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/addFood.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/foodOrder.gif" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -403,10 +304,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/1920.0.1536.824/0.0.1920.1040@0.0.1920.1040" timestamp="1629147348798" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1628693870628">
+    <state x="513" y="333" key="Vcs.Push.Dialog.v2" timestamp="1629150817478">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1536.824/0.0.1920.1040@0.0.1920.1040" timestamp="1628693870628" />
+    <state x="513" y="333" key="Vcs.Push.Dialog.v2/1920.0.1536.824/0.0.1920.1040@0.0.1920.1040" timestamp="1629150817478" />
     <state x="748" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1628791263397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -416,6 +317,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="76" width="907" height="888" key="find.popup/1920.0.1536.824/0.0.1920.1040@0.0.1920.1040" timestamp="1629147282101" />
+    <state x="758" y="421" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1629150766285">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="758" y="421" key="git4idea.remote.GitConfigureRemotesDialog/1920.0.1536.824/0.0.1920.1040@0.0.1920.1040" timestamp="1629150766285" />
     <state x="531" y="236" key="run.anything.popup" timestamp="1628678439622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
