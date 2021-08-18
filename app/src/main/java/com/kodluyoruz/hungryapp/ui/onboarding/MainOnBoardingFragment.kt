@@ -14,6 +14,7 @@ import androidx.viewpager2.widget.ViewPager2
 import com.kodluyoruz.hungryapp.R
 import com.kodluyoruz.hungryapp.databinding.FragmentMainOnBoardingBinding
 import com.kodluyoruz.hungryapp.ui.base.BaseFragment
+import com.tbuonomo.viewpagerdotsindicator.SpringDotsIndicator
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -23,6 +24,7 @@ class MainOnBoardingFragment : BaseFragment() {
     private lateinit var fragmentList: ArrayList<Fragment>
     private val layoutParamsActive = LinearLayout.LayoutParams(80, 15)
     private val layoutParamsInactive = LinearLayout.LayoutParams(55, 15)
+    lateinit var springDotsIndicator: SpringDotsIndicator
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -36,8 +38,8 @@ class MainOnBoardingFragment : BaseFragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         initViews()
-        initIndicators()
-        initListeners()
+        //initIndicators()
+        //initListeners()
     }
 
     private fun initViews() {
@@ -50,9 +52,12 @@ class MainOnBoardingFragment : BaseFragment() {
             OnBoardingViewPagerAdapter(activity as AppCompatActivity, fragmentList)
         layoutParamsActive.marginEnd = 8
         layoutParamsInactive.marginEnd = 8
+
+        springDotsIndicator = binding.springDotsIndicator
+        springDotsIndicator.setViewPager2(binding.viewPager)
     }
 
-    private fun initIndicators() {
+    /*private fun initIndicators() {
         for (i in 0 until fragmentList.size) {
             val indicator = View(activity)
             when (i) {
@@ -130,5 +135,5 @@ class MainOnBoardingFragment : BaseFragment() {
             )
         }
         }
-    }
+    }*/
 }

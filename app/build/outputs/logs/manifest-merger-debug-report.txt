@@ -16,7 +16,9 @@ MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\FURKAN-PC\.gradle\caches\tra
 MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\2b7852dfbb0870ac03d359643aca7d7a\lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\668a1b6c8af5d0c8b8483a0c91487e94\lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\a331ad48f63c980150ada635122b4496\lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.tbuonomo:dotsindicator:4.2] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\4d7296dcfcc75a02e903f03029f8117f\dotsindicator-4.2\AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\6e343b029d06ff810dc3b42586edd4bc\lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.airbnb.android:lottie:3.4.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\8ac1174c139a9dddd7a61de1b4f6fd83\lottie-3.4.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\cf4960af9ee5c17a9e1f3414bfb323e3\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\eb4b9ecf47bc11df5888b57447963e49\material-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\d849ddb923595e6a285bde1366d1a05e\constraintlayout-2.1.0\AndroidManifest.xml:2:1-11:12
@@ -94,6 +96,10 @@ ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidMani
 		ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:6:22-77
 application
 ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:8:5-24:19
+MERGED from [com.tbuonomo:dotsindicator:4.2] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\4d7296dcfcc75a02e903f03029f8117f\dotsindicator-4.2\AndroidManifest.xml:11:5-47
+MERGED from [com.tbuonomo:dotsindicator:4.2] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\4d7296dcfcc75a02e903f03029f8117f\dotsindicator-4.2\AndroidManifest.xml:11:5-47
+MERGED from [com.airbnb.android:lottie:3.4.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\8ac1174c139a9dddd7a61de1b4f6fd83\lottie-3.4.0\AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:3.4.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\8ac1174c139a9dddd7a61de1b4f6fd83\lottie-3.4.0\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\eb4b9ecf47bc11df5888b57447963e49\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\eb4b9ecf47bc11df5888b57447963e49\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\d849ddb923595e6a285bde1366d1a05e\constraintlayout-2.1.0\AndroidManifest.xml:9:5-20
@@ -166,8 +172,12 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\FURKAN-P
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\668a1b6c8af5d0c8b8483a0c91487e94\lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\a331ad48f63c980150ada635122b4496\lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\a331ad48f63c980150ada635122b4496\lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.tbuonomo:dotsindicator:4.2] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\4d7296dcfcc75a02e903f03029f8117f\dotsindicator-4.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.tbuonomo:dotsindicator:4.2] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\4d7296dcfcc75a02e903f03029f8117f\dotsindicator-4.2\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\6e343b029d06ff810dc3b42586edd4bc\lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\6e343b029d06ff810dc3b42586edd4bc\lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.airbnb.android:lottie:3.4.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\8ac1174c139a9dddd7a61de1b4f6fd83\lottie-3.4.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.4.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\8ac1174c139a9dddd7a61de1b4f6fd83\lottie-3.4.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\cf4960af9ee5c17a9e1f3414bfb323e3\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\cf4960af9ee5c17a9e1f3414bfb323e3\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\eb4b9ecf47bc11df5888b57447963e49\material-1.4.0\AndroidManifest.xml:20:5-44

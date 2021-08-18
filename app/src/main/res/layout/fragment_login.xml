@@ -1,120 +1,150 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ui.login.LoginFragment">
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/orange_secondary"
+        tools:context=".ui.login.LoginFragment">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:src="@drawable/login_icon"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        app:layout_constraintVertical_chainStyle="packed"
-        app:layout_constraintBottom_toTopOf="@id/textInputLayoutEmail"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+            android:layout_width="260dp"
+            android:layout_height="200dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintVertical_bias="0.071" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayoutEmail"
-        android:hint="@string/hint_email"
-        app:boxStrokeColor="@color/button_ice_blue"
-        app:hintTextColor="@color/button_ice_blue"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin_32"
-        android:layout_marginHorizontal="@dimen/margin_32"
-        app:boxCornerRadiusTopStart="@dimen/margin_16"
-        app:boxCornerRadiusTopEnd="@dimen/margin_16"
-        app:boxCornerRadiusBottomStart="@dimen/margin_16"
-        app:boxCornerRadiusBottomEnd="@dimen/margin_16"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        app:layout_constraintTop_toBottomOf="@id/imageView"
-        app:layout_constraintBottom_toTopOf="@id/textInputLayoutPassword"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/textInputEditTextEmail"
-            android:inputType="textEmailAddress"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
-    </com.google.android.material.textfield.TextInputLayout>
+    <androidx.cardview.widget.CardView
+            android:layout_width="380dp"
+            android:layout_height="240dp"
+            app:cardCornerRadius="20dp"
+            android:outlineAmbientShadowColor="@color/black"
+            android:background="@color/white"
+            app:layout_constraintVertical_bias="0.600"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/cardView5">
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayoutPassword"
-        android:hint="@string/hint_password"
-        app:boxStrokeColor="@color/button_ice_blue"
-        app:hintTextColor="@color/button_ice_blue"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin_4"
-        android:layout_marginHorizontal="@dimen/margin_32"
-        app:boxCornerRadiusTopStart="@dimen/margin_16"
-        app:boxCornerRadiusTopEnd="@dimen/margin_16"
-        app:boxCornerRadiusBottomStart="@dimen/margin_16"
-        app:boxCornerRadiusBottomEnd="@dimen/margin_16"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        app:layout_constraintBottom_toTopOf="@id/buttonLogin"
-        app:layout_constraintTop_toBottomOf="@id/textInputLayoutEmail"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/textInputEditTextPassword"
-            android:inputType="textPassword"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
-    </com.google.android.material.textfield.TextInputLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                tools:context=".ui.login.LoginFragment">
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/buttonLogin"
-        android:text="@string/button_login"
-        android:textAllCaps="false"
-        app:cornerRadius="@dimen/margin_8"
-        app:backgroundTint="@color/button_ice_blue"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin_8"
-        app:layout_constraintBottom_toTopOf="@id/linearLayoutRegister"
-        app:layout_constraintTop_toBottomOf="@id/textInputLayoutPassword"
-        app:layout_constraintEnd_toEndOf="@id/textInputLayoutPassword" />
+            <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputLayoutEmail"
+                    android:hint="@string/hint_email"
+                    app:boxStrokeColor="@color/red_light"
+                    app:hintTextColor="@color/red_light"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/margin_32"
+                    app:boxCornerRadiusTopStart="@dimen/corner_radius_30"
+                    app:boxCornerRadiusTopEnd="@dimen/corner_radius_30"
+                    app:boxCornerRadiusBottomStart="@dimen/corner_radius_30"
+                    app:boxCornerRadiusBottomEnd="@dimen/corner_radius_30"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginTop="28dp"
+                    app:layout_constraintHorizontal_bias="0.75">
+
+                <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/textInputEditTextEmail"
+                        android:inputType="textEmailAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="61dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputLayoutPassword"
+                    android:hint="@string/hint_password"
+                    app:boxStrokeColor="@color/red_light"
+                    app:hintTextColor="@color/red_light"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/margin_32"
+                    app:boxCornerRadiusTopStart="@dimen/corner_radius_30"
+                    app:boxCornerRadiusTopEnd="@dimen/corner_radius_30"
+                    app:boxCornerRadiusBottomStart="@dimen/corner_radius_30"
+                    app:boxCornerRadiusBottomEnd="@dimen/corner_radius_30"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    app:layout_constraintBottom_toTopOf="@id/buttonLogin"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textInputLayoutEmail"
+                    app:layout_constraintVertical_bias="0.583">
+
+                <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/textInputEditTextPassword"
+                        android:inputType="textPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                    android:id="@+id/buttonLogin"
+                    android:text="@string/button_login"
+                    android:textAllCaps="false"
+                    app:cornerRadius="@dimen/corner_radius_30"
+                    app:backgroundTint="@color/orange_secondary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintHorizontal_bias="0.89"
+                    app:layout_constraintVertical_bias="0.916" />
+
+            <ProgressBar
+                    android:id="@+id/progressBar"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:indeterminateTint="@color/dark_red"
+                    app:layout_constraintTop_toTopOf="@id/buttonLogin"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
 
     <LinearLayout
-        android:id="@+id/linearLayoutRegister"
-        android:orientation="horizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin_16"
-        app:layout_constraintTop_toBottomOf="@id/buttonLogin"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+            android:id="@+id/linearLayoutRegister"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintTop_toBottomOf="@+id/cardView5"
+            app:layout_constraintVertical_bias="0.068">
 
         <TextView
-            android:text="@string/label_register"
-            android:textColor="@color/black"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+                android:text="@string/label_register"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/buttonToRegister"
-            android:text="@string/button_register"
-            android:textAllCaps="false"
-            android:textColor="@color/button_purple"
-            style="@style/Widget.MaterialComponents.Button.TextButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+                android:id="@+id/buttonToRegister"
+                android:text="@string/button_register"
+                android:textAllCaps="false"
+                android:textColor="@color/light_purple"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
     </LinearLayout>
 
-    <ProgressBar
-        android:id="@+id/progressBar"
-        android:visibility="gone"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:indeterminateTint="@color/dark_red"
-        app:layout_constraintTop_toTopOf="@id/buttonLogin"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

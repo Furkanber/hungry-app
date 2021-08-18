@@ -4,12 +4,12 @@ package com.kodluyoruz.hungryapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
+import com.google.android.material.button.MaterialButton;
 import com.kodluyoruz.hungryapp.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -23,10 +23,10 @@ public final class AddressListFragmentBinding implements ViewBinding {
   public final RecyclerView addressListRV;
 
   @NonNull
-  public final Button buttonAddAddress;
+  public final MaterialButton buttonAddAddress;
 
   private AddressListFragmentBinding(@NonNull ConstraintLayout rootView,
-      @NonNull RecyclerView addressListRV, @NonNull Button buttonAddAddress) {
+      @NonNull RecyclerView addressListRV, @NonNull MaterialButton buttonAddAddress) {
     this.rootView = rootView;
     this.addressListRV = addressListRV;
     this.buttonAddAddress = buttonAddAddress;
@@ -66,7 +66,7 @@ public final class AddressListFragmentBinding implements ViewBinding {
       }
 
       id = R.id.buttonAddAddress;
-      Button buttonAddAddress = rootView.findViewById(id);
+      MaterialButton buttonAddAddress = rootView.findViewById(id);
       if (buttonAddAddress == null) {
         break missingId;
       }

@@ -4,11 +4,12 @@ package com.kodluyoruz.hungryapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import com.google.android.material.button.MaterialButton;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
 import com.kodluyoruz.hungryapp.R;
@@ -21,7 +22,10 @@ public final class FragmentChangePasswordBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button buttonUpdatePassword;
+  public final MaterialButton buttonUpdatePassword;
+
+  @NonNull
+  public final CardView cardView5;
 
   @NonNull
   public final TextInputEditText textInputEditCurrentPassword;
@@ -42,7 +46,8 @@ public final class FragmentChangePasswordBinding implements ViewBinding {
   public final TextInputLayout textInputLayoutNewPassword;
 
   private FragmentChangePasswordBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Button buttonUpdatePassword, @NonNull TextInputEditText textInputEditCurrentPassword,
+      @NonNull MaterialButton buttonUpdatePassword, @NonNull CardView cardView5,
+      @NonNull TextInputEditText textInputEditCurrentPassword,
       @NonNull TextInputEditText textInputEditTextConfirmNewPassword,
       @NonNull TextInputEditText textInputEditTextNewPassword,
       @NonNull TextInputLayout textInputLayoutConfirmNewPassword,
@@ -50,6 +55,7 @@ public final class FragmentChangePasswordBinding implements ViewBinding {
       @NonNull TextInputLayout textInputLayoutNewPassword) {
     this.rootView = rootView;
     this.buttonUpdatePassword = buttonUpdatePassword;
+    this.cardView5 = cardView5;
     this.textInputEditCurrentPassword = textInputEditCurrentPassword;
     this.textInputEditTextConfirmNewPassword = textInputEditTextConfirmNewPassword;
     this.textInputEditTextNewPassword = textInputEditTextNewPassword;
@@ -86,8 +92,14 @@ public final class FragmentChangePasswordBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.buttonUpdatePassword;
-      Button buttonUpdatePassword = rootView.findViewById(id);
+      MaterialButton buttonUpdatePassword = rootView.findViewById(id);
       if (buttonUpdatePassword == null) {
+        break missingId;
+      }
+
+      id = R.id.cardView5;
+      CardView cardView5 = rootView.findViewById(id);
+      if (cardView5 == null) {
         break missingId;
       }
 
@@ -128,7 +140,7 @@ public final class FragmentChangePasswordBinding implements ViewBinding {
       }
 
       return new FragmentChangePasswordBinding((ConstraintLayout) rootView, buttonUpdatePassword,
-          textInputEditCurrentPassword, textInputEditTextConfirmNewPassword,
+          cardView5, textInputEditCurrentPassword, textInputEditTextConfirmNewPassword,
           textInputEditTextNewPassword, textInputLayoutConfirmNewPassword,
           textInputLayoutCurrentPassword, textInputLayoutNewPassword);
     }

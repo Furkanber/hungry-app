@@ -6,12 +6,12 @@
     <string name="min_delivery_time_label">Delivery Time</string>
     <string name="restaurant_menu_title">Restaurant Menu</string>
     <string name="on_boarding_lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae neque asuv scelerisque, imperdiet magna dignissim.</string>
-    <string name="on_boarding_1_title_1">ANINDA</string>
-    <string name="on_boarding_1_title_2">SİPARİŞ VER</string>
-    <string name="on_boarding_2_title_1">ÖZENLE</string>
-    <string name="on_boarding_2_title_2">HAZIRLANIR</string>
-    <string name="on_boarding_3_title_1">FAST</string>
-    <string name="on_boarding_3_title_2">DELIVERY</string>
+    <string name="on_boarding_1_title_1">Are You Hungry?</string>
+    <string name="on_boarding_1_title_2">Choose from dozens of restaurants around you and place your order </string>
+    <string name="on_boarding_2_title_1">Various Food Types</string>
+    <string name="on_boarding_2_title_2">Chefs cook your food with care and prepare it for delivery</string>
+    <string name="on_boarding_3_title_1">"Let's Order Food!"</string>
+    <string name="on_boarding_3_title_2">Enjoy Your Meal With Hungry App!</string>
     <string name="button_next">Next</string>
     <string name="button_start">Start</string>
     <string name="imageholder_URL">https://cdn.friendlystock.com/wp-content/uploads/2019/12/4-special-pizza-cartoon-clipart.jpg</string>
@@ -26,6 +26,11 @@
     <string name="hint_current_password">Current Password</string>
     <string name="hint_new_password">New Password</string>
     <string name="hint_confirm_new_password">Confirm New Password</string>
+    <string name="hint_address_title">Address Title</string>
+    <string name="hint_city">City</string>
+    <string name="hint_district">District</string>
+    <string name="hint_address_detail">Address Detail</string>
+    <string name="button_add_address">Add Address</string>
     <string name="button_update_password">Update Password</string>
     <string name="button_change_password">Change Password</string>
     <string name="button_update_profile">Update Profile</string>
@@ -42,6 +47,8 @@
     <string name="address_detail_str">Address Details</string>
     <string name="has_restaurant_str">Are you a restaurant owner?&#160;&#160;</string>
     <string name="save_restaurant">Add a Restaurant</string>
+    <string name="restaurant_name">Restaurant Name</string>
     <string name="welcome_str">Welcome</string>
+    <string name="welcome_to_str">Welcome To Hungry App!</string>
     <string name="loading_str">Loading…</string>
 </resources>

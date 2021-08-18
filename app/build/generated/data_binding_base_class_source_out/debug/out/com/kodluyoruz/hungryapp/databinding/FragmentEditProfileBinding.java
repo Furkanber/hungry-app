@@ -37,6 +37,9 @@ public final class FragmentEditProfileBinding implements ViewBinding {
   public final CardView cardView2;
 
   @NonNull
+  public final CardView cardView5;
+
+  @NonNull
   public final TextInputEditText textInputEditEmail;
 
   @NonNull
@@ -72,9 +75,9 @@ public final class FragmentEditProfileBinding implements ViewBinding {
   private FragmentEditProfileBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageView EditProfileImageView,
       @NonNull MaterialButton buttonChangePasswordNavigation, @NonNull Button buttonUpdateProfile,
-      @NonNull CardView cardView2, @NonNull TextInputEditText textInputEditEmail,
-      @NonNull TextInputEditText textInputEditName, @NonNull TextInputEditText textInputEditPPURL,
-      @NonNull TextInputEditText textInputEditPhone,
+      @NonNull CardView cardView2, @NonNull CardView cardView5,
+      @NonNull TextInputEditText textInputEditEmail, @NonNull TextInputEditText textInputEditName,
+      @NonNull TextInputEditText textInputEditPPURL, @NonNull TextInputEditText textInputEditPhone,
       @NonNull TextInputEditText textInputEditSurname,
       @NonNull TextInputLayout textInputLayoutEmail, @NonNull TextInputLayout textInputLayoutName,
       @NonNull TextInputLayout textInputLayoutPPURL, @NonNull TextInputLayout textInputLayoutPhone,
@@ -84,6 +87,7 @@ public final class FragmentEditProfileBinding implements ViewBinding {
     this.buttonChangePasswordNavigation = buttonChangePasswordNavigation;
     this.buttonUpdateProfile = buttonUpdateProfile;
     this.cardView2 = cardView2;
+    this.cardView5 = cardView5;
     this.textInputEditEmail = textInputEditEmail;
     this.textInputEditName = textInputEditName;
     this.textInputEditPPURL = textInputEditPPURL;
@@ -145,6 +149,12 @@ public final class FragmentEditProfileBinding implements ViewBinding {
       id = R.id.cardView2;
       CardView cardView2 = rootView.findViewById(id);
       if (cardView2 == null) {
+        break missingId;
+      }
+
+      id = R.id.cardView5;
+      CardView cardView5 = rootView.findViewById(id);
+      if (cardView5 == null) {
         break missingId;
       }
 
@@ -215,10 +225,10 @@ public final class FragmentEditProfileBinding implements ViewBinding {
       }
 
       return new FragmentEditProfileBinding((ConstraintLayout) rootView, EditProfileImageView,
-          buttonChangePasswordNavigation, buttonUpdateProfile, cardView2, textInputEditEmail,
-          textInputEditName, textInputEditPPURL, textInputEditPhone, textInputEditSurname,
-          textInputLayoutEmail, textInputLayoutName, textInputLayoutPPURL, textInputLayoutPhone,
-          textInputLayoutSurname, textView3);
+          buttonChangePasswordNavigation, buttonUpdateProfile, cardView2, cardView5,
+          textInputEditEmail, textInputEditName, textInputEditPPURL, textInputEditPhone,
+          textInputEditSurname, textInputLayoutEmail, textInputLayoutName, textInputLayoutPPURL,
+          textInputLayoutPhone, textInputLayoutSurname, textView3);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

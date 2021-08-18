@@ -4,12 +4,12 @@ package com.kodluyoruz.hungryapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import com.airbnb.lottie.LottieAnimationView;
 import com.kodluyoruz.hungryapp.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -20,7 +20,7 @@ public final class FragmentOnBoarding1Binding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ImageView imageView;
+  public final LottieAnimationView animationOnboarding1;
 
   @NonNull
   public final TextView textViewDescription;
@@ -28,17 +28,13 @@ public final class FragmentOnBoarding1Binding implements ViewBinding {
   @NonNull
   public final TextView textViewTitle;
 
-  @NonNull
-  public final TextView textViewTitle2;
-
   private FragmentOnBoarding1Binding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageView imageView, @NonNull TextView textViewDescription,
-      @NonNull TextView textViewTitle, @NonNull TextView textViewTitle2) {
+      @NonNull LottieAnimationView animationOnboarding1, @NonNull TextView textViewDescription,
+      @NonNull TextView textViewTitle) {
     this.rootView = rootView;
-    this.imageView = imageView;
+    this.animationOnboarding1 = animationOnboarding1;
     this.textViewDescription = textViewDescription;
     this.textViewTitle = textViewTitle;
-    this.textViewTitle2 = textViewTitle2;
   }
 
   @Override
@@ -68,9 +64,9 @@ public final class FragmentOnBoarding1Binding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.imageView;
-      ImageView imageView = rootView.findViewById(id);
-      if (imageView == null) {
+      id = R.id.animationOnboarding1;
+      LottieAnimationView animationOnboarding1 = rootView.findViewById(id);
+      if (animationOnboarding1 == null) {
         break missingId;
       }
 
@@ -86,14 +82,8 @@ public final class FragmentOnBoarding1Binding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textViewTitle2;
-      TextView textViewTitle2 = rootView.findViewById(id);
-      if (textViewTitle2 == null) {
-        break missingId;
-      }
-
-      return new FragmentOnBoarding1Binding((ConstraintLayout) rootView, imageView,
-          textViewDescription, textViewTitle, textViewTitle2);
+      return new FragmentOnBoarding1Binding((ConstraintLayout) rootView, animationOnboarding1,
+          textViewDescription, textViewTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -4,7 +4,6 @@ package com.kodluyoruz.hungryapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -12,6 +11,7 @@ import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import com.google.android.material.button.MaterialButton;
 import com.google.android.material.textfield.TextInputLayout;
 import com.kodluyoruz.hungryapp.R;
 import com.skydoves.expandablelayout.ExpandableLayout;
@@ -60,14 +60,14 @@ public final class FragmentFoodDetailBinding implements ViewBinding {
   public final ImageView shareMeal;
 
   @NonNull
-  public final Button submit;
+  public final MaterialButton submit;
 
   private FragmentFoodDetailBinding(@NonNull ConstraintLayout rootView, @NonNull CardView cardView,
       @NonNull ImageView decrease, @NonNull ExpandableLayout expandable,
       @NonNull CardView expandableCard, @NonNull ImageView foodImageView,
       @NonNull TextView foodPrice, @NonNull TextView foodQuantity, @NonNull ImageView increase,
       @NonNull TextView ingredients, @NonNull TextInputLayout mealOrderNote, @NonNull TextView name,
-      @NonNull ImageView shareMeal, @NonNull Button submit) {
+      @NonNull ImageView shareMeal, @NonNull MaterialButton submit) {
     this.rootView = rootView;
     this.cardView = cardView;
     this.decrease = decrease;
@@ -184,7 +184,7 @@ public final class FragmentFoodDetailBinding implements ViewBinding {
       }
 
       id = R.id.submit;
-      Button submit = rootView.findViewById(id);
+      MaterialButton submit = rootView.findViewById(id);
       if (submit == null) {
         break missingId;
       }

@@ -33,7 +33,7 @@ class AddressListAdapter : RecyclerView.Adapter<AddressListAdapter.AddressViewHo
             binding.addressDetailTV.text = address.address
             binding.addressDistrictTV.text = address.district
             binding.addressTitleTV.text = address.title
-            binding.addressIconIV.setImageResource(R.drawable.outline_home)
+            binding.addressIconIV.setImageResource(R.drawable.ic_address)
 
         }
 

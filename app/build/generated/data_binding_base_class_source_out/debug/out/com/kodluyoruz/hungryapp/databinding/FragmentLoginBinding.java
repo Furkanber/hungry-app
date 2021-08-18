@@ -4,11 +4,11 @@ package com.kodluyoruz.hungryapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import com.google.android.material.button.MaterialButton;
@@ -30,7 +30,7 @@ public final class FragmentLoginBinding implements ViewBinding {
   public final MaterialButton buttonToRegister;
 
   @NonNull
-  public final ImageView imageView;
+  public final CardView cardView5;
 
   @NonNull
   public final LinearLayout linearLayoutRegister;
@@ -52,7 +52,7 @@ public final class FragmentLoginBinding implements ViewBinding {
 
   private FragmentLoginBinding(@NonNull ConstraintLayout rootView,
       @NonNull MaterialButton buttonLogin, @NonNull MaterialButton buttonToRegister,
-      @NonNull ImageView imageView, @NonNull LinearLayout linearLayoutRegister,
+      @NonNull CardView cardView5, @NonNull LinearLayout linearLayoutRegister,
       @NonNull ProgressBar progressBar, @NonNull TextInputEditText textInputEditTextEmail,
       @NonNull TextInputEditText textInputEditTextPassword,
       @NonNull TextInputLayout textInputLayoutEmail,
@@ -60,7 +60,7 @@ public final class FragmentLoginBinding implements ViewBinding {
     this.rootView = rootView;
     this.buttonLogin = buttonLogin;
     this.buttonToRegister = buttonToRegister;
-    this.imageView = imageView;
+    this.cardView5 = cardView5;
     this.linearLayoutRegister = linearLayoutRegister;
     this.progressBar = progressBar;
     this.textInputEditTextEmail = textInputEditTextEmail;
@@ -108,9 +108,9 @@ public final class FragmentLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView;
-      ImageView imageView = rootView.findViewById(id);
-      if (imageView == null) {
+      id = R.id.cardView5;
+      CardView cardView5 = rootView.findViewById(id);
+      if (cardView5 == null) {
         break missingId;
       }
 
@@ -151,7 +151,7 @@ public final class FragmentLoginBinding implements ViewBinding {
       }
 
       return new FragmentLoginBinding((ConstraintLayout) rootView, buttonLogin, buttonToRegister,
-          imageView, linearLayoutRegister, progressBar, textInputEditTextEmail,
+          cardView5, linearLayoutRegister, progressBar, textInputEditTextEmail,
           textInputEditTextPassword, textInputLayoutEmail, textInputLayoutPassword);
     }
     String missingId = rootView.getResources().getResourceName(id);

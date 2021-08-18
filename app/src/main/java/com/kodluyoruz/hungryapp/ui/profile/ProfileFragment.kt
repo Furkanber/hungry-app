@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
+import com.bumptech.glide.Glide
 import com.kodluyoruz.hungryapp.databinding.FragmentProfileBinding
 import com.kodluyoruz.hungryapp.ui.base.BaseFragment
 import com.kodluyoruz.hungryapp.utils.Resource
@@ -71,6 +72,7 @@ class ProfileFragment : BaseFragment() {
                     binding.NameTextView.text = it.data?.get(0)?.name
                     binding.SurnameTextView.text = it.data?.get(0)?.surname
                     binding.EmailTextView.text = it.data?.get(0)?.email
+                    Glide.with(binding.root).load(it.data?.get(0)?.photo_url).into(binding.profileImageView)
                 }
                 Resource.Status.ERROR -> {
 

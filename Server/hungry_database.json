@@ -25,26 +25,26 @@
           "last_update": "2021-27-07 19:35"
         }
       ],
-      "photo_url": "user.png"
+      "photo_url": "https://thumbs.dreamstime.com/z/young-man-face-beard-cartoon-vector-illustration-graphic-design-young-man-face-cartoon-138689426.jpg"
     },
     {
-      "id": 2,
-      "email": "ipek@gmail.com",
-      "password": "ipek1234",
-      "name": "İpek",
-      "surname": "Akkuzu",
-      "phone_number": "+905987652143",
       "address_list": [
         {
-          "title": "Home Pendik",
+          "add_date": "2021-27-07 19:35",
+          "address": "Elitside No:23",
           "city": "Istanbul",
           "district": "Pendik",
-          "address": "Elitside No:23",
-          "add_date": "2021-27-07 19:35",
-          "last_update": "2021-27-07 19:35"
+          "last_update": "2021-27-07 19:35",
+          "title": "Home Pendik"
         }
       ],
-      "photo_url": "user.png"
+      "email": "ipek@gmail.com",
+      "id": 2,
+      "name": "İpek",
+      "password": "akkuzu123",
+      "phone_number": "+905987652144",
+      "photo_url": "https://media.istockphoto.com/vectors/latin-american-head-in-profile-hispanic-woman-races-and-nationalities-vector-id1173613806?k=6&m=1173613806&s=612x612&w=0&h=Jo4aCZPeVyQPWOnN-LrGSY_iGKz8CkwAgcbiKLtOJso=",
+      "surname": "Akkuzu"
     },
     {
       "id": 3,
@@ -52,7 +52,7 @@
       "name": "Engin",
       "password": "EnGinGul1996",
       "phone_number": "+90559998844",
-      "photo_url": "user.png",
+      "photo_url": "https://thumbs.dreamstime.com/z/men-emotions-face-man-beard-face-man-beard-108204342.jpg",
       "surname": "Gul",
       "address_list": []
     }
@@ -72,35 +72,35 @@
       "menu": [
         {
           "food_id": 1,
-          "ingredients": "Tomato,Lettuce,Ketchup,Mayo,Pickles,Cheddar",
+          "ingredients": "Tomato, Lettuce, Ketchup, Mayo, Pickles, Cheddar",
           "name": "Cheeseburger",
           "photo_url": "https://cdn.firsatbufirsat.com/files/images/deal-image/image/1200x1200/609/6090094_59a5.jpg?r=2",
-          "price": 40.00
+          "price": 40
         },
         {
           "food_id": 2,
-          "ingredients": "Pizza Sauce,Mozeralla,Pepperoni,Sausage,Pepper,Mushroom",
-          "name": "Small Size Pizza",
+          "ingredients": "Pizza Sauce, Mozeralla, Pepperoni, Sausage, Pepper, Mushroom",
+          "name": "Small Pizza",
           "photo_url": "https://www.livashop.com/Uploads/UrunResimleri/buyuk/karisik-pizza-e7f8.jpg",
-          "price": 32.0
+          "price": 32
         },
         {
           "food_id": 3,
-          "ingredients": "Pizza Sauce,Mozeralla,Pepperoni,Bell Pepper,Mushroom,Sweetcorn",
-          "name": "Middle Size Pizza",
+          "ingredients": "Pizza Sauce, Mozeralla, Pepperoni, Bell Pepper, Mushroom, Sweetcorn",
+          "name": "Middle Pizza",
           "photo_url": "https://www.livashop.com/Uploads/UrunResimleri/buyuk/karisik-pizza-e7f8.jpg",
-          "price": 42.0
+          "price": 42
         },
         {
           "food_id": 4,
-          "ingredients": "Pizza Sauce,Mozeralla,Pepperoni,Sausage,Pepper,Mushroom",
-          "name": "Large Size Pizza",
+          "ingredients": "Pizza Sauce, Mozeralla, Pepperoni, Sausage, Pepper, Mushroom",
+          "name": "Large Pizza",
           "photo_url": "https://www.livashop.com/Uploads/UrunResimleri/buyuk/karisik-pizza-e7f8.jpg",
-          "price": 58.0
+          "price": 58
         }
       ],
       "min_order": 30,
-      "name": "Burger King",
+      "name": "Midpoint",
       "owner": {
         "email": "ali@burgerking.com",
         "name": "Ali",
@@ -123,9 +123,24 @@
         "title": "Company Address"
       },
       "average_delivery_time": 10,
-      "menu": [],
-      "min_order": 20,
-      "name": "Doner Kebab",
+      "menu": [
+        {
+          "food_id": 1,
+          "ingredients": "Tomato, Lemon, Mustard, Rocket",
+          "name": "Salmon Steak",
+          "photo_url": "https://healthyrecipesblogs.com/wp-content/uploads/2021/04/salmon-steak-11-2021.jpg",
+          "price": 60
+        },
+        {
+          "food_id": 2,
+          "ingredients": "Mushroom, Pepper",
+          "name": "Shrimp Sauté",
+          "photo_url": "https://images.themodernproper.com/billowy-turkey/production/posts/Shrimp-Fajitas-8.jpg?w=1200&h=1200&q=82&fm=jpg&fit=crop&fp-x=0.5&fp-y=0.5&dm=1612803180&s=3e3088bc9c1acb9ab46a21101e082b75",
+          "price": 52
+        }
+      ],
+      "min_order": 40,
+      "name": "Fish World",
       "owner": {
         "email": "",
         "name": "",
@@ -144,12 +159,27 @@
         "add_date": "Wed Aug 11 19:36:05 GMT 2021",
         "address": "",
         "city": "Istanbul",
-        "district": "Kadiköy",
+        "district": "Kadikoy",
         "last_update": "Wed Aug 11 19:36:05 GMT 2021",
         "title": "Company Address"
       },
       "average_delivery_time": 10,
-      "menu": [],
+      "menu": [
+        {
+          "food_id": 1,
+          "ingredients": "Extra Chocolate",
+          "name": "Chocolate Doughnut",
+          "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Dunkin-Donuts-Chocolate-Glazed.jpg",
+          "price": 20
+        },
+        {
+          "food_id": 2,
+          "ingredients": "Sprinkles",
+          "name": "Strawberry Sprinkles Doughnut",
+          "photo_url": "https://w1nnersclub.com/wp-content/uploads/2018/05/krispy-kreme_donut.jpg",
+          "price": 20
+        }
+      ],
       "min_order": 20,
       "name": "Donuts World",
       "owner": {

@@ -349,6 +349,7 @@ attr customNavigationLayout
 attr customPixelDimension
 attr customReference
 attr customStringValue
+attr dampingRatio
 attr data
 attr dataPattern
 attr dayInvalidStyle
@@ -371,6 +372,15 @@ attr divider
 attr dividerHorizontal
 attr dividerPadding
 attr dividerVertical
+attr dotsClickable
+attr dotsColor
+attr dotsCornerRadius
+attr dotsElevation
+attr dotsSize
+attr dotsSpacing
+attr dotsStrokeColor
+attr dotsStrokeWidth
+attr dotsWidthFactor
 attr dragDirection
 attr dragScale
 attr dragThreshold
@@ -666,6 +676,22 @@ attr listPreferredItemPaddingRight
 attr listPreferredItemPaddingStart
 attr logo
 attr logoDescription
+attr lottie_autoPlay
+attr lottie_cacheComposition
+attr lottie_colorFilter
+attr lottie_enableMergePathsForKitKatAndAbove
+attr lottie_fallbackRes
+attr lottie_fileName
+attr lottie_imageAssetsFolder
+attr lottie_loop
+attr lottie_progress
+attr lottie_rawRes
+attr lottie_renderMode
+attr lottie_repeatCount
+attr lottie_repeatMode
+attr lottie_scale
+attr lottie_speed
+attr lottie_url
 attr materialAlertDialogBodyTextStyle
 attr materialAlertDialogTheme
 attr materialAlertDialogTitleIconStyle
@@ -815,6 +841,7 @@ attr preserveIconSpacing
 attr pressedTranslationZ
 attr progressBarPadding
 attr progressBarStyle
+attr progressMode
 attr quantizeMotionInterpolator
 attr quantizeMotionPhase
 attr quantizeMotionSteps
@@ -851,6 +878,7 @@ attr searchViewStyle
 attr seekBarStyle
 attr selectableItemBackground
 attr selectableItemBackgroundBorderless
+attr selectedDotColor
 attr selectionRequired
 attr selectorSize
 attr setsTag
@@ -905,6 +933,7 @@ attr state_lifted
 attr statusBarBackground
 attr statusBarForeground
 attr statusBarScrim
+attr stiffness
 attr strokeColor
 attr strokeWidth
 attr subMenuArrow
@@ -1203,6 +1232,7 @@ color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color light_blue
+color light_purple
 color light_red
 color material_blue_grey_800
 color material_blue_grey_900
@@ -1295,6 +1325,7 @@ color notification_material_background_media_default_color
 color orange
 color orange_main
 color orange_secondary
+color orange_superlight
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -1311,6 +1342,7 @@ color red_light
 color red_main
 color ripple_material_dark
 color ripple_material_light
+color sample
 color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
@@ -1426,6 +1458,7 @@ dimen compat_button_padding_vertical_material
 dimen compat_control_corner_material
 dimen compat_notification_large_icon_max_height
 dimen compat_notification_large_icon_max_width
+dimen corner_radius_30
 dimen def_drawer_elevation
 dimen default_dimension
 dimen design_appbar_elevation
@@ -1862,10 +1895,14 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable dot_background
 drawable ic_add_restaurant_vector
+drawable ic_address
 drawable ic_arrow_down
 drawable ic_baseline_lock_24
+drawable ic_clock
 drawable ic_clock_black_24dp
+drawable ic_clock_time
 drawable ic_delivery
 drawable ic_edit
 drawable ic_keyboard_black_24dp
@@ -1874,6 +1911,7 @@ drawable ic_launcher_foreground
 drawable ic_logout
 drawable ic_loupe
 drawable ic_min_price
+drawable ic_money
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
@@ -1919,18 +1957,19 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
-drawable on_boarding_image_1
-drawable on_boarding_image_2
-drawable on_boarding_image_3
 drawable outline_home
 drawable pizza_imageholder
 drawable rectangle_border
+drawable rectangle_border_orange
 drawable register_icon
 drawable remove
 drawable restaurant_background
+drawable restaurant_placeholder
 drawable round_button
 drawable sample_restaurant
 drawable share
+drawable spring_dot_background
+drawable spring_dot_stroke_background
 drawable test_custom_background
 drawable textfield_rect
 drawable thick_line
@@ -1938,6 +1977,8 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable viewpager_indicator_active
 drawable viewpager_indicator_inactive
+drawable worm_dot_background
+drawable worm_dot_stroke_background
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2055,6 +2096,9 @@ id allStates
 id always
 id animateToEnd
 id animateToStart
+id animationOnboarding1
+id animationOnboarding2
+id animationOnboarding3
 id antiClockwise
 id anticipate
 id arc
@@ -2065,6 +2109,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id automatic
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -2089,6 +2134,7 @@ id buttonOrderHistory
 id buttonPanel
 id buttonRate
 id buttonRegister
+id buttonStart
 id buttonSubmitRating
 id buttonToRegister
 id buttonUpdatePassword
@@ -2100,6 +2146,8 @@ id cardView
 id cardView2
 id cardView3
 id cardView4
+id cardView5
+id cardView6
 id carryVelocity
 id center
 id center_horizontal
@@ -2160,6 +2208,7 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
+id dot
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -2219,6 +2268,7 @@ id group_divider
 id grouping
 id groups
 id guideline
+id hardware
 id header_text
 id header_title
 id hideable
@@ -2264,6 +2314,7 @@ id listMode
 id list_item
 id listview_background_shape
 id loginFragment
+id lottie_layer_name
 id mainOnBoardingFragment
 id masked
 id match_constraint
@@ -2339,7 +2390,6 @@ id navigation_header_container
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
-id nextButton
 id noScroll
 id noState
 id none
@@ -2386,6 +2436,7 @@ id ratio
 id rectangles
 id recyclerViewFoodList
 id registerFragment
+id restart
 id restaurantDetailFragment
 id restaurantNameTV
 id restaurantRecyclerView
@@ -2399,6 +2450,7 @@ id restaurant_point_card
 id restaurant_point_textview
 id restaurant_remain_time_textview
 id result_text_view
+id reverse
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2445,6 +2497,7 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
+id software
 id south
 id spacer
 id special_effects_controller_view_tag
@@ -2454,6 +2507,8 @@ id split_action_bar
 id spread
 id spread_inside
 id spring
+id spring_dot
+id spring_dots_indicator
 id square
 id src_atop
 id src_in
@@ -2548,7 +2603,6 @@ id textViewRestaurantMinDeliveryPriceLabel
 id textViewRestaurantName
 id textViewRestaurantScore
 id textViewTitle
-id textViewTitle2
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2582,7 +2636,6 @@ id up
 id useLogo
 id vertical_only
 id viewPager
-id viewPagerIndicator
 id viewPagerProfile
 id view_offset_helper
 id view_transition
@@ -2595,6 +2648,7 @@ id welcome_text
 id west
 id withText
 id withinBounds
+id worm_dot
 id wrap
 id wrap_content
 id wrap_content_constrained
@@ -2689,6 +2743,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout dot_layout
 layout expandable_layout_child
 layout expandable_layout_frame
 layout expandable_parent
@@ -2775,6 +2830,7 @@ layout restaurant_list_item
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout spring_dot_layout
 layout support_simple_spinner_dropdown_item
 layout test_action_chip
 layout test_chip_zero_corner_radius
@@ -2791,11 +2847,17 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+layout worm_dot_layout
 menu settings_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap ic_time_clock
 navigation nav_host
 plurals mtrl_badge_content_description
+raw onboarding1_animation
+raw onboarding2_animation
+raw onboarding3_animation
+raw splash_animation
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -2831,6 +2893,7 @@ string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
+string button_add_address
 string button_change_password
 string button_login
 string button_next
@@ -2853,8 +2916,12 @@ string general_info_text_str
 string has_restaurant_str
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
+string hint_address_detail
+string hint_address_title
+string hint_city
 string hint_confirm_new_password
 string hint_current_password
+string hint_district
 string hint_email
 string hint_name
 string hint_new_password
@@ -2941,12 +3008,14 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string phone_number_str
 string restaurant_menu_title
+string restaurant_name
 string restaurant_name_str
 string save_restaurant
 string search_menu_title
 string status_bar_notification_info_overflow
 string text_profile_picture
 string welcome_str
+string welcome_to_str
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow
@@ -3722,6 +3791,7 @@ styleable CoordinatorLayout keylines statusBarBackground
 styleable CoordinatorLayout_Layout android_layout_gravity layout_anchor layout_anchorGravity layout_behavior layout_dodgeInsetEdges layout_insetEdge layout_keyline
 styleable CustomAttribute attributeName customBoolean customColorDrawableValue customColorValue customDimension customFloatValue customIntegerValue customPixelDimension customReference customStringValue methodName
 styleable DialogFragmentNavigator android_name
+styleable DotsIndicator dotsClickable dotsColor dotsCornerRadius dotsElevation dotsSize dotsSpacing dotsWidthFactor progressMode selectedDotColor
 styleable DrawerArrowToggle arrowHeadLength arrowShaftLength barLength color drawableSize gapBetweenBars spinBars thickness
 styleable DrawerLayout elevation
 styleable ExpandableLayout expandable_animation expandable_duration expandable_isExpanded expandable_parentLayout expandable_secondLayout expandable_showSpinner expandable_spinner expandable_spinner_animate expandable_spinner_color expandable_spinner_gravity expandable_spinner_margin expandable_spinner_rotation expandable_spinner_size
@@ -3753,6 +3823,7 @@ styleable LinearLayoutCompat android_gravity android_orientation android_baselin
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight
 styleable LinearProgressIndicator indeterminateAnimationType indicatorDirectionLinear
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
+styleable LottieAnimationView lottie_autoPlay lottie_cacheComposition lottie_colorFilter lottie_enableMergePathsForKitKatAndAbove lottie_fallbackRes lottie_fileName lottie_imageAssetsFolder lottie_loop lottie_progress lottie_rawRes lottie_renderMode lottie_repeatCount lottie_repeatMode lottie_scale lottie_speed lottie_url
 styleable MaterialAlertDialog backgroundInsetBottom backgroundInsetEnd backgroundInsetStart backgroundInsetTop
 styleable MaterialAlertDialogTheme materialAlertDialogBodyTextStyle materialAlertDialogTheme materialAlertDialogTitleIconStyle materialAlertDialogTitlePanelStyle materialAlertDialogTitleTextStyle
 styleable MaterialAutoCompleteTextView android_inputType
@@ -3808,6 +3879,7 @@ styleable Slider android_enabled android_value android_stepSize android_valueFro
 styleable Snackbar snackbarButtonStyle snackbarStyle snackbarTextViewStyle
 styleable SnackbarLayout android_maxWidth actionTextColorAlpha animationMode backgroundOverlayColorAlpha backgroundTint backgroundTintMode elevation maxActionInlineWidth
 styleable Spinner android_entries android_popupBackground android_prompt android_dropDownWidth popupTheme
+styleable SpringDotsIndicator dampingRatio dotsClickable dotsColor dotsCornerRadius dotsSize dotsSpacing dotsStrokeColor dotsStrokeWidth stiffness
 styleable State android_id constraints
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable StateListDrawableItem android_drawable
@@ -3831,6 +3903,7 @@ styleable ViewBackgroundHelper android_background backgroundTint backgroundTintM
 styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration ifTagNotSet ifTagSet motionInterpolator motionTarget onStateTransition pathMotionArc setsTag transitionDisable upDuration viewTransitionMode
+styleable WormDotsIndicator dotsClickable dotsColor dotsCornerRadius dotsSize dotsSpacing dotsStrokeColor dotsStrokeWidth
 styleable include constraintSet
 xml standalone_badge
 xml standalone_badge_gravity_bottom_end

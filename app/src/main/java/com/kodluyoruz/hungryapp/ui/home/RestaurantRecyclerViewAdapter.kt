@@ -49,12 +49,12 @@ class RestaurantRecyclerViewAdapter(/*val restViewModel:ViewModel?,*/ private va
             binding.restaurantPointTextview.text = item.point!!.toDouble().toString()
 
             var alphaVal: Double = 1.0
-            var colorCode: String = "#81BF4A"
+            var colorCode: String = "#F97504"
 
             if (item.point!! > 3) {
                 alphaVal = item.point?.toDouble()?.div(5.0) ?: 1.0
             } else {
-                colorCode = "#FF6347"
+                colorCode = "#F97504"
             }
             binding.restaurantPointCard.setCardBackgroundColor(Color.parseColor(colorCode))
             binding.restaurantPointCard.alpha = alphaVal.toFloat()

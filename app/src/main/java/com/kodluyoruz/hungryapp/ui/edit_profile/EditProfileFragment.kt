@@ -8,6 +8,7 @@ import android.widget.Toast
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
+import com.bumptech.glide.Glide
 import com.kodluyoruz.hungryapp.data.entity.UsersItem
 import com.kodluyoruz.hungryapp.databinding.FragmentEditProfileBinding
 import com.kodluyoruz.hungryapp.ui.base.BaseFragment
@@ -58,6 +59,7 @@ class EditProfileFragment : BaseFragment() {
                     phoneNumber.setText(it.data?.get(0)?.phone_number)
                     ppUrl.setText(it.data?.get(0)?.photo_url)
                     user = it.data!![0]
+                    Glide.with(binding.root).load(it.data?.get(0)?.photo_url).into(binding.EditProfileImageView)
                 }
                 Resource.Status.ERROR -> {
 
@@ -110,6 +112,7 @@ class EditProfileFragment : BaseFragment() {
                             email.setText(t.data?.email)
                             phoneNumber.setText(t.data?.phone_number)
                             ppUrl.setText(t.data?.photo_url)
+                            Glide.with(binding.root).load(t.data?.photo_url).into(binding.EditProfileImageView)
 
                         }
                         Resource.Status.ERROR -> {

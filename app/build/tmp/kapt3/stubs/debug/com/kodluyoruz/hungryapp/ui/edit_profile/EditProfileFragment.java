@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 import androidx.lifecycle.Observer;
+import com.bumptech.glide.Glide;
 import com.kodluyoruz.hungryapp.data.entity.UsersItem;
 import com.kodluyoruz.hungryapp.databinding.FragmentEditProfileBinding;
 import com.kodluyoruz.hungryapp.ui.base.BaseFragment;

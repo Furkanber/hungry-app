@@ -4,11 +4,12 @@ package com.kodluyoruz.hungryapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import com.google.android.material.button.MaterialButton;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
 import com.kodluyoruz.hungryapp.R;
@@ -21,7 +22,10 @@ public final class FragmentAddAddressBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button buttonAddAddress;
+  public final MaterialButton buttonAddAddress;
+
+  @NonNull
+  public final CardView cardView6;
 
   @NonNull
   public final TextInputEditText textInputEditTextAddressCity;
@@ -48,7 +52,8 @@ public final class FragmentAddAddressBinding implements ViewBinding {
   public final TextInputLayout textInputLayoutAddressTitle;
 
   private FragmentAddAddressBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Button buttonAddAddress, @NonNull TextInputEditText textInputEditTextAddressCity,
+      @NonNull MaterialButton buttonAddAddress, @NonNull CardView cardView6,
+      @NonNull TextInputEditText textInputEditTextAddressCity,
       @NonNull TextInputEditText textInputEditTextAddressDetail,
       @NonNull TextInputEditText textInputEditTextAddressDistrict,
       @NonNull TextInputEditText textInputEditTextAddressTitle,
@@ -58,6 +63,7 @@ public final class FragmentAddAddressBinding implements ViewBinding {
       @NonNull TextInputLayout textInputLayoutAddressTitle) {
     this.rootView = rootView;
     this.buttonAddAddress = buttonAddAddress;
+    this.cardView6 = cardView6;
     this.textInputEditTextAddressCity = textInputEditTextAddressCity;
     this.textInputEditTextAddressDetail = textInputEditTextAddressDetail;
     this.textInputEditTextAddressDistrict = textInputEditTextAddressDistrict;
@@ -96,8 +102,14 @@ public final class FragmentAddAddressBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.buttonAddAddress;
-      Button buttonAddAddress = rootView.findViewById(id);
+      MaterialButton buttonAddAddress = rootView.findViewById(id);
       if (buttonAddAddress == null) {
+        break missingId;
+      }
+
+      id = R.id.cardView6;
+      CardView cardView6 = rootView.findViewById(id);
+      if (cardView6 == null) {
         break missingId;
       }
 
@@ -149,7 +161,7 @@ public final class FragmentAddAddressBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentAddAddressBinding((ConstraintLayout) rootView, buttonAddAddress,
+      return new FragmentAddAddressBinding((ConstraintLayout) rootView, buttonAddAddress, cardView6,
           textInputEditTextAddressCity, textInputEditTextAddressDetail,
           textInputEditTextAddressDistrict, textInputEditTextAddressTitle,
           textInputLayoutAddressCity, textInputLayoutAddressDetail, textInputLayoutAddressDistrict,

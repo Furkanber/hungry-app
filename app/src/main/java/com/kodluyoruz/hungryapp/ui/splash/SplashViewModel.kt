@@ -22,7 +22,7 @@ class SplashViewModel @Inject constructor(private val apiRepository: ApiReposito
     fun handleAppLaunch() {
         Handler(Looper.getMainLooper()).postDelayed({
             this.firstLaunch.value = apiRepository.getBoolean(SharedPrefManager.FIRST_LAUNCH)
-        }, 1000)
+        }, 2500)
     }
 
     fun saveFirstLaunch() {

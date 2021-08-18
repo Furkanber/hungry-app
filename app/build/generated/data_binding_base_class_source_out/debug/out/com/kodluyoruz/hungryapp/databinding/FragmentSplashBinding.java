@@ -9,6 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import com.airbnb.lottie.LottieAnimationView;
 import com.kodluyoruz.hungryapp.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -19,10 +20,15 @@ public final class FragmentSplashBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final LottieAnimationView animationOnboarding1;
+
+  @NonNull
   public final TextView textView5;
 
-  private FragmentSplashBinding(@NonNull ConstraintLayout rootView, @NonNull TextView textView5) {
+  private FragmentSplashBinding(@NonNull ConstraintLayout rootView,
+      @NonNull LottieAnimationView animationOnboarding1, @NonNull TextView textView5) {
     this.rootView = rootView;
+    this.animationOnboarding1 = animationOnboarding1;
     this.textView5 = textView5;
   }
 
@@ -53,13 +59,20 @@ public final class FragmentSplashBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.animationOnboarding1;
+      LottieAnimationView animationOnboarding1 = rootView.findViewById(id);
+      if (animationOnboarding1 == null) {
+        break missingId;
+      }
+
       id = R.id.textView5;
       TextView textView5 = rootView.findViewById(id);
       if (textView5 == null) {
         break missingId;
       }
 
-      return new FragmentSplashBinding((ConstraintLayout) rootView, textView5);
+      return new FragmentSplashBinding((ConstraintLayout) rootView, animationOnboarding1,
+          textView5);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

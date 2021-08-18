@@ -8,6 +8,7 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import com.google.android.material.button.MaterialButton;
@@ -24,6 +25,9 @@ public final class FragmentRegisterBinding implements ViewBinding {
 
   @NonNull
   public final MaterialButton buttonRegister;
+
+  @NonNull
+  public final CardView cardView5;
 
   @NonNull
   public final ImageView imageView;
@@ -62,8 +66,9 @@ public final class FragmentRegisterBinding implements ViewBinding {
   public final TextInputLayout textInputLayoutSurname;
 
   private FragmentRegisterBinding(@NonNull ConstraintLayout rootView,
-      @NonNull MaterialButton buttonRegister, @NonNull ImageView imageView,
-      @NonNull ProgressBar progressBar, @NonNull TextInputEditText textInputEditTextEmail,
+      @NonNull MaterialButton buttonRegister, @NonNull CardView cardView5,
+      @NonNull ImageView imageView, @NonNull ProgressBar progressBar,
+      @NonNull TextInputEditText textInputEditTextEmail,
       @NonNull TextInputEditText textInputEditTextName,
       @NonNull TextInputEditText textInputEditTextPassword,
       @NonNull TextInputEditText textInputEditTextPhoneNumber,
@@ -74,6 +79,7 @@ public final class FragmentRegisterBinding implements ViewBinding {
       @NonNull TextInputLayout textInputLayoutSurname) {
     this.rootView = rootView;
     this.buttonRegister = buttonRegister;
+    this.cardView5 = cardView5;
     this.imageView = imageView;
     this.progressBar = progressBar;
     this.textInputEditTextEmail = textInputEditTextEmail;
@@ -118,6 +124,12 @@ public final class FragmentRegisterBinding implements ViewBinding {
       id = R.id.buttonRegister;
       MaterialButton buttonRegister = rootView.findViewById(id);
       if (buttonRegister == null) {
+        break missingId;
+      }
+
+      id = R.id.cardView5;
+      CardView cardView5 = rootView.findViewById(id);
+      if (cardView5 == null) {
         break missingId;
       }
 
@@ -193,11 +205,11 @@ public final class FragmentRegisterBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentRegisterBinding((ConstraintLayout) rootView, buttonRegister, imageView,
-          progressBar, textInputEditTextEmail, textInputEditTextName, textInputEditTextPassword,
-          textInputEditTextPhoneNumber, textInputEditTextSurname, textInputLayoutEmail,
-          textInputLayoutName, textInputLayoutPassword, textInputLayoutPhoneNumber,
-          textInputLayoutSurname);
+      return new FragmentRegisterBinding((ConstraintLayout) rootView, buttonRegister, cardView5,
+          imageView, progressBar, textInputEditTextEmail, textInputEditTextName,
+          textInputEditTextPassword, textInputEditTextPhoneNumber, textInputEditTextSurname,
+          textInputLayoutEmail, textInputLayoutName, textInputLayoutPassword,
+          textInputLayoutPhoneNumber, textInputLayoutSurname);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
