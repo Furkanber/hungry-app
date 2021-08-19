@@ -69,16 +69,6 @@ class HomeFragment : BaseFragment() {
         )
         restaurantRecyclerView.adapter = restaurantRecyclerViewAdapter
 
-
-        /*binding.btnDetail.setOnClickListener {
-            findNavController().navigate(HomeFragmentDirections.actionHomeFragmentToRestaurantDetailFragment(
-                RestaurantsItem(
-                    Address("", "Sureyyaplaji", "", "Istanbul", "Maltepe",""), 45, 1, "",
-                    mealList, 25, "Burger King",
-                    Owner("", "", "", "", ""), "4441423", 4, "")
-            ))
-        }*/
-
         binding.buttonGoToProfile.setOnClickListener {
             when (token) {
                 -1 -> findNavController().navigate(HomeFragmentDirections.actionHomeFragmentToLoginFragment())

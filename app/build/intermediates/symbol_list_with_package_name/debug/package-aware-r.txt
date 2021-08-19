@@ -1324,6 +1324,7 @@ color notification_icon_bg_color
 color notification_material_background_media_default_color
 color orange
 color orange_main
+color orange_mi
 color orange_secondary
 color orange_superlight
 color primary_dark_material_dark
@@ -1900,7 +1901,6 @@ drawable ic_add_restaurant_vector
 drawable ic_address
 drawable ic_arrow_down
 drawable ic_baseline_lock_24
-drawable ic_clock
 drawable ic_clock_black_24dp
 drawable ic_clock_time
 drawable ic_delivery
@@ -1910,7 +1910,6 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_logout
 drawable ic_loupe
-drawable ic_min_price
 drawable ic_money
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
@@ -1923,7 +1922,6 @@ drawable ic_star
 drawable ic_time
 drawable layout_ripple
 drawable line
-drawable login_icon
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1934,6 +1932,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable menu_background2
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -1961,12 +1960,10 @@ drawable outline_home
 drawable pizza_imageholder
 drawable rectangle_border
 drawable rectangle_border_orange
-drawable register_icon
 drawable remove
 drawable restaurant_background
 drawable restaurant_placeholder
 drawable round_button
-drawable sample_restaurant
 drawable share
 drawable spring_dot_background
 drawable spring_dot_stroke_background
@@ -1975,8 +1972,6 @@ drawable textfield_rect
 drawable thick_line
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
-drawable viewpager_indicator_active
-drawable viewpager_indicator_inactive
 drawable worm_dot_background
 drawable worm_dot_stroke_background
 id ALT

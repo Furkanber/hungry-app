@@ -1,27 +1,83 @@
 [
     {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_expandable_second.xml.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\expandable_second.xml"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_star.xml.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\ic_star.xml"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_profile.xml.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\ic_profile.xml"
+    },
+    {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_textfield_rect.xml.flat",
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable-v24\\textfield_rect.xml"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add.xml.flat",
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\add.xml"
     },
     {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_round_home.xml.flat",
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\ic_round_home.xml"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_address.png.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable-v24\\ic_address.png"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_money.png.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable-mdpi\\ic_money.png"
     },
     {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_on_boarding2.xml.flat",
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\fragment_on_boarding2.xml"
     },
     {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_rate.xml.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\fragment_rate.xml"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_restaurant_placeholder.png.flat",
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable-v24\\restaurant_placeholder.png"
     },
     {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_address_list_fragment.xml.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\address_list_fragment.xml"
+    },
+    {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\raw_onboarding1_animation.json.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\raw\\onboarding1_animation.json"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_line.xml.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\line.xml"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_time_clock.png.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\mipmap-xhdpi\\ic_time_clock.png"
     },
     {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_lock_24.xml.flat",
@@ -32,20 +88,44 @@
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\food_list_recycler_item.xml"
     },
     {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_viewpager_indicator_active.xml.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\viewpager_indicator_active.xml"
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_logout.xml.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\ic_logout.xml"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_on_boarding3.xml.flat",
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\fragment_on_boarding3.xml"
     },
     {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pizza_imageholder.jpg.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\pizza_imageholder.jpg"
+    },
+    {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_money.png.flat",
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable-xhdpi\\ic_money.png"
     },
     {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dashed_line.xml.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\dashed_line.xml"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_time_clock.png.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\mipmap-hdpi\\ic_time_clock.png"
+    },
+    {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_restaurant_detail.xml.flat",
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\fragment_restaurant_detail.xml"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_food_detail.xml.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\fragment_food_detail.xml"
     },
     {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_add_restaurant_fragment.xml.flat",
@@ -56,12 +136,36 @@
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\round_button.xml"
     },
     {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_loupe.xml.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable-v24\\ic_loupe.xml"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_food_adding.xml.flat",
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\fragment_food_adding.xml"
     },
     {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_add_address.xml.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\fragment_add_address.xml"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_time.png.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable-v24\\ic_time.png"
+    },
+    {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_restaurant_list_item.xml.flat",
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\restaurant_list_item.xml"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_clock_time.png.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable-xxhdpi\\ic_clock_time.png"
     },
     {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_money.xml.flat",
@@ -84,16 +188,52 @@
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\expandable_parent.xml"
     },
     {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_register.xml.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\fragment_register.xml"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_share.xml.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\share.xml"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_remove.xml.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\remove.xml"
+    },
+    {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_thick_line.xml.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\thick_line.xml"
     },
     {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rectangle_border.xml.flat",
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\rectangle_border.xml"
     },
     {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_profile.xml.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\raw_onboarding3_animation.json.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\raw\\onboarding3_animation.json"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_change_password.xml.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\fragment_change_password.xml"
+    },
+    {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_login.xml.flat",
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_clock_time.png.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable-mdpi\\ic_clock_time.png"
     },
     {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\raw_splash_animation.json.flat",
@@ -108,12 +248,32 @@
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\fragment_splash.xml"
     },
     {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_restaurant_background.jpg.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\restaurant_background.jpg"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_right.xml.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\ic_right.xml"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_outline_home.xml.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\outline_home.xml"
+    },
+    {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_burger_logo.jpg.flat",
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\burger_logo.jpg"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add_food_icon.xml.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\add_food_icon.xml"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_money.png.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable-hdpi\\ic_money.png"
     },
     {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_host.xml.flat",
@@ -128,226 +288,6 @@
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\menu\\settings_menu.xml"
     },
     {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_clock_time.png.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable-xhdpi\\ic_clock_time.png"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_time_clock.png.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_time_clock.png"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_time_clock.png.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_time_clock.png"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_address_list_item.xml.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\address_list_item.xml"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_order_details.xml.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\fragment_order_details.xml"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rectangle_border_orange.xml.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\rectangle_border_orange.xml"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_main_on_boarding.xml.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\fragment_main_on_boarding.xml"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_order_history.xml.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\fragment_order_history.xml"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_expandable_second.xml.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\expandable_second.xml"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_star.xml.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\ic_star.xml"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_profile.xml.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\ic_profile.xml"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_address.png.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable-v24\\ic_address.png"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_money.png.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable-mdpi\\ic_money.png"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_rate.xml.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\fragment_rate.xml"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_clock.png.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable-v24\\ic_clock.png"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_address_list_fragment.xml.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\address_list_fragment.xml"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\raw_onboarding1_animation.json.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\raw\\onboarding1_animation.json"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_line.xml.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\line.xml"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_time_clock.png.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\mipmap-xhdpi\\ic_time_clock.png"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_register_icon.png.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\register_icon.png"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_logout.xml.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\ic_logout.xml"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pizza_imageholder.jpg.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\pizza_imageholder.jpg"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dashed_line.xml.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\dashed_line.xml"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_time_clock.png.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\mipmap-hdpi\\ic_time_clock.png"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_food_detail.xml.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\fragment_food_detail.xml"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_loupe.xml.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable-v24\\ic_loupe.xml"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_add_address.xml.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\fragment_add_address.xml"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_time.png.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable-v24\\ic_time.png"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_clock_time.png.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable-xxhdpi\\ic_clock_time.png"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_login_icon.png.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\login_icon.png"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_register.xml.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\fragment_register.xml"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_share.xml.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\share.xml"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_remove.xml.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\remove.xml"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_thick_line.xml.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\thick_line.xml"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_profile.xml.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\fragment_profile.xml"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\raw_onboarding3_animation.json.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\raw\\onboarding3_animation.json"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_viewpager_indicator_inactive.xml.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\viewpager_indicator_inactive.xml"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_change_password.xml.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\fragment_change_password.xml"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_clock_time.png.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable-mdpi\\ic_clock_time.png"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_restaurant_background.jpg.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\restaurant_background.jpg"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_right.xml.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\ic_right.xml"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_outline_home.xml.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\outline_home.xml"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_min_price.png.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable-v24\\ic_min_price.png"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add_food_icon.xml.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\add_food_icon.xml"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_money.png.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable-hdpi\\ic_money.png"
-    },
-    {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
@@ -360,20 +300,40 @@
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable-xxhdpi\\ic_money.png"
     },
     {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_clock_time.png.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable-xhdpi\\ic_clock_time.png"
+    },
+    {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_menu_background2.jpg.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable-xhdpi\\menu_background2.jpg"
     },
     {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_delivery.png.flat",
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable-v24\\ic_delivery.png"
     },
     {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_sample_restaurant.jpg.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable-v24\\sample_restaurant.jpg"
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_time_clock.png.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_time_clock.png"
     },
     {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\raw_onboarding2_animation.json.flat",
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\raw\\onboarding2_animation.json"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_address_list_item.xml.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\address_list_item.xml"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_time_clock.png.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_time_clock.png"
     },
     {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_edit_profile.xml.flat",
@@ -384,8 +344,24 @@
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\order_history_item.xml"
     },
     {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_order_details.xml.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\fragment_order_details.xml"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rectangle_border_orange.xml.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\rectangle_border_orange.xml"
+    },
+    {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_edit.xml.flat",
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\ic_edit.xml"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_main_on_boarding.xml.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\fragment_main_on_boarding.xml"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_order_history.xml.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\fragment_order_history.xml"
     },
     {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_add_restaurant_vector.xml.flat",

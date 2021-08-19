@@ -167,16 +167,16 @@
       "menu": [
         {
           "food_id": 1,
-          "ingredients": "Extra Chocolate",
-          "name": "Chocolate Doughnut",
-          "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Dunkin-Donuts-Chocolate-Glazed.jpg",
+          "ingredients": "Sprinkles",
+          "name": "Strawberry Doughnut",
+          "photo_url": "https://w1nnersclub.com/wp-content/uploads/2018/05/krispy-kreme_donut.jpg",
           "price": 20
         },
         {
           "food_id": 2,
-          "ingredients": "Sprinkles",
-          "name": "Strawberry Sprinkles Doughnut",
-          "photo_url": "https://w1nnersclub.com/wp-content/uploads/2018/05/krispy-kreme_donut.jpg",
+          "ingredients": "Extra Chocolate",
+          "name": "Chocolate Doughnut",
+          "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Dunkin-Donuts-Chocolate-Glazed.jpg",
           "price": 20
         }
       ],

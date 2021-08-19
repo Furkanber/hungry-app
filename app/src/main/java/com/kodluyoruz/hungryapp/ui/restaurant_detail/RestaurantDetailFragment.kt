@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.bumptech.glide.Glide
 import com.kodluyoruz.hungryapp.data.entity.Menu
 import com.kodluyoruz.hungryapp.data.entity.RestaurantsItem
 import com.kodluyoruz.hungryapp.databinding.FragmentRestaurantDetailBinding
@@ -79,6 +80,7 @@ class RestaurantDetailFragment : BaseFragment() {
 
         viewModel.getFoodList().observe(viewLifecycleOwner, {
             adapter.setDataset(it)
+            Glide.with(binding.root).load(it.get(0).photo_url).into(binding.imageViewRestaurantLogo)
         })
 
         viewModel.getNavigateToMealDetail().observe(viewLifecycleOwner, {

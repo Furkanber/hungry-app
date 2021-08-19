@@ -37,7 +37,8 @@ class NetworkModule {
 
     @Provides
     fun provideEndPoint(): EndPoint {
-        return EndPoint("http://10.0.2.2:3000/")
+        //return EndPoint("http://10.0.2.2:3000/")
+        return EndPoint("https://json-server-hungry.herokuapp.com/")
     }
 
     @Provides
