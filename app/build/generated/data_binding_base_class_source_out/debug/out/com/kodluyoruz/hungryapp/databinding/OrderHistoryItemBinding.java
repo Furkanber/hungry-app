@@ -4,13 +4,11 @@ package com.kodluyoruz.hungryapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
 import androidx.viewbinding.ViewBinding;
-import com.google.android.material.button.MaterialButton;
 import com.kodluyoruz.hungryapp.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -21,51 +19,46 @@ public final class OrderHistoryItemBinding implements ViewBinding {
   private final CardView rootView;
 
   @NonNull
+  public final TextView FoodNameTV;
+
+  @NonNull
+  public final TextView FoodQtyTV;
+
+  @NonNull
   public final TextView addressDistrictTV;
-
-  @NonNull
-  public final MaterialButton buttonDetails;
-
-  @NonNull
-  public final MaterialButton buttonRate;
 
   @NonNull
   public final TextView dateTV;
 
   @NonNull
-  public final TextView orderRateTv;
+  public final TextView orderNoteTV;
 
   @NonNull
-  public final TextView priceTextView;
+  public final TextView priceTV;
 
   @NonNull
   public final TextView restaurantNameTV;
 
   @NonNull
-  public final ImageView starIconIV;
+  public final CardView restaurantPointCard;
 
   @NonNull
-  public final TextView textView2;
+  public final TextView restaurantPointTV;
 
-  @NonNull
-  public final TextView timeTV;
-
-  private OrderHistoryItemBinding(@NonNull CardView rootView, @NonNull TextView addressDistrictTV,
-      @NonNull MaterialButton buttonDetails, @NonNull MaterialButton buttonRate,
-      @NonNull TextView dateTV, @NonNull TextView orderRateTv, @NonNull TextView priceTextView,
-      @NonNull TextView restaurantNameTV, @NonNull ImageView starIconIV,
-      @NonNull TextView textView2, @NonNull TextView timeTV) {
+  private OrderHistoryItemBinding(@NonNull CardView rootView, @NonNull TextView FoodNameTV,
+      @NonNull TextView FoodQtyTV, @NonNull TextView addressDistrictTV, @NonNull TextView dateTV,
+      @NonNull TextView orderNoteTV, @NonNull TextView priceTV, @NonNull TextView restaurantNameTV,
+      @NonNull CardView restaurantPointCard, @NonNull TextView restaurantPointTV) {
     this.rootView = rootView;
+    this.FoodNameTV = FoodNameTV;
+    this.FoodQtyTV = FoodQtyTV;
     this.addressDistrictTV = addressDistrictTV;
-    this.buttonDetails = buttonDetails;
-    this.buttonRate = buttonRate;
     this.dateTV = dateTV;
-    this.orderRateTv = orderRateTv;
-    this.priceTextView = priceTextView;
+    this.orderNoteTV = orderNoteTV;
+    this.priceTV = priceTV;
     this.restaurantNameTV = restaurantNameTV;
-    this.starIconIV = starIconIV;
-    this.textView2 = textView2;
-    this.timeTV = timeTV;
+    this.restaurantPointCard = restaurantPointCard;
+    this.restaurantPointTV = restaurantPointTV;
   }
 
   @Override
@@ -95,21 +88,21 @@ public final class OrderHistoryItemBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.FoodNameTV;
+      TextView FoodNameTV = rootView.findViewById(id);
+      if (FoodNameTV == null) {
+        break missingId;
+      }
+
+      id = R.id.FoodQtyTV;
+      TextView FoodQtyTV = rootView.findViewById(id);
+      if (FoodQtyTV == null) {
+        break missingId;
+      }
+
       id = R.id.addressDistrictTV;
       TextView addressDistrictTV = rootView.findViewById(id);
       if (addressDistrictTV == null) {
-        break missingId;
-      }
-
-      id = R.id.buttonDetails;
-      MaterialButton buttonDetails = rootView.findViewById(id);
-      if (buttonDetails == null) {
-        break missingId;
-      }
-
-      id = R.id.buttonRate;
-      MaterialButton buttonRate = rootView.findViewById(id);
-      if (buttonRate == null) {
         break missingId;
       }
 
@@ -119,15 +112,15 @@ public final class OrderHistoryItemBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.orderRate_tv;
-      TextView orderRateTv = rootView.findViewById(id);
-      if (orderRateTv == null) {
+      id = R.id.orderNoteTV;
+      TextView orderNoteTV = rootView.findViewById(id);
+      if (orderNoteTV == null) {
         break missingId;
       }
 
-      id = R.id.price_textView;
-      TextView priceTextView = rootView.findViewById(id);
-      if (priceTextView == null) {
+      id = R.id.priceTV;
+      TextView priceTV = rootView.findViewById(id);
+      if (priceTV == null) {
         break missingId;
       }
 
@@ -137,27 +130,21 @@ public final class OrderHistoryItemBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.starIconIV;
-      ImageView starIconIV = rootView.findViewById(id);
-      if (starIconIV == null) {
+      id = R.id.restaurant_point_card;
+      CardView restaurantPointCard = rootView.findViewById(id);
+      if (restaurantPointCard == null) {
         break missingId;
       }
 
-      id = R.id.textView2;
-      TextView textView2 = rootView.findViewById(id);
-      if (textView2 == null) {
+      id = R.id.restaurantPointTV;
+      TextView restaurantPointTV = rootView.findViewById(id);
+      if (restaurantPointTV == null) {
         break missingId;
       }
 
-      id = R.id.timeTV;
-      TextView timeTV = rootView.findViewById(id);
-      if (timeTV == null) {
-        break missingId;
-      }
-
-      return new OrderHistoryItemBinding((CardView) rootView, addressDistrictTV, buttonDetails,
-          buttonRate, dateTV, orderRateTv, priceTextView, restaurantNameTV, starIconIV, textView2,
-          timeTV);
+      return new OrderHistoryItemBinding((CardView) rootView, FoodNameTV, FoodQtyTV,
+          addressDistrictTV, dateTV, orderNoteTV, priceTV, restaurantNameTV, restaurantPointCard,
+          restaurantPointTV);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

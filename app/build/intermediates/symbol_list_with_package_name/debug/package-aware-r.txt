@@ -1957,9 +1957,10 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable outline_home
-drawable pizza_imageholder
+drawable profile_placeholder
 drawable rectangle_border
 drawable rectangle_border_orange
+drawable rectangle_button
 drawable remove
 drawable restaurant_background
 drawable restaurant_placeholder
@@ -1972,6 +1973,7 @@ drawable textfield_rect
 drawable thick_line
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable vertical_line
 drawable worm_dot_background
 drawable worm_dot_stroke_background
 id ALT
@@ -1981,6 +1983,8 @@ id CTRL
 id EditProfileImageView
 id EmailTextView
 id FUNCTION
+id FoodNameTV
+id FoodQtyTV
 id META
 id NO_DEBUG
 id NameTextView
@@ -2120,14 +2124,12 @@ id btnLogout
 id buttonAddAddress
 id buttonAddress
 id buttonChangePasswordNavigation
-id buttonDetails
 id buttonEditProfile
 id buttonGoToProfile
 id buttonLogin
 id buttonLogout
 id buttonOrderHistory
 id buttonPanel
-id buttonRate
 id buttonRegister
 id buttonStart
 id buttonSubmitRating
@@ -2259,6 +2261,7 @@ id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap
+id gridLayout
 id group_divider
 id grouping
 id groups
@@ -2303,7 +2306,6 @@ id line1
 id line3
 id linear
 id linearLayout
-id linearLayoutButtons
 id linearLayoutRegister
 id listMode
 id list_item
@@ -2399,6 +2401,7 @@ id orderAddress_tv
 id orderDate_tv
 id orderID_tv
 id orderList_RV
+id orderNoteTV
 id orderRate_tv
 id orderRatingBar
 id orderReview_tv
@@ -2420,7 +2423,7 @@ id phone_number_edittext
 id pin
 id position
 id postLayout
-id price_textView
+id priceTV
 id profileFragment2
 id profileImageView
 id progressBar
@@ -2434,6 +2437,7 @@ id registerFragment
 id restart
 id restaurantDetailFragment
 id restaurantNameTV
+id restaurantPointTV
 id restaurantRecyclerView
 id restaurant_addressdt_edittext
 id restaurant_city_edittext
@@ -2509,7 +2513,6 @@ id src_atop
 id src_in
 id src_over
 id standard
-id starIconIV
 id start
 id startHorizontal
 id startToEnd
@@ -2580,7 +2583,6 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
-id textView2
 id textView3
 id textView4
 id textView5
@@ -2608,7 +2610,6 @@ id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
 id time
-id timeTV
 id title
 id titleDividerNoCustom
 id title_template
@@ -2891,7 +2892,9 @@ string bottomsheet_action_expand_halfway
 string button_add_address
 string button_change_password
 string button_login
+string button_my_addresses
 string button_next
+string button_order_history
 string button_register
 string button_start
 string button_update_password
@@ -3002,6 +3005,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string phone_number_str
+string profile_page_str
 string restaurant_menu_title
 string restaurant_name
 string restaurant_name_str

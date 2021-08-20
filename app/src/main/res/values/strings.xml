@@ -34,6 +34,9 @@
     <string name="button_update_password">Update Password</string>
     <string name="button_change_password">Change Password</string>
     <string name="button_update_profile">Update Profile</string>
+    <string name="button_order_history">Order History</string>
+    <string name="button_my_addresses">My Addresses</string>
+    <string name="profile_page_str">Profile Page</string>
     <string name="hint_register">Sign Up</string>
     <string name="text_profile_picture">Profile Picture</string>
     <string name="hint_profile_picture_url">Profile Picture URL</string>

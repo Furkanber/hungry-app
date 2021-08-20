@@ -7,25 +7,25 @@
         android:background="@color/orange_secondary"
     tools:context=".ui.profile.ProfileFragment">
 
-    <ImageButton
-        android:id="@+id/buttonLogout"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:background="@drawable/round_button"
-        android:backgroundTint="@color/button_grey"
-        android:src="@drawable/ic_logout"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.932"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.007" />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_page_str"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/cardView3"
+            app:layout_constraintHorizontal_bias="0.05"
+            app:layout_constraintVertical_bias="0.484" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView3"
         android:layout_width="match_parent"
-        android:layout_height="160dp"
-        android:backgroundTint="@color/cream"
+        android:layout_height="600dp"
+        android:backgroundTint="@color/orange_superlight"
         app:cardCornerRadius="16dp"
         app:cardElevation="16dp"
         android:layout_margin="16dp"
@@ -34,11 +34,11 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.078">
+        app:layout_constraintVertical_bias="0.6">
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
             <androidx.cardview.widget.CardView
                     android:id="@+id/cardView4"
@@ -49,126 +49,157 @@
                     app:cardElevation="16dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.061"
+                    app:layout_constraintHorizontal_bias="0.498"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent">
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.033">
 
                 <ImageView
                         android:id="@+id/profileImageView"
                         android:layout_width="116dp"
                         android:layout_height="116dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/pizza_imageholder" />
+                        android:src="@drawable/profile_placeholder" />
+
+                <TextView
+                        android:id="@+id/EmailTextView"
+                        android:layout_width="198dp"
+                        android:layout_height="24dp"
+                        android:visibility="gone"
+                        android:text="@string/hint_email"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="48dp" />
             </androidx.cardview.widget.CardView>
 
             <TextView
                     android:id="@+id/NameTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="24dp"
-                    android:layout_marginTop="44dp"
+                    android:layout_marginTop="144dp"
                     android:text="@string/hint_name"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.516"
+                    app:layout_constraintHorizontal_bias="0.388"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/SurnameTextView"
-                android:layout_width="wrap_content"
-                android:layout_height="24dp"
-                android:layout_marginTop="44dp"
-                android:text="@string/hint_surname"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.070"
-                app:layout_constraintStart_toEndOf="@+id/NameTextView"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                    android:id="@+id/EmailTextView"
-                    android:layout_width="198dp"
+                    android:id="@+id/SurnameTextView"
+                    android:layout_width="wrap_content"
                     android:layout_height="24dp"
-                    android:text="@string/hint_email"
+                    android:text="@string/hint_surname"
                     android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.045"
+                    app:layout_constraintStart_toEndOf="@+id/NameTextView"
+                    app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    android:layout_marginBottom="48dp"
-                    app:layout_constraintTop_toBottomOf="@+id/NameTextView"
-                    app:layout_constraintVertical_bias="1.0"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintHorizontal_bias="0.966" />
+                    app:layout_constraintVertical_bias="0.25" />
 
             <ImageButton
-                android:id="@+id/buttonEditProfile"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:backgroundTint="@color/card_grey"
-                android:src="@drawable/ic_edit"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.954"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.123" />
+                    android:id="@+id/buttonEditProfile"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:backgroundTint="@color/card_grey"
+                    android:src="@drawable/ic_edit"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.954"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.121" />
+
+            <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="@dimen/margin_16"
+                    android:orientation="horizontal"
+                    android:rowCount="1"
+                    android:columnCount="3"
+                    android:id="@+id/gridLayout"
+                    app:layout_constraintVertical_bias="0.30"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent">
+
+                <Button
+                        android:id="@+id/buttonAddress"
+                        android:layout_width="173dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/rectangle_button"
+                        app:backgroundTint="@color/orange_superlight"
+                        android:textColor="@color/light_purple"
+                        android:textStyle="bold"
+                        android:text="@string/button_my_addresses"
+                        android:textAllCaps="false"
+                        android:layout_row="0"
+                        android:layout_column="0" />
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="40dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/vertical_line"/>
+
+                <Button
+                        android:id="@+id/buttonOrderHistory"
+                        android:layout_width="173dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/rectangle_button"
+                        android:layout_row="0"
+                        android:layout_column="1"
+                        android:layout_marginEnd="20dp"
+                        android:textAllCaps="false"
+                        app:backgroundTint="@color/orange_superlight"
+                        android:textColor="@color/light_purple"
+                        android:text="@string/button_order_history"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toTopOf="@+id/viewPagerProfile"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toEndOf="@+id/buttonAddress"
+                        app:layout_constraintTop_toBottomOf="@+id/cardView3"
+                        app:layout_constraintVertical_bias="0.0" />
+
+            </GridLayout>
+
+            <androidx.viewpager2.widget.ViewPager2
+                    android:id="@+id/viewPagerProfile"
+                    android:layout_width="350dp"
+                    android:layout_height="380dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@drawable/rectangle_border_orange"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintVertical_bias="1.0"
+                    app:layout_constraintHorizontal_bias="0.448" />
+
+            <ImageButton
+                    android:id="@+id/buttonLogout"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/round_button"
+                    android:backgroundTint="@color/button_grey"
+                    android:src="@drawable/ic_logout"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.952"
+                    app:layout_constraintVertical_bias="0.028" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 
-    <LinearLayout
-        android:id="@+id/linearLayoutButtons"
-        android:layout_width="380dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView3">
 
-        <Button
-                android:id="@+id/buttonAddress"
-                android:layout_width="190dp"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/cream"
-                android:text="MY ADDRESSES"
-                android:textColor="@color/white" />
-
-        <Button
-            android:id="@+id/buttonOrderHistory"
-            android:layout_width="190dp"
-            android:layout_height="wrap_content"
-            android:layout_row="0"
-            android:layout_column="1"
-            android:layout_marginEnd="20dp"
-            android:backgroundTint="@color/cream"
-            android:text="ORDER HISTORY"
-            android:textColor="@color/white"
-            app:layout_constraintBottom_toTopOf="@+id/viewPagerProfile"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@+id/buttonAddress"
-            app:layout_constraintTop_toBottomOf="@+id/cardView3"
-            app:layout_constraintVertical_bias="0.0" />
-
-    </LinearLayout>
-
-
-    <androidx.viewpager2.widget.ViewPager2
-        android:id="@+id/viewPagerProfile"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
-        android:background="@drawable/rectangle_border"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayoutButtons"
-        app:layout_constraintVertical_bias="0.0">
-
-    </androidx.viewpager2.widget.ViewPager2>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

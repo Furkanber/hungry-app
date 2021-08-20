@@ -5,9 +5,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.GridLayout;
 import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -52,7 +52,7 @@ public final class FragmentProfileBinding implements ViewBinding {
   public final CardView cardView4;
 
   @NonNull
-  public final LinearLayout linearLayoutButtons;
+  public final GridLayout gridLayout;
 
   @NonNull
   public final ImageView profileImageView;
@@ -65,7 +65,7 @@ public final class FragmentProfileBinding implements ViewBinding {
       @NonNull TextView SurnameTextView, @NonNull Button buttonAddress,
       @NonNull ImageButton buttonEditProfile, @NonNull ImageButton buttonLogout,
       @NonNull Button buttonOrderHistory, @NonNull CardView cardView3, @NonNull CardView cardView4,
-      @NonNull LinearLayout linearLayoutButtons, @NonNull ImageView profileImageView,
+      @NonNull GridLayout gridLayout, @NonNull ImageView profileImageView,
       @NonNull ViewPager2 viewPagerProfile) {
     this.rootView = rootView;
     this.EmailTextView = EmailTextView;
@@ -77,7 +77,7 @@ public final class FragmentProfileBinding implements ViewBinding {
     this.buttonOrderHistory = buttonOrderHistory;
     this.cardView3 = cardView3;
     this.cardView4 = cardView4;
-    this.linearLayoutButtons = linearLayoutButtons;
+    this.gridLayout = gridLayout;
     this.profileImageView = profileImageView;
     this.viewPagerProfile = viewPagerProfile;
   }
@@ -163,9 +163,9 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.linearLayoutButtons;
-      LinearLayout linearLayoutButtons = rootView.findViewById(id);
-      if (linearLayoutButtons == null) {
+      id = R.id.gridLayout;
+      GridLayout gridLayout = rootView.findViewById(id);
+      if (gridLayout == null) {
         break missingId;
       }
 
@@ -183,7 +183,7 @@ public final class FragmentProfileBinding implements ViewBinding {
 
       return new FragmentProfileBinding((ConstraintLayout) rootView, EmailTextView, NameTextView,
           SurnameTextView, buttonAddress, buttonEditProfile, buttonLogout, buttonOrderHistory,
-          cardView3, cardView4, linearLayoutButtons, profileImageView, viewPagerProfile);
+          cardView3, cardView4, gridLayout, profileImageView, viewPagerProfile);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
