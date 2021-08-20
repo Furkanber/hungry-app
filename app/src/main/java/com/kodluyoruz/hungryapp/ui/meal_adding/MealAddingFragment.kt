@@ -50,6 +50,7 @@ class MealAddingFragment : BaseFragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         initViews()
+
         // checks if there is given permission by user for getting image from gallery
         image.setOnClickListener {
             if (checkSelfPermission(
@@ -97,7 +98,7 @@ class MealAddingFragment : BaseFragment() {
                         when (t?.status) {
                             Resource.Status.ERROR -> Toast.makeText(
                                 requireContext(),
-                                "Order is failed.Please try again later",
+                                "Order is failed. Please try again later.",
                                 Toast.LENGTH_SHORT
                             ).show()
                             Resource.Status.SUCCESS -> {

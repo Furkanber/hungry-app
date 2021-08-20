@@ -102,7 +102,7 @@
 
 
                 <TextView
-                        android:text="10TL"
+                        android:text="10 ₺"
                         android:textStyle="bold"
                         android:textSize="13sp"
                         android:id="@+id/restaurant_min_price_textview"

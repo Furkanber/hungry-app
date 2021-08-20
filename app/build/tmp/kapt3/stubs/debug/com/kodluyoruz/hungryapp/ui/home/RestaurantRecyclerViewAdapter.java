@@ -5,6 +5,7 @@ import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import androidx.recyclerview.widget.RecyclerView;
+import com.bumptech.glide.Glide;
 import com.kodluyoruz.hungryapp.data.entity.RestaurantsItem;
 import com.kodluyoruz.hungryapp.databinding.RestaurantListItemBinding;
 

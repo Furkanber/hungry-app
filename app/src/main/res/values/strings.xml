@@ -17,6 +17,7 @@
     <string name="imageholder_URL">https://cdn.friendlystock.com/wp-content/uploads/2019/12/4-special-pizza-cartoon-clipart.jpg</string>
     <string name="hint_email">Email Address</string>
     <string name="hint_password">Password</string>
+    <string name="edit_profile_str">Edit Profile</string>
     <string name="button_login">Login</string>
     <string name="label_register">"Don't have an account?"</string>
     <string name="button_register">Sign Up</string>
@@ -47,6 +48,7 @@
     <string name="address_info_text_str">Address Infos</string>
     <string name="city_str">District</string>
     <string name="county_str">City</string>
+    <string name="name_surname_str">Name Surname</string>
     <string name="address_detail_str">Address Details</string>
     <string name="has_restaurant_str">Are you a restaurant owner?&#160;&#160;</string>
     <string name="save_restaurant">Add a Restaurant</string>

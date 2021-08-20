@@ -58,7 +58,7 @@ class MealDetailFragment : BaseFragment() {
         initListView()
         quantityListener()
         viewModel.amount.observe(viewLifecycleOwner, Observer {
-            binding.foodPrice.text = "${it * menu.price} TL"
+            binding.foodPrice.text = "${it * menu.price} ₺"
             binding.foodQuantity.text = "${it}"
             orderFood = OrderFood(menu.food_id, 2, it)
         })
@@ -97,7 +97,7 @@ class MealDetailFragment : BaseFragment() {
                 viewModel.getToken()
             )
             viewModel.postOrder(order).observe(viewLifecycleOwner, {
-                Toast.makeText(requireContext(), "You ordered succesfully", Toast.LENGTH_SHORT)
+                Toast.makeText(requireContext(), "You succesfully ordered!", Toast.LENGTH_SHORT)
                     .show()
                 findNavController().navigateUp()
             })
@@ -142,7 +142,7 @@ class MealDetailFragment : BaseFragment() {
                         action = Intent.ACTION_SEND
                         type = "image/*"
                         putExtra(Intent.EXTRA_STREAM, getLocalBitmapUri(resource))
-                        putExtra(Intent.EXTRA_TEXT, "${menu.name} \nPrice:${menu.price}TL")
+                        putExtra(Intent.EXTRA_TEXT, "${menu.name} \nPrice:${menu.price}₺")
                     }
                     startActivity(Intent.createChooser(shareIntent, "Send to"))
                 }

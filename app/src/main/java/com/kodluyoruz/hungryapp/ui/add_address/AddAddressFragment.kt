@@ -86,7 +86,7 @@ class AddAddressFragment : BaseFragment() {
                         Resource.Status.SUCCESS -> {
                             Toast.makeText(
                                 requireContext(),
-                                "You added the address succesfully",
+                                "You succesfully added the address!",
                                 Toast.LENGTH_SHORT
                             ).show()
                             findNavController().popBackStack()

@@ -64,7 +64,7 @@
                 app:layout_constraintBottom_toBottomOf="@+id/decrease"
                 app:layout_constraintStart_toEndOf="@id/decrease"
                 app:layout_constraintTop_toTopOf="@+id/decrease"
-                android:text="1 Adet" />
+                android:text="1" />
 
             <ImageView
                 android:id="@+id/increase"

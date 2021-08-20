@@ -49,7 +49,7 @@ class LoginFragment : BaseFragment() {
                             if (it.data?.size == 0) {
                                 Toast.makeText(
                                     context,
-                                    "Kullanici adi veya sifre yanlis",
+                                    "Email or password is incorrect, please try again.",
                                     Toast.LENGTH_LONG
                                 ).show()
                             } else {
@@ -63,7 +63,7 @@ class LoginFragment : BaseFragment() {
                             binding.progressBar.visibility = View.GONE
                             Toast.makeText(
                                 context,
-                                "Sunucu Hatasi: ${it.message}",
+                                "Server Error: ${it.message}",
                                 Toast.LENGTH_LONG
                             ).show()
                         }

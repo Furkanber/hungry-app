@@ -7,6 +7,33 @@
         android:background="@color/orange_secondary"
     tools:context=".ui.add_address.AddAddressFragment">
 
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_16"
+            android:text="@string/button_add_address"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintVertical_bias="0.039"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/location_pin"
+            android:background="@drawable/round_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.89"
+            app:layout_constraintVertical_bias="0.007" />
+
     <androidx.cardview.widget.CardView
             android:layout_width="380dp"
             android:layout_height="450dp"

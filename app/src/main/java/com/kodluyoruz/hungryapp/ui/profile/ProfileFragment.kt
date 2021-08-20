@@ -69,8 +69,8 @@ class ProfileFragment : BaseFragment() {
 
                 }
                 Resource.Status.SUCCESS -> {
-                    binding.NameTextView.text = it.data?.get(0)?.name
-                    binding.SurnameTextView.text = it.data?.get(0)?.surname
+                    binding.NameTextView.text = it.data?.get(0)?.name + " " + it.data?.get(0)?.surname
+                    //binding.SurnameTextView.text = it.data?.get(0)?.surname
                     binding.EmailTextView.text = it.data?.get(0)?.email
                     Glide.with(binding.root).load(it.data?.get(0)?.photo_url).into(binding.profileImageView)
                 }

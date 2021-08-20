@@ -1881,6 +1881,7 @@ drawable add
 drawable add_food_icon
 drawable avd_hide_password
 drawable avd_show_password
+drawable background22
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1922,6 +1923,8 @@ drawable ic_star
 drawable ic_time
 drawable layout_ripple
 drawable line
+drawable location_pin
+drawable login_image
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1932,7 +1935,6 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
-drawable menu_background2
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -1957,12 +1959,12 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable outline_home
+drawable password
 drawable profile_placeholder
 drawable rectangle_border
 drawable rectangle_border_orange
 drawable rectangle_button
 drawable remove
-drawable restaurant_background
 drawable restaurant_placeholder
 drawable round_button
 drawable share
@@ -2120,7 +2122,6 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id btnLogout
 id buttonAddAddress
 id buttonAddress
 id buttonChangePasswordNavigation
@@ -2906,6 +2907,7 @@ string chip_text
 string city_str
 string clear_text_end_icon_content_description
 string county_str
+string edit_profile_str
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -2990,6 +2992,7 @@ string mtrl_picker_toggle_to_calendar_input_mode
 string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
+string name_surname_str
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
 string on_boarding_1_title_1
@@ -3296,6 +3299,7 @@ style ShapeAppearance_MaterialComponents_SmallComponent
 style ShapeAppearance_MaterialComponents_Test
 style ShapeAppearance_MaterialComponents_Tooltip
 style ShapeAppearanceOverlay
+style ShapeAppearanceOverlay_App_CornerSize10Percent
 style ShapeAppearanceOverlay_BottomLeftDifferentCornerSize
 style ShapeAppearanceOverlay_BottomRightCut
 style ShapeAppearanceOverlay_Cut

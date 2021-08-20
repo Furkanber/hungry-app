@@ -53,6 +53,8 @@
     <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
             android:id="@+id/buttonStart"
             android:text="@string/button_start"
+            android:textSize="18sp"
+            android:textStyle="bold"
             android:textColor="@color/orange"
             app:backgroundTint="@color/white"
             android:textAllCaps="false"

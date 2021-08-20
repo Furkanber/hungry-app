@@ -69,7 +69,7 @@ class ChangePasswordFragment : BaseFragment() {
                         }
                     })
                 } else {
-                    Toast.makeText(context, "Wrong password", Toast.LENGTH_LONG).show()
+                    Toast.makeText(context, "Something went wrong...", Toast.LENGTH_LONG).show()
                 }
             })
         }

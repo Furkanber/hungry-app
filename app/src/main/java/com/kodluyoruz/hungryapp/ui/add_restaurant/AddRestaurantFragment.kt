@@ -64,7 +64,7 @@ class AddRestaurantFragment : BaseFragment() {
 
     fun submit(): RestaurantDto {
         val address: Address = Address(
-            title = "Isletme Adresi",
+            title = "Company Address",
             add_date = Calendar.getInstance().time.toString(),
             address = restaurantAddressDetailField.text.toString(),
             city = restaurantCityField.text.toString(),
@@ -76,7 +76,7 @@ class AddRestaurantFragment : BaseFragment() {
             average_delivery_time = 10,
             phone_number = restaurantPhoneNumberField.text.toString(),
             point = 5,
-            review = "Harika",
+            review = "Wonderful",
             owner = Owner(
                 email = "",
                 name = "",

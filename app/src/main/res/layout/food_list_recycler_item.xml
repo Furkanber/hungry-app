@@ -47,7 +47,7 @@
 
         <TextView
             android:id="@+id/textViewFoodPrice"
-            tools:text="33.90 TL"
+            tools:text="33.90 ₺"
             android:textSize="16sp"
             android:textColor="@color/orange"
                 android:textStyle="bold"

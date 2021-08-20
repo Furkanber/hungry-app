@@ -9,8 +9,6 @@ import retrofit2.http.*
 
 interface ApiService {
 
-    //http://localhost:3000/users?email=yusuf@hotmail.com&name=Yusuf
-
     @GET("users")
     suspend fun getUser(
         @Query("id") id: Int

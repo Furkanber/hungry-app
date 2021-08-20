@@ -5,14 +5,14 @@ import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import com.kodluyoruz.hungryapp.data.entity.RestaurantsItem
 import com.kodluyoruz.hungryapp.databinding.RestaurantListItemBinding
 
-class RestaurantRecyclerViewAdapter(/*val restViewModel:ViewModel?,*/ private val restaurantList: ArrayList<RestaurantsItem>,
+class RestaurantRecyclerViewAdapter(private val restaurantList: ArrayList<RestaurantsItem>,
                                                                       val context: Context,
                                                                       val onClick: onDetail
 ) : RecyclerView.Adapter<RestaurantRecyclerViewAdapter.RestaurantViewHolder>() {
-
 
     fun updateRestaurantList(itemList: ArrayList<RestaurantsItem>) {
         this.restaurantList.clear()
@@ -41,12 +41,14 @@ class RestaurantRecyclerViewAdapter(/*val restViewModel:ViewModel?,*/ private va
         return restaurantList.size
     }
 
+
     inner class RestaurantViewHolder(private val binding: RestaurantListItemBinding) :
         RecyclerView.ViewHolder(binding.root) {
         fun bind(item: RestaurantsItem) {
-            binding.restaurantRemainTimeTextview.text = "${item.average_delivery_time} dk"
-            binding.restaurantMinPriceTextview.text = "${item.min_order} TL"
+            binding.restaurantRemainTimeTextview.text = "${item.average_delivery_time} min"
+            binding.restaurantMinPriceTextview.text = "${item.min_order} ₺"
             binding.restaurantPointTextview.text = item.point!!.toDouble().toString()
+            Glide.with(binding.root).load(item?.address.address).into(binding.restaurantImageview)
 
             var alphaVal: Double = 1.0
             var colorCode: String = "#F97504"

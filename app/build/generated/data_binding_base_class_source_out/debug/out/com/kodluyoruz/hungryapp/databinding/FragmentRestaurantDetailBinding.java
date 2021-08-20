@@ -4,7 +4,6 @@ package com.kodluyoruz.hungryapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -25,9 +24,6 @@ public final class FragmentRestaurantDetailBinding implements ViewBinding {
 
   @NonNull
   public final FloatingActionButton addMeal;
-
-  @NonNull
-  public final Button btnLogout;
 
   @NonNull
   public final ImageView imageViewBackground;
@@ -66,8 +62,8 @@ public final class FragmentRestaurantDetailBinding implements ViewBinding {
   public final TextView textViewRestaurantScore;
 
   private FragmentRestaurantDetailBinding(@NonNull ConstraintLayout rootView,
-      @NonNull FloatingActionButton addMeal, @NonNull Button btnLogout,
-      @NonNull ImageView imageViewBackground, @NonNull ShapeableImageView imageViewRestaurantLogo,
+      @NonNull FloatingActionButton addMeal, @NonNull ImageView imageViewBackground,
+      @NonNull ShapeableImageView imageViewRestaurantLogo,
       @NonNull RecyclerView recyclerViewFoodList, @NonNull TextView textViewMenuTitle,
       @NonNull TextView textViewRestaurantAddress, @NonNull TextView textViewRestaurantAddressLabel,
       @NonNull TextView textViewRestaurantDeliveryTime,
@@ -77,7 +73,6 @@ public final class FragmentRestaurantDetailBinding implements ViewBinding {
       @NonNull TextView textViewRestaurantName, @NonNull TextView textViewRestaurantScore) {
     this.rootView = rootView;
     this.addMeal = addMeal;
-    this.btnLogout = btnLogout;
     this.imageViewBackground = imageViewBackground;
     this.imageViewRestaurantLogo = imageViewRestaurantLogo;
     this.recyclerViewFoodList = recyclerViewFoodList;
@@ -122,12 +117,6 @@ public final class FragmentRestaurantDetailBinding implements ViewBinding {
       id = R.id.add_meal;
       FloatingActionButton addMeal = rootView.findViewById(id);
       if (addMeal == null) {
-        break missingId;
-      }
-
-      id = R.id.btnLogout;
-      Button btnLogout = rootView.findViewById(id);
-      if (btnLogout == null) {
         break missingId;
       }
 
@@ -203,7 +192,7 @@ public final class FragmentRestaurantDetailBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentRestaurantDetailBinding((ConstraintLayout) rootView, addMeal, btnLogout,
+      return new FragmentRestaurantDetailBinding((ConstraintLayout) rootView, addMeal,
           imageViewBackground, imageViewRestaurantLogo, recyclerViewFoodList, textViewMenuTitle,
           textViewRestaurantAddress, textViewRestaurantAddressLabel, textViewRestaurantDeliveryTime,
           textViewRestaurantDeliveryTimeLabel, textViewRestaurantMinDeliveryPrice,

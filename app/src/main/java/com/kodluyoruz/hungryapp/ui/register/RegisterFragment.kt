@@ -62,12 +62,16 @@ class RegisterFragment : BaseFragment() {
                         Resource.Status.SUCCESS -> {
                             binding.progressBar.visibility = View.GONE
                             findNavController().popBackStack()
+                            Toast.makeText(
+                                context,
+                                "You successfully created an account!",
+                                Toast.LENGTH_LONG).show()
                         }
                         Resource.Status.ERROR -> {
                             binding.progressBar.visibility = View.GONE
                             Toast.makeText(
                                 context,
-                                "Sunucu Hatasi: ${it.message}",
+                                "Network Error: ${it.message}",
                                 Toast.LENGTH_LONG
                             ).show()
                             Log.v("RegisterFragment", "${it.message}")

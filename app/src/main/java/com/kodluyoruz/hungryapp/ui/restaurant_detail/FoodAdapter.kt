@@ -37,7 +37,7 @@ class FoodAdapter : RecyclerView.Adapter<FoodAdapter.FoodViewHolder>() {
             Glide.with(binding.root).load(food.photo_url).into(binding.imageViewFood)
             binding.textViewFoodName.text = food.name
             binding.textViewFoodIngredients.text = food.ingredients
-            binding.textViewFoodPrice.text = food.price.toString()
+            binding.textViewFoodPrice.text = food.price.toString() + " ₺"
             binding.foodCardView.setOnClickListener {
                 listener?.onClick(food)
             }

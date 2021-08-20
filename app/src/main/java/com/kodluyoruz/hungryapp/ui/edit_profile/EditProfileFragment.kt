@@ -80,7 +80,6 @@ class EditProfileFragment : BaseFragment() {
             updateProfile()
 
             Toast.makeText(context, "Profile updated!", Toast.LENGTH_LONG).show()
-            //findNavController().navigate(EditProfileFragmentDirections.actionEditProfileFragment2ToProfileFragment2())
             findNavController().popBackStack()
         }
     }
@@ -92,6 +91,7 @@ class EditProfileFragment : BaseFragment() {
         var phoneNumber = binding.textInputEditPhone
         var ppUrl = binding.textInputEditPPURL
         val token = viewModel.getToken()
+
         // updating current UI with the entered new values
         user.name = name.text.toString()
         user.surname = surname.text.toString()

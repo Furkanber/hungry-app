@@ -66,12 +66,14 @@ class RestaurantDetailFragment : BaseFragment() {
             binding.textViewRestaurantName.text = it.name
             val score = it.point.toString() + "/5"
             binding.textViewRestaurantScore.text = score
-            val address = it.address.district + " " + it.address.address
+            val address = it.address.city + ", " + it.address.district
             binding.textViewRestaurantAddress.text = address
-            val minPrice = it.min_order.toString() + " TL"
+            val minPrice = it.min_order.toString() + " ₺"
             binding.textViewRestaurantMinDeliveryPrice.text = minPrice
-            val avgDelivery = it.average_delivery_time.toString() + "dk"
+            val avgDelivery = it.average_delivery_time.toString() + " min"
             binding.textViewRestaurantDeliveryTime.text = avgDelivery
+
+            Glide.with(binding.root).load(it?.address?.address).into(binding.imageViewRestaurantLogo)
 
             it.menu?.let { menu ->
                 viewModel.setFoodList(menu)
@@ -80,7 +82,7 @@ class RestaurantDetailFragment : BaseFragment() {
 
         viewModel.getFoodList().observe(viewLifecycleOwner, {
             adapter.setDataset(it)
-            Glide.with(binding.root).load(it.get(0).photo_url).into(binding.imageViewRestaurantLogo)
+            //Glide.with(binding.root).load(it.get(0).photo_url).into(binding.imageViewRestaurantLogo)
         })
 
         viewModel.getNavigateToMealDetail().observe(viewLifecycleOwner, {
