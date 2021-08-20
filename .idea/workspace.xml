@@ -18,7 +18,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8f41408-4f97-4a78-9d3b-753d21c7f46d" name="Default Changelist" comment="UI &amp; git files updated.">
+    <list default="true" id="d8f41408-4f97-4a78-9d3b-753d21c7f46d" name="Default Changelist" comment=".gitattributes updated.">
       <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -245,7 +245,21 @@
       <option name="project" value="LOCAL" />
       <updated>1629470732885</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary=".gitattributes updated.">
+      <created>1629470852842</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1629470852842</updated>
+    </task>
+    <task id="LOCAL-00011" summary=".gitattributes updated.">
+      <created>1629471070113</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1629471070113</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -270,7 +284,8 @@
     <MESSAGE value="UIs updated." />
     <MESSAGE value="Heroku server connection" />
     <MESSAGE value="UI &amp; git files updated." />
-    <option name="LAST_COMMIT_MESSAGE" value="UI &amp; git files updated." />
+    <MESSAGE value=".gitattributes updated." />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitattributes updated." />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1629449942978">
