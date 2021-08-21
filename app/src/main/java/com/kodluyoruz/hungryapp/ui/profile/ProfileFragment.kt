@@ -1,5 +1,7 @@
 package com.kodluyoruz.hungryapp.ui.profile
 
+import android.graphics.Paint
+import android.graphics.Typeface
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -41,12 +43,34 @@ class ProfileFragment : BaseFragment() {
         binding.viewPagerProfile.adapter = ProfileViewPagerAdapter(activity as AppCompatActivity)
 
         //tab item
+        binding.buttonAddress.setPaintFlags(binding.buttonAddress.getPaintFlags() or Paint.UNDERLINE_TEXT_FLAG)
         binding.buttonAddress.setOnClickListener {
             binding.viewPagerProfile.setCurrentItem(0)
+            binding.buttonAddress.setTypeface(null, Typeface.BOLD)
+            binding.buttonOrderHistory.setTypeface(null, Typeface.NORMAL)
+            binding.buttonAddress.setPaintFlags(binding.buttonAddress.getPaintFlags() or Paint.UNDERLINE_TEXT_FLAG)
+            binding.buttonOrderHistory.setPaintFlags(0)
         }
         binding.buttonOrderHistory.setOnClickListener {
             binding.viewPagerProfile.setCurrentItem(1)
+            binding.buttonAddress.setTypeface(null, Typeface.NORMAL)
+            binding.buttonOrderHistory.setTypeface(null, Typeface.BOLD)
+            binding.buttonOrderHistory.setPaintFlags(binding.buttonOrderHistory.getPaintFlags() or Paint.UNDERLINE_TEXT_FLAG)
+            binding.buttonAddress.setPaintFlags(0)
         }
+        /*if(binding.viewPagerProfile.currentItem.equals(0)){
+            binding.buttonAddress.setTypeface(null, Typeface.BOLD)
+            binding.buttonOrderHistory.setTypeface(null, Typeface.NORMAL)
+            binding.buttonAddress.setPaintFlags(binding.buttonAddress.getPaintFlags() or Paint.UNDERLINE_TEXT_FLAG)
+            binding.buttonOrderHistory.setPaintFlags(0)
+        }
+        if(binding.viewPagerProfile.currentItem.equals(1)){
+            binding.buttonAddress.setTypeface(null, Typeface.NORMAL)
+            binding.buttonOrderHistory.setTypeface(null, Typeface.BOLD)
+            binding.buttonOrderHistory.setPaintFlags(binding.buttonOrderHistory.getPaintFlags() or Paint.UNDERLINE_TEXT_FLAG)
+            binding.buttonAddress.setPaintFlags(0)
+        }*/
+
 
         //profile button navigation
         binding.buttonEditProfile.setOnClickListener {

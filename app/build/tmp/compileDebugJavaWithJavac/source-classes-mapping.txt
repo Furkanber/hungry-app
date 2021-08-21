@@ -88,8 +88,6 @@ com/kodluyoruz/hungryapp/databinding/FragmentAddAddressBinding.java
  com.kodluyoruz.hungryapp.databinding.FragmentAddAddressBinding
 com/kodluyoruz/hungryapp/databinding/AddRestaurantFragmentBinding.java
  com.kodluyoruz.hungryapp.databinding.AddRestaurantFragmentBinding
-com/kodluyoruz/hungryapp/databinding/FragmentOrderDetailsBinding.java
- com.kodluyoruz.hungryapp.databinding.FragmentOrderDetailsBinding
 com/kodluyoruz/hungryapp/ui/meal_adding/MealAddingViewModel_HiltModules_KeyModule_ProvideFactory.java
  com.kodluyoruz.hungryapp.ui.meal_adding.MealAddingViewModel_HiltModules_KeyModule_ProvideFactory
  com.kodluyoruz.hungryapp.ui.meal_adding.MealAddingViewModel_HiltModules_KeyModule_ProvideFactory$InstanceHolder
@@ -276,8 +274,6 @@ com/kodluyoruz/hungryapp/ui/login/LoginFragment_GeneratedInjector.java
  com.kodluyoruz.hungryapp.ui.login.LoginFragment_GeneratedInjector
 com/kodluyoruz/hungryapp/data/local/LocalDataSource_Factory.java
  com.kodluyoruz.hungryapp.data.local.LocalDataSource_Factory
-com/kodluyoruz/hungryapp/databinding/FragmentRateBinding.java
- com.kodluyoruz.hungryapp.databinding.FragmentRateBinding
 hilt_aggregated_deps/_com_kodluyoruz_hungryapp_ui_home_HomeFragmentViewModel_HiltModules_KeyModule.java
  hilt_aggregated_deps._com_kodluyoruz_hungryapp_ui_home_HomeFragmentViewModel_HiltModules_KeyModule
 hilt_aggregated_deps/_com_kodluyoruz_hungryapp_di_NetworkModule.java

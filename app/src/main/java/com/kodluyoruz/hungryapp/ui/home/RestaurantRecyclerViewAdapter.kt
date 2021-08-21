@@ -48,7 +48,8 @@ class RestaurantRecyclerViewAdapter(private val restaurantList: ArrayList<Restau
             binding.restaurantRemainTimeTextview.text = "${item.average_delivery_time} min"
             binding.restaurantMinPriceTextview.text = "${item.min_order} ₺"
             binding.restaurantPointTextview.text = item.point!!.toDouble().toString()
-            Glide.with(binding.root).load(item?.address.address).into(binding.restaurantImageview)
+            //Glide.with(binding.root).load(item?.address.address).into(binding.restaurantImageview)
+            Glide.with(binding.root).load(item?.photo_url).into(binding.restaurantImageview)
 
             var alphaVal: Double = 1.0
             var colorCode: String = "#F97504"

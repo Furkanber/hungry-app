@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-        android:background="@color/white"
+        android:background="@color/orange_mi"
     tools:context=".ui.restaurant_detail.RestaurantDetailFragment">
 
     <ImageView
@@ -33,10 +33,11 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+
     <TextView
             android:id="@+id/textViewRestaurantName"
             tools:text="Burger King"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="32sp"
             android:textStyle="bold"
             android:layout_width="0dp"
@@ -46,14 +47,14 @@
             app:layout_constraintBottom_toTopOf="@+id/textViewRestaurantAddressLabel"
             app:layout_constraintTop_toBottomOf="@+id/imageViewBackground"
             app:layout_constraintVertical_bias="0.266"
-            android:layout_marginStart="72dp" />
+            android:layout_marginStart="40dp" />
 
     <TextView
             android:id="@+id/textViewRestaurantScore"
             tools:text="4/5"
             android:textSize="30sp"
             android:textStyle="bold"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:drawableStartCompat="@drawable/ic_star"
@@ -63,12 +64,12 @@
             app:layout_constraintTop_toBottomOf="@+id/imageViewBackground"
             android:layout_marginTop="4dp"
             app:layout_constraintStart_toEndOf="@+id/textViewRestaurantName"
-            app:layout_constraintHorizontal_bias="0.258" />
-
+            app:layout_constraintHorizontal_bias="0.512" />
 
     <TextView
             android:id="@+id/textViewRestaurantAddressLabel"
             android:text="@string/address_label"
+            android:textStyle="bold"
             android:textSize="16sp"
             android:textColor="@color/cardview_dark_background"
             android:textAlignment="center"
@@ -87,8 +88,8 @@
             android:paddingHorizontal="@dimen/margin_8"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:textColor="@color/orange"
-            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textStyle="bold|italic"
             app:layout_constraintTop_toBottomOf="@id/textViewRestaurantAddressLabel"
             app:layout_constraintStart_toStartOf="@id/textViewRestaurantAddressLabel"
             app:layout_constraintEnd_toEndOf="@id/textViewRestaurantAddressLabel"
@@ -97,6 +98,7 @@
     <TextView
         android:id="@+id/textViewRestaurantMinDeliveryPriceLabel"
         android:text="@string/min_delivery_price_label"
+        android:textStyle="bold"
         android:textSize="16sp"
         android:textColor="@color/cardview_dark_background"
         android:textAlignment="center"
@@ -110,8 +112,8 @@
         tools:text="40 ₺"
         android:textAlignment="center"
         android:paddingHorizontal="@dimen/margin_8"
-        android:textColor="@color/orange"
-        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/textViewRestaurantMinDeliveryPriceLabel"
@@ -121,6 +123,7 @@
     <TextView
         android:id="@+id/textViewRestaurantDeliveryTimeLabel"
         android:text="@string/min_delivery_time_label"
+        android:textStyle="bold"
         android:textSize="16sp"
         android:textColor="@color/cardview_dark_background"
         android:textAlignment="center"
@@ -136,8 +139,8 @@
         android:paddingHorizontal="@dimen/margin_8"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:textColor="@color/orange"
-        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic"
         app:layout_constraintTop_toBottomOf="@id/textViewRestaurantDeliveryTimeLabel"
         app:layout_constraintStart_toStartOf="@id/textViewRestaurantDeliveryTimeLabel"
         app:layout_constraintEnd_toEndOf="@id/textViewRestaurantDeliveryTimeLabel" />
@@ -149,14 +152,14 @@
             android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/margin_16"
-            android:layout_marginTop="24dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/textViewRestaurantAddress" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewFoodList"
-            android:background="@drawable/rectangle_border_orange"
+        android:background="@drawable/rectangle_border_orange"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="@dimen/margin_4"
@@ -167,7 +170,7 @@
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/add_meal"
-            android:visibility="gone"
+        android:visibility="gone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"

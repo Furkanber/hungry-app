@@ -8,10 +8,6 @@
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\fragment_food_detail.xml"
     },
     {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_rate.xml",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\fragment_rate.xml"
-    },
-    {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_on_boarding2.xml",
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\fragment_on_boarding2.xml"
     },
@@ -58,10 +54,6 @@
     {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\order_history_item.xml",
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\order_history_item.xml"
-    },
-    {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_order_details.xml",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\fragment_order_details.xml"
     },
     {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_change_password.xml",

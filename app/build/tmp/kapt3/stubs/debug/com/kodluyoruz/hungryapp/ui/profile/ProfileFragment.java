@@ -1,5 +1,7 @@
 package com.kodluyoruz.hungryapp.ui.profile;
 
+import android.graphics.Paint;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;

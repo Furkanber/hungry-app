@@ -1327,6 +1327,7 @@ color orange_main
 color orange_mi
 color orange_secondary
 color orange_superlight
+color orange_superlight2
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -1906,6 +1907,7 @@ drawable ic_clock_black_24dp
 drawable ic_clock_time
 drawable ic_delivery
 drawable ic_edit
+drawable ic_hungry_logo_background
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -2133,7 +2135,6 @@ id buttonOrderHistory
 id buttonPanel
 id buttonRegister
 id buttonStart
-id buttonSubmitRating
 id buttonToRegister
 id buttonUpdatePassword
 id buttonUpdateProfile
@@ -2221,7 +2222,6 @@ id easeInOut
 id easeOut
 id east
 id editProfileFragment2
-id editTextRating
 id edit_query
 id elastic
 id end
@@ -2398,14 +2398,8 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
-id orderAddress_tv
-id orderDate_tv
-id orderID_tv
 id orderList_RV
 id orderNoteTV
-id orderRate_tv
-id orderRatingBar
-id orderReview_tv
 id outline
 id outward
 id overshoot
@@ -2585,7 +2579,6 @@ id textStart
 id textTop
 id textView
 id textView3
-id textView4
 id textView5
 id textViewDescription
 id textViewFoodIngredients
@@ -2757,10 +2750,8 @@ layout fragment_main_on_boarding
 layout fragment_on_boarding1
 layout fragment_on_boarding2
 layout fragment_on_boarding3
-layout fragment_order_details
 layout fragment_order_history
 layout fragment_profile
-layout fragment_rate
 layout fragment_register
 layout fragment_restaurant_detail
 layout fragment_splash
@@ -2846,6 +2837,9 @@ layout text_view_with_theme_line_height
 layout text_view_without_line_height
 layout worm_dot_layout
 menu settings_menu
+mipmap ic_hungry_logo
+mipmap ic_hungry_logo_foreground
+mipmap ic_hungry_logo_round
 mipmap ic_launcher
 mipmap ic_launcher_round
 mipmap ic_time_clock
