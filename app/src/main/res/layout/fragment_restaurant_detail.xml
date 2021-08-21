@@ -38,6 +38,7 @@
             android:id="@+id/textViewRestaurantName"
             tools:text="Burger King"
             android:textColor="@color/white"
+            android:fontFamily="@font/advent_pro_bold"
             android:textSize="32sp"
             android:textStyle="bold"
             android:layout_width="0dp"
@@ -54,6 +55,7 @@
             tools:text="4/5"
             android:textSize="30sp"
             android:textStyle="bold"
+            android:fontFamily="@font/advent_pro_bold"
             android:textColor="@color/white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -69,13 +71,14 @@
     <TextView
             android:id="@+id/textViewRestaurantAddressLabel"
             android:text="@string/address_label"
+            android:fontFamily="@font/advent_pro_bold"
             android:textStyle="bold"
             android:textSize="16sp"
             android:textColor="@color/cardview_dark_background"
             android:textAlignment="center"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="92dp"
+            android:layout_marginTop="84dp"
             app:layout_constraintHorizontal_chainStyle="spread"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toStartOf="@id/textViewRestaurantMinDeliveryPriceLabel"
@@ -98,6 +101,7 @@
     <TextView
         android:id="@+id/textViewRestaurantMinDeliveryPriceLabel"
         android:text="@string/min_delivery_price_label"
+        android:fontFamily="@font/advent_pro_bold"
         android:textStyle="bold"
         android:textSize="16sp"
         android:textColor="@color/cardview_dark_background"
@@ -121,17 +125,19 @@
         app:layout_constraintEnd_toEndOf="@id/textViewRestaurantMinDeliveryPriceLabel" />
 
     <TextView
-        android:id="@+id/textViewRestaurantDeliveryTimeLabel"
-        android:text="@string/min_delivery_time_label"
-        android:textStyle="bold"
-        android:textSize="16sp"
-        android:textColor="@color/cardview_dark_background"
-        android:textAlignment="center"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintStart_toEndOf="@id/textViewRestaurantMinDeliveryPriceLabel"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@id/textViewRestaurantAddressLabel" />
+            android:id="@+id/textViewRestaurantDeliveryTimeLabel"
+            android:text="@string/min_delivery_time_label"
+            android:textStyle="bold"
+            android:fontFamily="@font/advent_pro_bold"
+            android:textSize="16sp"
+            android:textColor="@color/cardview_dark_background"
+            android:textAlignment="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/textViewRestaurantMinDeliveryPriceLabel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/textViewRestaurantAddressLabel" />
+
     <TextView
         android:id="@+id/textViewRestaurantDeliveryTime"
         tools:text="30 min"
@@ -148,12 +154,13 @@
     <TextView
             android:id="@+id/textViewMenuTitle"
             android:text="@string/restaurant_menu_title"
-            android:textSize="16sp"
+            android:fontFamily="@font/advent_pro_bold"
+            android:textSize="18sp"
             android:textStyle="bold"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="12dp"
-            android:layout_marginTop="12dp"
+            android:layout_width="116dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/textViewRestaurantAddress" />
 

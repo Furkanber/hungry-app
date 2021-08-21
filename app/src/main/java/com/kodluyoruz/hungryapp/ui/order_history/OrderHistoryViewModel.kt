@@ -1,9 +1,11 @@
 package com.kodluyoruz.hungryapp.ui.order_history
 
 import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.kodluyoruz.hungryapp.data.ApiRepository
 import com.kodluyoruz.hungryapp.data.entity.OrdersResponse
+import com.kodluyoruz.hungryapp.data.entity.RestaurantsItem
 import com.kodluyoruz.hungryapp.data.entity.UsersResponse
 import com.kodluyoruz.hungryapp.data.local.SharedPrefManager
 import com.kodluyoruz.hungryapp.utils.Resource
@@ -14,6 +16,7 @@ import javax.inject.Inject
 class OrderHistoryViewModel @Inject constructor(var apiRepository: ApiRepository) : ViewModel() {
 
     private var token: Int = apiRepository.getInt(SharedPrefManager.TOKEN)
+    private var restaurant: MutableLiveData<RestaurantsItem> = MutableLiveData()
 
     fun getUser(user_id: Int): LiveData<Resource<UsersResponse>> {
         return apiRepository.getUserWithId(user_id)
@@ -22,6 +25,8 @@ class OrderHistoryViewModel @Inject constructor(var apiRepository: ApiRepository
     fun getOrders(user_id: Int): LiveData<Resource<OrdersResponse>> {
         return apiRepository.getOrders(user_id)
     }
+
+    fun getRestaurant(): LiveData<RestaurantsItem> = this.restaurant
 
     fun getToken(): Int = this.token
 }

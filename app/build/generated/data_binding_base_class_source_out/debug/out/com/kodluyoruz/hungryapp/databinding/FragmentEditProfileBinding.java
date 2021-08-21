@@ -70,6 +70,9 @@ public final class FragmentEditProfileBinding implements ViewBinding {
   public final TextInputLayout textInputLayoutSurname;
 
   @NonNull
+  public final TextView textView2;
+
+  @NonNull
   public final TextView textView3;
 
   private FragmentEditProfileBinding(@NonNull ConstraintLayout rootView,
@@ -81,7 +84,8 @@ public final class FragmentEditProfileBinding implements ViewBinding {
       @NonNull TextInputEditText textInputEditSurname,
       @NonNull TextInputLayout textInputLayoutEmail, @NonNull TextInputLayout textInputLayoutName,
       @NonNull TextInputLayout textInputLayoutPPURL, @NonNull TextInputLayout textInputLayoutPhone,
-      @NonNull TextInputLayout textInputLayoutSurname, @NonNull TextView textView3) {
+      @NonNull TextInputLayout textInputLayoutSurname, @NonNull TextView textView2,
+      @NonNull TextView textView3) {
     this.rootView = rootView;
     this.EditProfileImageView = EditProfileImageView;
     this.buttonChangePasswordNavigation = buttonChangePasswordNavigation;
@@ -98,6 +102,7 @@ public final class FragmentEditProfileBinding implements ViewBinding {
     this.textInputLayoutPPURL = textInputLayoutPPURL;
     this.textInputLayoutPhone = textInputLayoutPhone;
     this.textInputLayoutSurname = textInputLayoutSurname;
+    this.textView2 = textView2;
     this.textView3 = textView3;
   }
 
@@ -218,6 +223,12 @@ public final class FragmentEditProfileBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView2;
+      TextView textView2 = rootView.findViewById(id);
+      if (textView2 == null) {
+        break missingId;
+      }
+
       id = R.id.textView3;
       TextView textView3 = rootView.findViewById(id);
       if (textView3 == null) {
@@ -228,7 +239,7 @@ public final class FragmentEditProfileBinding implements ViewBinding {
           buttonChangePasswordNavigation, buttonUpdateProfile, cardView2, cardView5,
           textInputEditEmail, textInputEditName, textInputEditPPURL, textInputEditPhone,
           textInputEditSurname, textInputLayoutEmail, textInputLayoutName, textInputLayoutPPURL,
-          textInputLayoutPhone, textInputLayoutSurname, textView3);
+          textInputLayoutPhone, textInputLayoutSurname, textView2, textView3);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

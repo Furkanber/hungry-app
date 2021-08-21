@@ -3,6 +3,7 @@ package com.kodluyoruz.hungryapp.ui.order_history;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import androidx.recyclerview.widget.RecyclerView;
+import com.kodluyoruz.hungryapp.R;
 import com.kodluyoruz.hungryapp.data.entity.OrdersItem;
 import com.kodluyoruz.hungryapp.data.entity.RestaurantsItem;
 import com.kodluyoruz.hungryapp.databinding.OrderHistoryItemBinding;

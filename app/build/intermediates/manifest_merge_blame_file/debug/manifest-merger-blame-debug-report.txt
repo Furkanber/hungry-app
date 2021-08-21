@@ -18,7 +18,7 @@
 12-->D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:6:22-77
 13
 14    <application
-14-->D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:8:5-24:19
+14-->D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:8:5-27:19
 15        android:name="com.kodluyoruz.hungryapp.HungryApp"
 15-->D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:9:9-58
 16        android:allowBackup="true"
@@ -53,6 +53,13 @@
 30-->D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:21:27-74
 31            </intent-filter>
 32        </activity>
-33    </application>
-34
-35</manifest>
+33
+34        <meta-data
+34-->D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:24:9-26:61
+35            android:name="preloaded_fonts"
+35-->D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:25:17-47
+36            android:resource="@array/preloaded_fonts" />
+36-->D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:26:17-58
+37    </application>
+38
+39</manifest>

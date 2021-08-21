@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.kodluyoruz.hungryapp.data.entity.OrdersItem
 import com.kodluyoruz.hungryapp.databinding.FragmentOrderHistoryBinding
 import com.kodluyoruz.hungryapp.ui.base.BaseFragment
+import com.kodluyoruz.hungryapp.utils.Resource
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -18,7 +19,9 @@ class OrderHistoryFragment : BaseFragment() {
     private lateinit var binding: FragmentOrderHistoryBinding
     private val adapter = OrderHistoryListAdapter()
     private val viewModel: OrderHistoryViewModel by viewModels()
-    private lateinit var orders: OrdersItem
+
+    //private lateinit var orders: OrdersItem
+    private lateinit var ordersList: ArrayList<OrdersItem>
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -35,17 +38,24 @@ class OrderHistoryFragment : BaseFragment() {
         binding.orderListRV.layoutManager = LinearLayoutManager(context)
         binding.orderListRV.adapter = adapter
 
-        /*val token = viewModel.getToken()
-        viewModel.getOrders(token).observe(viewLifecycleOwner,{
+        val token = viewModel.getToken()
+        viewModel.getOrders(user_id = token).observe(viewLifecycleOwner, {
 
-            when(it.status){
+            when (it.status) {
 
                 Resource.Status.LOADING -> {
 
                 }
                 Resource.Status.SUCCESS -> {
-
+                    //it.data?.get(0)?.let { it1 -> adapter.setDataset(it1) }
                     //it.data?.get(0)?.orders?.let { it1 -> adapter.setDataset(it1) }
+                    //it.data?.get(0).let { it1 -> adapter.setDataset(it1) }
+                    //it.data?.get(0)?.let { it1 -> adapter.setDataset(it1) }
+                    //adapter.setDataset(it.data?.get(0) as ArrayList<OrdersItem>)
+                    //ordersList.clear()
+                    //ordersList.addAll(it.data.get(0) as ArrayList<OrdersItem>)
+                    //it.data?.get(0)?.let { it1 -> adapter.setDataset(it.data) }
+                    adapter.setDataset(ordersList)
 
 
                 }
@@ -55,6 +65,29 @@ class OrderHistoryFragment : BaseFragment() {
 
             }
 
-        })*/
+        })
+        viewModel.getRestaurant().observe(viewLifecycleOwner, {
+
+
+                    //it.data?.get(0)?.let { it1 -> adapter.setDataset(it1) }
+                    //it.data?.get(0)?.orders?.let { it1 -> adapter.setDataset(it1) }
+                    //it.data?.get(0).let { it1 -> adapter.setDataset(it1) }
+                    //it.data?.get(0)?.let { it1 -> adapter.setDataset(it1) }
+                    //adapter.setDataset(it.data?.get(0) as ArrayList<OrdersItem>)
+                    //ordersList.clear()
+                    //ordersList.addAll(it.data.get(0) as ArrayList<OrdersItem>)
+                    //it.data?.get(0)?.let { it1 -> adapter.setDataset(it.data) }
+            /*it.menu?.let { menu ->
+                viewModel.setFoodList(menu)
+            }*/
+
+        })
     }
 }
+
+//private fun OrderHistoryListAdapter.setDataset(list: OrdersItem) {}
+
+//private fun OrderHistoryListAdapter.setDataset(list: OrdersItem?) {}
+
+
+

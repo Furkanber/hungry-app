@@ -65,6 +65,10 @@ animator nav_default_enter_anim
 animator nav_default_exit_anim
 animator nav_default_pop_enter_anim
 animator nav_default_pop_exit_anim
+array com_google_android_gms_fonts_certs
+array com_google_android_gms_fonts_certs_dev
+array com_google_android_gms_fonts_certs_prod
+array preloaded_fonts
 attr ConstraintRotate
 attr SharedValue
 attr SharedValueId
@@ -1906,12 +1910,11 @@ drawable ic_baseline_lock_24
 drawable ic_clock_black_24dp
 drawable ic_clock_time
 drawable ic_delivery
-drawable ic_edit
 drawable ic_hungry_logo_background
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
-drawable ic_logout
+drawable ic_logout2
 drawable ic_loupe
 drawable ic_money
 drawable ic_mtrl_checked_circle
@@ -1923,6 +1926,7 @@ drawable ic_right
 drawable ic_round_home
 drawable ic_star
 drawable ic_time
+drawable ic_user
 drawable layout_ripple
 drawable line
 drawable location_pin
@@ -1980,6 +1984,11 @@ drawable tooltip_frame_light
 drawable vertical_line
 drawable worm_dot_background
 drawable worm_dot_stroke_background
+font advent_pro
+font advent_pro_bold
+font advent_pro_medium
+font catamaran_extralight
+font font
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2578,6 +2587,7 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView2
 id textView3
 id textView5
 id textViewDescription

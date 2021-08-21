@@ -9,18 +9,19 @@
         tools:context=".ui.edit_profile.EditProfileFragment">
 
     <TextView
-            android:layout_width="114dp"
-            android:layout_height="112dp"
-            android:layout_marginStart="@dimen/margin_8"
+            android:layout_width="115dp"
+            android:layout_height="102dp"
             android:text="@string/edit_profile_str"
+            android:fontFamily="@font/advent_pro_bold"
             android:textStyle="bold"
             android:textColor="@color/white"
-            android:textSize="36sp"
-            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="42sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintHorizontal_bias="0.027"
-            android:layout_marginTop="16dp" />
+            android:layout_marginTop="40dp"
+            android:id="@+id/textView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.054" />
 
     <TextView
             android:id="@+id/textView3"
@@ -51,7 +52,8 @@
             app:cardElevation="16dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent">
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            app:layout_constraintHorizontal_bias="0.077">
 
         <ImageView
                 android:contentDescription="@string/text_profile_picture"
@@ -106,6 +108,7 @@
                         android:id="@+id/textInputEditName"
                         android:inputType="text"
                         tools:text="Name"
+                        android:fontFamily="@font/advent_pro_bold"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -134,6 +137,7 @@
                         android:id="@+id/textInputEditSurname"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:fontFamily="@font/advent_pro_bold"
                         android:inputType="text"
                         tools:text="Surname" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -162,6 +166,7 @@
                         android:id="@+id/textInputEditEmail"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:fontFamily="@font/advent_pro_bold"
                         android:inputType="textEmailAddress"
                         tools:text="mail@mail.com" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -190,6 +195,7 @@
                         android:id="@+id/textInputEditPhone"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:fontFamily="@font/advent_pro_bold"
                         android:inputType="phone"
                         tools:text="05123456789" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -218,6 +224,7 @@
                         android:id="@+id/textInputEditPPURL"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:fontFamily="@font/advent_pro_bold"
                         android:inputType="text"
                         tools:text="https://www.urlurl.com" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -235,6 +242,8 @@
             android:layout_margin="16dp"
             android:backgroundTint="@color/white"
             android:text="@string/button_change_password"
+            android:fontFamily="@font/advent_pro_bold"
+            android:textSize="18sp"
             android:textAlignment="center"
             android:textAllCaps="false"
             android:textColor="@color/orange_main"
@@ -259,6 +268,8 @@
             android:layout_margin="16dp"
             android:backgroundTint="@color/white"
             android:text="@string/button_update_profile"
+            android:fontFamily="@font/advent_pro_bold"
+            android:textSize="18sp"
             android:textAllCaps="false"
             android:textColor="@color/orange_main"
             app:cornerRadius="@dimen/corner_radius_30"

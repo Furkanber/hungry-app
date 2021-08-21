@@ -8,10 +8,13 @@ import android.widget.Toast
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.kodluyoruz.hungryapp.data.entity.Address
+import com.kodluyoruz.hungryapp.databinding.AddressListFragmentBinding
 import com.kodluyoruz.hungryapp.databinding.FragmentAddAddressBinding
+import com.kodluyoruz.hungryapp.ui.address_list.AddressListAdapter
 import com.kodluyoruz.hungryapp.ui.base.BaseFragment
 import com.kodluyoruz.hungryapp.utils.Resource
 import dagger.hilt.android.AndroidEntryPoint
+import okhttp3.internal.notify
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -86,9 +89,7 @@ class AddAddressFragment : BaseFragment() {
                         Resource.Status.SUCCESS -> {
                             Toast.makeText(
                                 requireContext(),
-                                "You succesfully added the address!",
-                                Toast.LENGTH_SHORT
-                            ).show()
+                                "You succesfully added the address!", Toast.LENGTH_SHORT).show()
                             findNavController().popBackStack()
                         }
                         Resource.Status.ERROR -> {

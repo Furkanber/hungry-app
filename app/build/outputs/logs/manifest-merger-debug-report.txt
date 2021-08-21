@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:2:1-29:12
 MERGED from [com.github.skydoves:expandablelayout:1.0.7] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\56fe90ad0d21bcecf7ab172efaab8313\expandablelayout-1.0.7\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.databinding:viewbinding:4.2.2] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\d09aedab558531ee7c1ade19f9026be7\viewbinding-4.2.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\df0aacba73312c078d56525f8eb3e17f\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
@@ -69,20 +69,20 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\trans
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\5035bd08a09b0fcb9efd82c4305d3ac5\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\577ef5654a4164e48006e79f578b3c2e\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.dagger:dagger-lint-aar:2.35] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\9fdc77300690cadc7faa5d66b5d0dbf4\dagger-lint-aar-2.35\AndroidManifest.xml:16:1-19:12
-INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:3:5-39
 		INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml
-		ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:2:1-29:12
 		INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml
-		ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:2:1-29:12
 		INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:2:11-69
@@ -95,7 +95,7 @@ ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidMani
 	android:name
 		ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:6:22-77
 application
-ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:8:5-24:19
+ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:8:5-27:19
 MERGED from [com.tbuonomo:dotsindicator:4.2] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\4d7296dcfcc75a02e903f03029f8117f\dotsindicator-4.2\AndroidManifest.xml:11:5-47
 MERGED from [com.tbuonomo:dotsindicator:4.2] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\4d7296dcfcc75a02e903f03029f8117f\dotsindicator-4.2\AndroidManifest.xml:11:5-47
 MERGED from [com.airbnb.android:lottie:3.4.0] C:\Users\FURKAN-PC\.gradle\caches\transforms-2\files-2.1\8ac1174c139a9dddd7a61de1b4f6fd83\lottie-3.4.0\AndroidManifest.xml:9:5-20
@@ -144,6 +144,12 @@ category#android.intent.category.LAUNCHER
 ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
 		ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:21:27-74
+meta-data#preloaded_fonts
+ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:24:9-26:61
+	android:resource
+		ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:26:17-58
+	android:name
+		ADDED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml:25:17-47
 uses-sdk
 INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Workspaces\AndroidStudio\FINAL\hungry-app\app\src\main\AndroidManifest.xml

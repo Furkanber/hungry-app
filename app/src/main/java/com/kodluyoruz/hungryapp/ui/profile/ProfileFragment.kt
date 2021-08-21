@@ -46,6 +46,7 @@ class ProfileFragment : BaseFragment() {
         binding.buttonAddress.setPaintFlags(binding.buttonAddress.getPaintFlags() or Paint.UNDERLINE_TEXT_FLAG)
         binding.buttonAddress.setOnClickListener {
             binding.viewPagerProfile.setCurrentItem(0)
+            binding.buttonAddress.fontFeatureSettings
             binding.buttonAddress.setTypeface(null, Typeface.BOLD)
             binding.buttonOrderHistory.setTypeface(null, Typeface.NORMAL)
             binding.buttonAddress.setPaintFlags(binding.buttonAddress.getPaintFlags() or Paint.UNDERLINE_TEXT_FLAG)

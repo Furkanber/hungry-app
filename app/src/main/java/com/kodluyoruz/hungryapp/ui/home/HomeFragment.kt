@@ -95,7 +95,7 @@ class HomeFragment : BaseFragment() {
         homeFragmentViewModel.getRestaurantsByDistrict("").observe(viewLifecycleOwner, {
             when (it.status) {
                 Resource.Status.LOADING -> {
-                    resultTextView.text = "Loading Datas"
+                    resultTextView.text = "Loading Data"
                 }
                 Resource.Status.SUCCESS -> {
                     resultTextView.text = it.data?.size.toString() + " Restaurants Found"
