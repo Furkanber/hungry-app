@@ -18,3 +18,5 @@
 ## Database
 
 - JSON Server deployed in Heroku: [hungry-app-heroku-server](https://github.com/Furkanber/hungry-app-heroku-server) 
+
+## In-App Screens: 
