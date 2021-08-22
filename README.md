@@ -2,7 +2,7 @@
 
   Hungry App is a basic food ordering application written in Kotlin.
 
-## Libraries used in this app:
+## Technologies used in this app:
 - Android
 - Mvvm
 - Dagger Hilt
