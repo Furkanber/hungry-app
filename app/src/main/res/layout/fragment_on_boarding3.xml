@@ -25,7 +25,7 @@
     <TextView
             android:id="@+id/textViewTitle"
             android:text="@string/on_boarding_3_title_1"
-            android:fontFamily="@font/advent_pro_bold"
+            android:fontFamily="@font/catamaran_medium"
             android:textSize="36sp"
             android:textStyle="bold"
             android:textColor="@color/white"
@@ -44,7 +44,7 @@
             android:layout_height="wrap_content"
             android:textSize="24sp"
             android:gravity="center"
-            android:fontFamily="@font/advent_pro_bold"
+            android:fontFamily="@font/catamaran_medium"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -55,7 +55,7 @@
     <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
             android:id="@+id/buttonStart"
             android:text="@string/button_start"
-            android:fontFamily="@font/advent_pro"
+            android:fontFamily="@font/catamaran_medium"
             android:textSize="18sp"
             android:textStyle="bold"
             android:textColor="@color/orange"
@@ -69,6 +69,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.923" />
+            app:layout_constraintVertical_bias="0.909" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

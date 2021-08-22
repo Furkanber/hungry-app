@@ -1921,6 +1921,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_plus
 drawable ic_profile
 drawable ic_right
 drawable ic_round_home
@@ -1988,6 +1989,7 @@ font advent_pro
 font advent_pro_bold
 font advent_pro_medium
 font catamaran_extralight
+font catamaran_medium
 font font
 id ALT
 id BOTTOM_END
@@ -2402,6 +2404,7 @@ id noState
 id none
 id normal
 id north
+id noteStr
 id notification_background
 id notification_main_column
 id notification_main_column_container

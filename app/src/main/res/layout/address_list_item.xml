@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="110dp"
     android:background="@drawable/rectangle_border_orange"
     android:layout_margin="8dp"
     app:cardCornerRadius="16dp"
@@ -30,8 +30,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="8dp"
-                android:textColor="@color/cardview_dark_background"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/catamaran_medium"
+                android:textColor="@color/orange_mi"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toTopOf="@+id/addressIconIV"
                 app:layout_constraintStart_toEndOf="@+id/addressIconIV"
@@ -40,16 +41,17 @@
                 app:layout_constraintVertical_bias="0.0" />
 
         <TextView
-            android:id="@+id/addressDistrictTV"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp"
-            android:textColor="@color/cardview_dark_background"
-            android:textStyle="bold"
-            app:layout_constraintStart_toEndOf="@+id/addressIconIV"
-            app:layout_constraintTop_toBottomOf="@+id/addressTitleTV"
-            tools:text="Kadıköy (Hasanpaşa)" />
+                android:id="@+id/addressDistrictTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/catamaran_medium"
+                android:textColor="@color/cardview_dark_background"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/addressIconIV"
+                app:layout_constraintTop_toBottomOf="@+id/addressTitleTV"
+                tools:text="Kadıköy (Hasanpaşa)" />
 
         <TextView
             android:id="@+id/addressDetailTV"
@@ -59,6 +61,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="8dp"
+            android:fontFamily="@font/catamaran_extralight"
             android:textColor="@color/tab_selected_grey"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

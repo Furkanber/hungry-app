@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="90dp"
         android:paddingHorizontal="10dp"
         android:paddingTop="5dp"
         android:background="@drawable/layout_ripple"
@@ -37,8 +38,8 @@
             android:paddingHorizontal="10dp"
             android:orientation="vertical"
             android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="65dp"
+            android:layout_width="419dp"
+            android:layout_height="78dp"
             android:id="@+id/linearLayout"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/cardView"
@@ -58,6 +59,7 @@
                     android:textSize="14sp"
                     android:textColor="@color/black"
                     android:text="@string/restaurant_name"
+                    android:fontFamily="@font/catamaran_medium"
                     android:layout_width="160sp"
                     android:layout_height="wrap_content" />
 
@@ -72,6 +74,7 @@
                 <TextView
                         android:id="@+id/restaurant_point_textview"
                         android:text="4,2"
+                        android:fontFamily="@font/catamaran_medium"
                         android:textStyle="bold"
                         android:textColor="@color/white"
                         android:gravity="center_vertical"
@@ -87,13 +90,14 @@
                 android:gravity="center_vertical|start|bottom"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content">
 
             <LinearLayout
                     android:gravity="center"
                     android:orientation="horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
+
                 <ImageView
                         android:src="@drawable/ic_money"
                         android:layout_width="20dp"
@@ -103,6 +107,7 @@
 
                 <TextView
                         android:text="10 ₺"
+                        android:fontFamily="@font/catamaran_medium"
                         android:textStyle="bold"
                         android:textSize="13sp"
                         android:id="@+id/restaurant_min_price_textview"
@@ -127,6 +132,7 @@
 
                 <TextView
                         android:text="35-45 min."
+                        android:fontFamily="@font/catamaran_medium"
                         android:textSize="13sp"
                         android:textStyle="bold"
                         android:id="@+id/restaurant_remain_time_textview"

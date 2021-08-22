@@ -61,6 +61,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:textSize="18sp"
+                android:fontFamily="@font/catamaran_medium"
                 app:layout_constraintBottom_toBottomOf="@+id/decrease"
                 app:layout_constraintStart_toEndOf="@id/decrease"
                 app:layout_constraintTop_toTopOf="@+id/decrease"
@@ -81,6 +82,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
+                android:fontFamily="@font/catamaran_medium"
                 android:textSize="22sp"
                 app:layout_constraintBottom_toBottomOf="@+id/increase"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -137,7 +139,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
         android:text="Order"
-        android:fontFamily="@font/advent_pro_bold"
+        android:fontFamily="@font/catamaran_medium"
         android:textSize="16sp"
         app:cornerRadius="@dimen/corner_radius_30"
         android:textAllCaps="false"
@@ -154,6 +156,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Note"
+        app:boxStrokeColor="@color/red_light"
+        app:hintTextColor="@color/red_light"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/expandableCard">
@@ -161,7 +165,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:fontFamily="@font/advent_pro_bold"
+            android:fontFamily="@font/catamaran_medium"
             android:inputType="textLongMessage" />
 
     </com.google.android.material.textfield.TextInputLayout>

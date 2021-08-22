@@ -10,18 +10,18 @@
 
     <TextView
             android:layout_width="115dp"
-            android:layout_height="102dp"
+            android:layout_height="135dp"
             android:text="@string/edit_profile_str"
-            android:fontFamily="@font/advent_pro_bold"
+            android:fontFamily="@font/catamaran_medium"
             android:textStyle="bold"
             android:textColor="@color/white"
             android:textSize="42sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="8dp"
             android:id="@+id/textView2"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.054" />
+            app:layout_constraintHorizontal_bias="0.057" />
 
     <TextView
             android:id="@+id/textView3"
@@ -43,8 +43,8 @@
 
     <androidx.cardview.widget.CardView
             android:id="@+id/cardView2"
-            android:layout_width="125dp"
-            android:layout_height="125dp"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="588dp"
             android:backgroundTint="@color/card_light_grey"
@@ -66,8 +66,8 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-            android:layout_width="380dp"
-            android:layout_height="400dp"
+            android:layout_width="377dp"
+            android:layout_height="425dp"
             app:cardCornerRadius="20dp"
             android:outlineAmbientShadowColor="@color/black"
             android:background="@color/white"
@@ -108,7 +108,7 @@
                         android:id="@+id/textInputEditName"
                         android:inputType="text"
                         tools:text="Name"
-                        android:fontFamily="@font/advent_pro_bold"
+                        android:fontFamily="@font/catamaran_medium"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -137,7 +137,7 @@
                         android:id="@+id/textInputEditSurname"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:fontFamily="@font/advent_pro_bold"
+                        android:fontFamily="@font/catamaran_medium"
                         android:inputType="text"
                         tools:text="Surname" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -166,7 +166,7 @@
                         android:id="@+id/textInputEditEmail"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:fontFamily="@font/advent_pro_bold"
+                        android:fontFamily="@font/catamaran_medium"
                         android:inputType="textEmailAddress"
                         tools:text="mail@mail.com" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -195,7 +195,7 @@
                         android:id="@+id/textInputEditPhone"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:fontFamily="@font/advent_pro_bold"
+                        android:fontFamily="@font/catamaran_medium"
                         android:inputType="phone"
                         tools:text="05123456789" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -224,7 +224,7 @@
                         android:id="@+id/textInputEditPPURL"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:fontFamily="@font/advent_pro_bold"
+                        android:fontFamily="@font/catamaran_medium"
                         android:inputType="text"
                         tools:text="https://www.urlurl.com" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -242,22 +242,23 @@
             android:layout_margin="16dp"
             android:backgroundTint="@color/white"
             android:text="@string/button_change_password"
-            android:fontFamily="@font/advent_pro_bold"
+            android:fontFamily="@font/catamaran_medium"
             android:textSize="18sp"
             android:textAlignment="center"
+            android:gravity="center"
             android:textAllCaps="false"
             android:textColor="@color/orange_main"
             app:icon="@drawable/ic_baseline_lock_24"
             app:cornerRadius="30dp"
             app:iconSize="24dp"
-            app:iconTint="@color/red_light"
+            app:iconTint="@color/red_main"
             app:iconGravity="start"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintVertical_bias="0.0"
             app:layout_constraintTop_toBottomOf="@+id/cardView5"
-            app:layout_constraintHorizontal_bias="0.531" />
+            app:layout_constraintHorizontal_bias="0.468" />
 
     <Button
             android:id="@+id/buttonUpdateProfile"
@@ -266,9 +267,11 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_margin="16dp"
+            android:textAlignment="center"
+            android:gravity="center"
             android:backgroundTint="@color/white"
             android:text="@string/button_update_profile"
-            android:fontFamily="@font/advent_pro_bold"
+            android:fontFamily="@font/catamaran_medium"
             android:textSize="18sp"
             android:textAllCaps="false"
             android:textColor="@color/orange_main"

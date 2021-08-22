@@ -12,7 +12,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/margin_16"
             android:text="@string/button_add_address"
-            android:fontFamily="@font/advent_pro_bold"
+            android:fontFamily="@font/catamaran_medium"
             android:textStyle="bold"
             android:textColor="@color/white"
             android:textSize="42sp"
@@ -73,7 +73,7 @@
                         android:id="@+id/textInputEditTextAddressTitle"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
-                        android:fontFamily="@font/advent_pro_bold"
+                        android:fontFamily="@font/catamaran_medium"
                         android:inputType="text" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -97,7 +97,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/textInputEditTextAddressCity"
                         android:layout_width="match_parent"
-                        android:fontFamily="@font/advent_pro_bold"
+                        android:fontFamily="@font/catamaran_medium"
                         android:layout_height="60dp"
                         android:inputType="text" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -123,7 +123,7 @@
                         android:id="@+id/textInputEditTextAddressDistrict"
                         android:layout_width="match_parent"
                         android:layout_height="60dp"
-                        android:fontFamily="@font/advent_pro_bold"
+                        android:fontFamily="@font/catamaran_medium"
                         android:inputType="text" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -149,7 +149,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="140dp"
                         android:lines="5"
-                        android:fontFamily="@font/advent_pro_bold"
+                        android:fontFamily="@font/catamaran_medium"
                         android:gravity="top"
                         android:inputType="textMultiLine" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -168,7 +168,7 @@
             android:backgroundTint="@color/white"
             android:textAllCaps="false"
             android:text="@string/button_add_address"
-            android:fontFamily="@font/advent_pro_bold"
+            android:fontFamily="@font/catamaran_medium"
             android:textSize="18sp"
             android:textColor="@color/orange_secondary"
             app:cornerRadius="30dp"

@@ -15,7 +15,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.google.android.material.button.MaterialButton
+    <!--<com.google.android.material.button.MaterialButton
         android:id="@+id/buttonAddAddress"
         app:cornerRadius="30dp"
         android:backgroundTint="@color/orange_secondary"
@@ -30,5 +30,21 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />-->
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/buttonAddAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_plus"
+            app:tint="@color/orange"
+            android:backgroundTint="@color/white"
+            app:backgroundTint="@color/orange_secondary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            android:layout_marginEnd="16dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

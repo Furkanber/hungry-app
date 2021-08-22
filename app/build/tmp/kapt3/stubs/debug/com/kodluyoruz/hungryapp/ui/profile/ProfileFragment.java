@@ -2,12 +2,15 @@ package com.kodluyoruz.hungryapp.ui.profile;
 
 import android.graphics.Paint;
 import android.graphics.Typeface;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import com.bumptech.glide.Glide;
+import com.kodluyoruz.hungryapp.R;
 import com.kodluyoruz.hungryapp.databinding.FragmentProfileBinding;
 import com.kodluyoruz.hungryapp.ui.base.BaseFragment;
 import com.kodluyoruz.hungryapp.utils.Resource;

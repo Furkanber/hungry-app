@@ -5,5 +5,6 @@
         <item>@font/advent_pro_bold</item>
         <item>@font/advent_pro_medium</item>
         <item>@font/catamaran_extralight</item>
+        <item>@font/catamaran_medium</item>
     </array>
 </resources>

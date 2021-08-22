@@ -9,7 +9,7 @@ import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
-import com.google.android.material.button.MaterialButton;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.kodluyoruz.hungryapp.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -23,10 +23,10 @@ public final class AddressListFragmentBinding implements ViewBinding {
   public final RecyclerView addressListRV;
 
   @NonNull
-  public final MaterialButton buttonAddAddress;
+  public final FloatingActionButton buttonAddAddress;
 
   private AddressListFragmentBinding(@NonNull ConstraintLayout rootView,
-      @NonNull RecyclerView addressListRV, @NonNull MaterialButton buttonAddAddress) {
+      @NonNull RecyclerView addressListRV, @NonNull FloatingActionButton buttonAddAddress) {
     this.rootView = rootView;
     this.addressListRV = addressListRV;
     this.buttonAddAddress = buttonAddAddress;
@@ -66,7 +66,7 @@ public final class AddressListFragmentBinding implements ViewBinding {
       }
 
       id = R.id.buttonAddAddress;
-      MaterialButton buttonAddAddress = rootView.findViewById(id);
+      FloatingActionButton buttonAddAddress = rootView.findViewById(id);
       if (buttonAddAddress == null) {
         break missingId;
       }

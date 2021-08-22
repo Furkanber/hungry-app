@@ -24,12 +24,12 @@
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable-v24\\restaurant_placeholder.png"
     },
     {
-        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_hungry_logo.png.flat",
-        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\mipmap-xhdpi\\ic_hungry_logo.png"
-    },
-    {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_hungry_logo.png.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\mipmap-xhdpi\\ic_hungry_logo.png"
     },
     {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_lock_24.xml.flat",
@@ -176,6 +176,10 @@
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_hungry_logo.png"
     },
     {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_plus.xml.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\drawable\\ic_plus.xml"
+    },
+    {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_hungry_logo.png.flat",
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_hungry_logo.png"
     },
@@ -210,6 +214,10 @@
     {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\layout_address_list_item.xml.flat",
         "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\layout\\address_list_item.xml"
+    },
+    {
+        "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\font_catamaran_medium.xml.flat",
+        "source": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\src\\main\\res\\font\\catamaran_medium.xml"
     },
     {
         "merged": "D:\\Workspaces\\AndroidStudio\\FINAL\\hungry-app\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rectangle_border_orange.xml.flat",

@@ -3,72 +3,92 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="90dp"
     android:layout_margin="8dp"
     app:cardCornerRadius="16dp"
-    android:backgroundTint="@color/card_grey"
+    android:backgroundTint="@color/white"
     app:cardElevation="16dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="100dp">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
         <TextView
                 android:id="@+id/restaurantNameTV"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="18sp"
-                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textColor="@color/cardview_dark_background"
                 android:textStyle="bold"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:text="Burger King"
+                android:text="Fish Palace"
+                android:fontFamily="@font/catamaran_medium"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
                 android:layout_marginStart="20dp"
-                app:layout_constraintVertical_bias="0.105"
-                app:layout_constraintEnd_toStartOf="@+id/addressDistrictTV"
-                app:layout_constraintHorizontal_bias="0.0" />
+                app:layout_constraintVertical_bias="0.102" />
 
         <TextView
                 android:id="@+id/FoodNameTV"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="18sp"
+                android:textSize="14sp"
                 android:textColor="@color/black"
                 android:textStyle=""
                 app:layout_constraintTop_toTopOf="parent"
-                tools:text="Hamburger"
+                android:text="Salmon Steak"
+                android:fontFamily="@font/catamaran_medium"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
-                android:layout_marginStart="20dp"
-                app:layout_constraintVertical_bias="0.526" />
+                app:layout_constraintVertical_bias="0.535"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.064" />
 
+        <TextView
+                android:id="@+id/noteStr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent"
+                android:text="Note: "
+                android:fontFamily="@font/catamaran_medium"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.901"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.058" />
 
         <TextView
                 android:id="@+id/orderNoteTV"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="18sp"
+                android:textSize="14sp"
                 android:textStyle=""
                 app:layout_constraintTop_toTopOf="parent"
-                tools:text="Order Note"
-                app:layout_constraintStart_toStartOf="parent"
+                android:text="Fast delivery please"
+                android:fontFamily="@font/catamaran_medium"
                 app:layout_constraintBottom_toBottomOf="parent"
-                android:layout_marginStart="20dp"
-                app:layout_constraintVertical_bias="0.921" />
+                app:layout_constraintVertical_bias="0.901"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/noteStr"
+                app:layout_constraintHorizontal_bias="0.0" />
 
         <TextView
                 android:id="@+id/FoodQtyTV"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="18sp"
+                android:textSize="14sp"
                 android:textColor="@color/black"
                 android:textStyle=""
-                tools:text="1"
+                android:text="1"
                 app:layout_constraintEnd_toStartOf="@+id/priceTV"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                android:layout_marginEnd="112dp" />
+                android:layout_marginEnd="112dp"
+                app:layout_constraintStart_toEndOf="@+id/FoodNameTV"
+                app:layout_constraintHorizontal_bias="0.657"
+                app:layout_constraintVertical_bias="0.535" />
 
         <androidx.cardview.widget.CardView
                 android:layout_marginHorizontal="20dp"
@@ -86,7 +106,8 @@
 
             <TextView
                     android:id="@+id/restaurantPointTV"
-                    android:text="4,2"
+                    android:text="5.0"
+                    android:fontFamily="@font/catamaran_medium"
                     android:textStyle="bold"
                     android:textColor="@color/white"
                     android:gravity="center_vertical"
@@ -101,26 +122,29 @@
                 android:id="@+id/addressDistrictTV"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/black"
+                android:textColor="@color/cardview_dark_background"
                 android:textStyle="bold"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.105"
-                tools:text="(Kadikoy)"
-                android:layout_marginEnd="200dp" />
+                app:layout_constraintVertical_bias="0.102"
+                android:text="(Kosuyolu)"
+                android:fontFamily="@font/catamaran_medium"
+                app:layout_constraintStart_toEndOf="@+id/restaurantNameTV"
+                app:layout_constraintHorizontal_bias="0.01" />
 
         <TextView
                 android:id="@+id/priceTV"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:textColor="@color/black"
+                android:textColor="@color/cardview_dark_background"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                tools:text="45,20TL"
-                android:textSize="18sp"
+                android:text="60.0 ₺"
+                android:fontFamily="@font/catamaran_medium"
+                android:textSize="14sp"
                 android:textStyle="bold"
                 app:layout_constraintTop_toBottomOf="@+id/restaurant_point_card"
                 app:layout_constraintStart_toStartOf="parent"
@@ -131,8 +155,9 @@
                 android:id="@+id/dateTV"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="27-07-2021"
-                android:textSize="16sp"
+                android:text="21-08-2021"
+                android:fontFamily="@font/catamaran_medium"
+                android:textSize="14sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintVertical_bias="0.384"

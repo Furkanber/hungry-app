@@ -31,6 +31,9 @@ public final class OrderHistoryItemBinding implements ViewBinding {
   public final TextView dateTV;
 
   @NonNull
+  public final TextView noteStr;
+
+  @NonNull
   public final TextView orderNoteTV;
 
   @NonNull
@@ -47,13 +50,15 @@ public final class OrderHistoryItemBinding implements ViewBinding {
 
   private OrderHistoryItemBinding(@NonNull CardView rootView, @NonNull TextView FoodNameTV,
       @NonNull TextView FoodQtyTV, @NonNull TextView addressDistrictTV, @NonNull TextView dateTV,
-      @NonNull TextView orderNoteTV, @NonNull TextView priceTV, @NonNull TextView restaurantNameTV,
-      @NonNull CardView restaurantPointCard, @NonNull TextView restaurantPointTV) {
+      @NonNull TextView noteStr, @NonNull TextView orderNoteTV, @NonNull TextView priceTV,
+      @NonNull TextView restaurantNameTV, @NonNull CardView restaurantPointCard,
+      @NonNull TextView restaurantPointTV) {
     this.rootView = rootView;
     this.FoodNameTV = FoodNameTV;
     this.FoodQtyTV = FoodQtyTV;
     this.addressDistrictTV = addressDistrictTV;
     this.dateTV = dateTV;
+    this.noteStr = noteStr;
     this.orderNoteTV = orderNoteTV;
     this.priceTV = priceTV;
     this.restaurantNameTV = restaurantNameTV;
@@ -112,6 +117,12 @@ public final class OrderHistoryItemBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.noteStr;
+      TextView noteStr = rootView.findViewById(id);
+      if (noteStr == null) {
+        break missingId;
+      }
+
       id = R.id.orderNoteTV;
       TextView orderNoteTV = rootView.findViewById(id);
       if (orderNoteTV == null) {
@@ -143,8 +154,8 @@ public final class OrderHistoryItemBinding implements ViewBinding {
       }
 
       return new OrderHistoryItemBinding((CardView) rootView, FoodNameTV, FoodQtyTV,
-          addressDistrictTV, dateTV, orderNoteTV, priceTV, restaurantNameTV, restaurantPointCard,
-          restaurantPointTV);
+          addressDistrictTV, dateTV, noteStr, orderNoteTV, priceTV, restaurantNameTV,
+          restaurantPointCard, restaurantPointTV);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
